@@ -5,6 +5,10 @@ Recently graduated from college or a coding bootcamp? Looking to land your first
 
 Technical and want to accelerate your promotion into management? Looking for low-commitment opportunities for guided mentorship practice? There are tons of new developers hungry for your perspective and feedback, come share your knowledge in a once monthly code review.
 
+## Audience
+- Recent college and bootcamp grads looking for their first job in development
+- Mid to senior level developers looking to improve their management and mentorship skills
+
 ## Structure
 - Once per month Meetup
 - No standing commitment to be Mentor/Mentee, more ad hoc and based on RSVPs
