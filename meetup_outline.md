@@ -16,7 +16,7 @@ Technical and want to accelerate your promotion into management? Looking for low
   - PR for code review included with RSVP
     - Can Mentee submit repo to start?
     - If repo submitted, does the Mentor make a PR with comments?
-- Upon RSVP, Mentors get a sheet with [resources for doing good code reviews](./CodeReviewResources.md)
+- Upon RSVP, Mentors get a sheet with [resources for doing good code reviews](./code_review_resources.md)
   - links
   - what to look for
   - what feedback is good for people at the mentee's level, what feedback goes over their head and is too much
