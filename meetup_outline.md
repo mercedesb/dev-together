@@ -1,4 +1,4 @@
-# Working Name: Developing Together 
+# (Working Name, feedback soooo welcome): Developing Together 
 
 ## Elevator Pitch
 Recently graduated from college or a coding bootcamp? Looking to land your first tech job? How do you continue to improve your technical skills after graduation? Web tutorials are a good first step for syntax but for higher level code design and architecture skills, coaching and mentorship is the best way to learn.
