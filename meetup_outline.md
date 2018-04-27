@@ -69,5 +69,7 @@ Technical and want to accelerate your promotion into management? Looking for low
     - Open to Mentors and Mentees alike
     
 ## Meetup Page content
-TODO
-- Need to create Code of Conduct: http://citizencodeofconduct.org/
+- Elevator Ptich
+- Structure outline
+- High level expectations of Mentors/Mentees
+- Link to [Code of Conduct](./code_of_conduct.md) 
