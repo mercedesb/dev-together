@@ -2,6 +2,8 @@
 
 I would like to start a once monthly, low commitment, high value meet up for mid to senior level developers to mentor and code review recent college and bootcamp grads' personal projects.
 
+Details [here](./meetup_outline.md)
+
 ## Background
 
 After the recent apprenticeship interview process at my company, I realized there is a gap in support for recent college and bootcamp grads looking for their first job. Many of the candidates I interviewed told me they were doing web tutorials or working on personal projects to continue to work on their technical skills while they searched for a job. But looking at their code repos, I realized that many were focused on learning new frameworks or syntax at the same introductory level as the first framework they learned. And that's through no fault of their own.
