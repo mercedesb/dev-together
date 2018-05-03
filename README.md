@@ -1,4 +1,4 @@
-# Mentorship Meetup
+# Dev Together - Mentorship Meetup
 
 I would like to start a once monthly Meetup for mid to senior level developers to mentor and code review recent college and bootcamp grads' personal projects.
 
@@ -6,7 +6,7 @@ Details [here](./meetup_outline.md)
 
 ## Mission Statement
 
-[NAME] connects people starting their development career with technical mentors through low-commitment, high-value, human interactions.
+Dev Together connects people starting their development career with technical mentors through low-commitment, high-value, human interactions.
 
 ## Background
 
