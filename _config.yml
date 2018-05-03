@@ -17,13 +17,13 @@ markdown    : kramdown
 highlighter : pygments
 
 # SEO settings
-title: dotX
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
+title: Dev Together
+description: "Connecting people starting their development career with technical mentors through low-commitment, high-value, human interactions"
+keywords: "meetup, development, coding, mentorship"
 
 # Site settings
-url: http://nandomoreira.me
-baseurl: "/dotX"
+url: http://github.com/mercedesb/dev-together
+baseurl: ""
 # baseurl: ""
 
 # Author settings
