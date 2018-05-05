@@ -1,4 +1,6 @@
-
+.post {
+  margin-bottom: $base-spacing * 2;
+}
 .post-header {
   margin-bottom: $base-spacing;
   /*padding: 5em 2em;*/
@@ -66,7 +68,6 @@
 .post-content {
   h2 {
     font-size: 2rem;
-    text-align: center;
   }
 
   h3 {

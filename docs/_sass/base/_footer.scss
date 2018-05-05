@@ -13,6 +13,12 @@
     max-width: 50%;
     padding-top: $base-spacing;
     border-top: $base-border;
+    margin-left: 2em;
+
+    strong {
+      font-size: 3em;
+      font-style: italic;
+    }
   }
 
   p {
@@ -52,6 +58,14 @@
   .stacked {
     display: flex;
     flex-direction: column;
+  }
+
+  @include media($min-phone) {
+    min-width: 100%;
+  }
+
+  @include media($min-tablet-large) {
+    min-width: 50%;
   }
 
 }
