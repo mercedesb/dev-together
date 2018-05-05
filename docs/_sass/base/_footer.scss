@@ -1,23 +1,57 @@
 
 .site-footer {
   @extend %clearfix;
-  padding: $base-spacing 0;
+  display: flex;
+  justify-content: space-between;
+  margin: $base-spacing 0 0;
   text-align: center;
+  border-top: 1px solid $primary-color;
 
   .container {
+  max-width: 50%;
     padding-top: $base-spacing;
     border-top: $base-border;
   }
 
   p {
     margin-bottom: 0;
-    color: $medium-gray-color;
-    float: left;
+  }
+}
+
+.email-signup {
+  padding: 1em 2em;
+  background-color: $primary-color;
+  color: $lighter-gray-color;
+  text-align: left;
+
+  .mc-field-group {
+    display: flex;
+    flex-direction: column;
+    margin: $small-spacing $small-spacing 0;
   }
 
-  .social {
-    float: right;
+  .input-group ul {
+    list-style: none;
   }
+
+  label {
+    font-weight: 400;
+  }
+
+  .button {
+    margin: $small-spacing $small-spacing 0;
+  }
+
+  #{$all-text-inputs} {
+    color: $dark-gray-color;
+    width: 250px;
+  }
+
+  .stacked {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 .social {
@@ -28,7 +62,6 @@
 
   a {
     @include transition(opacity .15s ease-in-out);
-    color: $medium-gray-color;
     text-decoration: none;
     opacity: .5;
 

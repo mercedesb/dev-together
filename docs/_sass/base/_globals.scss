@@ -36,3 +36,8 @@ body {
 .clearfix {
   @include clearfix;
 }
+
+.inline {
+  display: flex;
+  flex-direction: row;
+}
