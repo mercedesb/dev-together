@@ -43,6 +43,7 @@ $lighter-gray-color: lighten($light-gray-color, 20%);
 //
 $base-font-color: $dark-gray-color;
 $action-color: $primary-color;
+$link-color: darken($primary-color, 10%);
 
 // Border
 //

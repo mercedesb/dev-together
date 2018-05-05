@@ -4,11 +4,13 @@
   display: flex;
   justify-content: space-between;
   margin: $base-spacing 0 0;
-  text-align: center;
   border-top: 1px solid $primary-color;
 
   .container {
-  max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 50%;
     padding-top: $base-spacing;
     border-top: $base-border;
   }
@@ -55,6 +57,7 @@
 }
 
 .social {
+  padding-left: 0;
   li {
     display: inline-block;
     margin-left: 5px;
