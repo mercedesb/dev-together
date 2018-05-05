@@ -1,4 +1,8 @@
-# Citizen Code of Conduct
+---
+layout: post
+title: Code of Conduct
+permalink: /code-of-conduct/
+---
 
 ## 1. Purpose
 
