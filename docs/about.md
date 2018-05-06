@@ -8,7 +8,7 @@ permalink: /about/
 ## Structure
 - One hour, once per month Meetup
 - No standing commitment to be Mentor/Mentee
-- Mentors RSVP for slot and nclude languages/frameworks comfortable code reviewing
+- Mentors RSVP for slot and include languages/frameworks comfortable code reviewing
 - Mentee RSVPs opened based on Mentor responses
   - First come, first serve
   - Include PR for code review
