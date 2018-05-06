@@ -13,6 +13,7 @@
   font-weight: $font-weight-bold;
   line-height: 1;
   padding: $small-spacing $base-spacing;
+  margin-bottom: $small-spacing;
   text-decoration: none;
   @include transition(background-color $base-duration $base-timing);
   user-select: none;
