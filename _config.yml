@@ -24,10 +24,6 @@ keywords: "meetup, development, coding, mentorship"
 # Site settings
 url: http://github.com/mercedesb/dev-together
 baseurl: ""
-# baseurl: ""
-#github    : http://github.com/nandomoreirame
-twitter   : http://twitter.com/devtogetherchi
-instagram : http://instagram.com/devtogetherchi
 
 # Author settings
 author:
@@ -39,9 +35,9 @@ author:
   url       : http://nandomoreira.me
   facebook  : http://facebook.com/fernando.dev
   linkedin  : http://linkedin.com/in/nandomoreirame
+  #github    : http://github.com/nandomoreirame
+  twitter   : http://twitter.com/devtogetherchi
+  instagram : http://instagram.com/devtogetherchi
 
 # google_analytics: UA-52446115-1
 repo: http://github.com/nandomoreirame/dotX
-
-# comments
-disqus_shortname: "fernandomoreira"
