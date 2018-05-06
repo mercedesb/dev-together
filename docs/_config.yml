@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-source: docs
+source: ""
 destination: _site
 sass:
   sass_dir: _sass
@@ -27,17 +27,17 @@ baseurl: ""
 
 # Author settings
 author:
-  name      : Fernando Moreira
-  job       : Frontend Engineer
-  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  name      : Mercedes Bernard
+  # job       : Frontend Engineer
+  # bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
   thumb     : /images/author.jpg
-  email     : nandomoreira.me@gmail.com
-  url       : http://nandomoreira.me
-  facebook  : http://facebook.com/fernando.dev
-  linkedin  : http://linkedin.com/in/nandomoreirame
-  #github    : http://github.com/nandomoreirame
+  email     : devtogetherchi@gmail.com
+  # url       : http://nandomoreira.me
+  # facebook  : http://facebook.com/fernando.dev
+  # linkedin  : http://linkedin.com/in/nandomoreirame
+  # github    : http://github.com/nandomoreirame
   twitter   : http://twitter.com/devtogetherchi
   instagram : http://instagram.com/devtogetherchi
 
 # google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/dotX
+repo: http://github.com/mercedesb/dev-together
