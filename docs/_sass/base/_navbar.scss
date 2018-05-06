@@ -216,6 +216,10 @@
       }
     }
   }
+
+  .icon svg {
+    fill: rgba($white-color, .5);
+  }
 }
 
 body:not(.navigation-is-open) {

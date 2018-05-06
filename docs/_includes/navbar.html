@@ -15,8 +15,22 @@
           <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
           <li><a href="{{ '/for-mentors' | prepend: site.baseurl }}">For Mentors</a></li>
           <li><a href="{{ '/for-mentees' | prepend: site.baseurl }}">For Mentees</a></li>
-          <li><a href="{{ site.author.twitter }}" target="_blank"><i class="icon icon-twitter"></i> Twitter</a></li>
-          <li><a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank"><i class="icon icon-feed"></i> RSS</a></li>
+          <li>
+            <a href="{{ site.author.twitter }}" target="_blank" class="icon">
+              <svg>
+                <use xlink:href="/assets/fonts/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+              Twitter
+          </a>
+          </li>
+          <li>
+            <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank" class="icon">
+              <svg>
+                <use xlink:href="/assets/fonts/symbol-defs.svg#icon-rss"></use>
+              </svg>
+              RSS
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
