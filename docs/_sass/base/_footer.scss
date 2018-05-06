@@ -5,13 +5,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: $base-spacing 0 0;
-  border-top: 1px solid $primary-color;
+  border-top: 1px solid $primary-color-dark;
 
   .container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 50%;
+    /*max-width: 50%;*/
     padding-top: $base-spacing;
     border-top: $base-border;
     margin-left: 2em;
@@ -29,7 +29,7 @@
 
 .email-signup {
   padding: 1em 2em;
-  background-color: $primary-color;
+  background-color: $primary-color-dark;
   color: $lighter-gray-color;
   text-align: left;
 
@@ -63,12 +63,20 @@
 
   @include media($min-phone) {
     min-width: 100%;
+    input, ul {
+      margin-bottom: 0;
+    }
   }
 
-  @include media($min-tablet-large) {
+  @include media($min-tablet) {
+    input, ul {
+      margin-bottom: 1em;
+    }
+  }
+
+  @include media($min-desktop) {
     min-width: 50%;
   }
-
 }
 
 .social {

@@ -14,7 +14,7 @@ body.home-intro {
   padding: 0 $base-spacing;
   text-align: center;
   color: $lighter-gray-color;
-  background: darken($primary-color, 6%);
+  background: $primary-color-dark;
   overflow: hidden;
 }
 
