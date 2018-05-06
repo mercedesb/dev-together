@@ -18,7 +18,7 @@
           <li>
             <a href="{{ site.author.twitter }}" target="_blank" class="icon">
               <svg>
-                <use xlink:href="/assets/fonts/symbol-defs.svg#icon-twitter"></use>
+                <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-twitter' | prepend: site.baseurl }}"></use>
               </svg>
               Twitter
           </a>
@@ -26,7 +26,7 @@
           <li>
             <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank" class="icon">
               <svg>
-                <use xlink:href="/assets/fonts/symbol-defs.svg#icon-rss"></use>
+                <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-rss' | prepend: site.baseurl }}"></use>
               </svg>
               RSS
             </a>
