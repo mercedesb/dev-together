@@ -70,13 +70,13 @@ p {
 
 a {
   color: $link-color;
-  text-decoration: underline;
+  text-decoration: none;
   transition: color $base-duration $base-timing;
 
   &:active,
   &:focus,
   &:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: shade($link-color, 25%);
   }
 }
