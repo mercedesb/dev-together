@@ -25,4 +25,4 @@ permalink: /about/
 ## Sponsorship
 Interested in sponsoring this Meetup? We're always looking for space to accomodate approximately 10 pairs (tables that allow for side by side pairing is preferred).
 
-Please contact Mercedes Bernard (devtogetherchi@gmail.com) with interest and questions.
+Please contact Mercedes Bernard at <devtogetherchi@gmail.com> with interest and questions.
