@@ -5,7 +5,7 @@ permalink:  "make-a-pull-request"
 date:   2018-06-05 21:13:00 -0500
 categories: git
 ---
-In our [previous post]({{ '/first-event' | prepend: site.baseurl }}) on the blog, announcing our first event, I provided some brief background information on pull requests. After seeing some confusion from our Mentees during event registration and getting some questions, I thought it would be good to dive into the specifics of how to create a PR. 
+In our [previous post]({{ '/first-event' | prepend: site.baseurl }}) on the blog, announcing our first event, I provided some brief background information on pull requests. After seeing some confusion during event registration and getting some questions, I thought it would be good to dive into the specifics of how to create a PR. 
 
 To recap, Github describes a pull request as 
 
