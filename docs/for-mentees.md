@@ -20,7 +20,7 @@ permalink: /for-mentees/
   - Receiving constructive feedback
   - How to be a good pair
 
-**Please note, this Meetup is for personal projects and personal development only. Do not submit code from your employer**
+**Please note, this Meetup is for personal projects and personal development only. Do not submit code from your employer.**
 
 ### Event Agenda
 - 6:00pm Announcements and micro talk
