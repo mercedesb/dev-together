@@ -13,7 +13,6 @@ permalink: /for-mentees/
 - Attendance slots are first-come, first-serve and limited by the number of Mentors signed up for that event
 - A Mentor experienced in the tech stack of the code you submitted will complete a code review prior to the Meetup event
 - At the event, the Mentor will review their code review feedback with you, and you will pair program together to work through some of the Mentor's suggestions
-- A Mentor will review and comment on your PR
 - Coaching in topics such as:
   - What makes a good PR?
   - Git best practices
