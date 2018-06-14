@@ -4,19 +4,27 @@ title: For Mentors
 subtitle: Technical and want to accelerate your promotion into management? Looking for low-commitment opportunities for guided mentorship practice?
 permalink: /for-mentors/
 ---
-## There are tons of new developers hungry for your perspective and feedback, come share your knowledge in a once monthly code review.
+## There are tons of new developers hungry for your perspective and feedback, come share your knowledge in a once monthly pairing session.
 
-### What can I expect?
-- One hour, once per month Meetup
+### What can you expect?
+- 2nd Tuesday of the month, 6:00pm - 7:30pm
 - No standing commitment, RSVP when you're available
-- Include languages and frameworks you are comfortable reviewing with your RSVP
-- Receive coaching for how to do a good code review
-- A Mentee will provide a PR 1 week before the Meetup for you to review and comment on
-- Meetup time is spent pairing with a Mentee based on your PR feedback
-- Coaching for first time attendees. Topics such as:
+- Provide languages and frameworks you would like to code review and pair on with your event registration
+- Given a Mentee's code and information about what they're looking for help with at least 1 week prior to the Meetup event
+- Complete a code review prior to the Meetup event
+- At the event, review your feedback with your Mentee and pair program to start working on some of the suggestions in your feedback
+- Coaching in topics such as:
   - How to give productive code reviews
   - How to give constructive feedback
   - How to be a good pair
+
+## Event Agenda
+- 6:00pm Announcements and micro talk
+- 6:15pm Split into pairs
+- 6:20pm-7:25pm Pairing session
+  - (Suggested) 6:20pm Mentors and Mentees review code review feedback
+  - (Suggested) 6:40pm Mentors and Mentees pair program and start working through suggestions from the code review feedback
+- 7:25pm Final announcements
 
 
 In the future, we are looking to grow this Meetup and offer additional opportunities for professional growth. Some ideas have included
