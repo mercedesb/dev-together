@@ -22,7 +22,7 @@ permalink: /for-mentees/
 
 **Please note, this Meetup is for personal projects and personal development only. Do not submit code from your employer**
 
-## Event Agenda
+### Event Agenda
 - 6:00pm Announcements and micro talk
 - 6:15pm Split into pairs
 - 6:20pm-7:25pm Pairing session

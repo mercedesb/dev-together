@@ -18,7 +18,7 @@ permalink: /for-mentors/
   - How to give constructive feedback
   - How to be a good pair
 
-## Event Agenda
+### Event Agenda
 - 6:00pm Announcements and micro talk
 - 6:15pm Split into pairs
 - 6:20pm-7:25pm Pairing session
