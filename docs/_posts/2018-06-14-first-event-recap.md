@@ -10,7 +10,7 @@ We had our first Code Review & Pairing event this past Tuesday, June 12 and I th
 
 We received a lot of great feedback both during and after the event. I want to share what we’ve learned and what we’ll be improving for our next event on Tuesday, July 10.
 
-The evening began with our first attendees starting to arrive around 5:30pm and as I was introducing myself, I realized that name tags would have been a great way to make introductions easier. So the first item I’ve added for our second event is to bring name tags. By 6:00pm, most of our attendees had gathered, and we started with some announcements as well as a micro talk about pair programming, the driver/navigator pair model, and basic pairing etiquette. We will continue to include micro talks to kick off our events but will limit all talks/presentations to the first 15 minutes of the event.
+We started with some announcements as well as a micro talk about pair programming, the driver/navigator pair model, and basic pairing etiquette. We will continue to include micro talks to kick off our events but will limit all talks/presentations to the first 15 minutes of the event.
 
 ![Pairing Etiquette]({{ '/assets/images/events/june122018/June12_microtalk.jpg' | prepend: site.baseurl }})
 
