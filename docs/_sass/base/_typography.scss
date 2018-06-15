@@ -122,3 +122,9 @@ pre {
     line-height: 1.75em;
   }
 }
+
+blockquote {
+  border-left: 3px solid $primary-color;
+  padding-left: $base-spacing;
+  font-style: italic;
+}
