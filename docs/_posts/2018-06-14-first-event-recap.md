@@ -43,6 +43,8 @@ Overall, I couldn’t be happier with how our first event went and how enthusias
 - We’ll provide name tags.
 - We will have food.
 
+*special thanks to Andy Lester, Keanan Koppenhaver, and Dan Rumney for having a postmortem discussion with me that helped drive this blog post*
+
 ![Pairing]({{ '/assets/images/events/june122018/June12_pairing1.jpg' | prepend: site.baseurl }})
 ![Pairing]({{ '/assets/images/events/june122018/June12_pairing2.jpg' | prepend: site.baseurl }})
 ![Pairing]({{ '/assets/images/events/june122018/June12_pairing4.jpg' | prepend: site.baseurl }})
