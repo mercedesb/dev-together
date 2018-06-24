@@ -23,7 +23,7 @@ keywords: "meetup, development, coding, mentorship"
 
 # Site settings
 url: http://github.com/mercedesb/dev-together
-baseurl: "/dev-together"
+baseurl: "/"
 
 # Author settings
 author:
