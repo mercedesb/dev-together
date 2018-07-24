@@ -2,7 +2,7 @@
 layout: post
 title:  "First Event Recap - Code Review & Pairing"
 permalink:  "first-event-recap"
-date:   2018-06-05 21:13:00 -0500
+date:   2018-06-14 21:13:00 -0500
 categories: event recap
 ---
 
