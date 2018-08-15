@@ -23,7 +23,7 @@ keywords: "meetup, development, coding, mentorship"
 
 # Site settings
 url: http://github.com/mercedesb/dev-together
-baseurl: "/"
+baseurl: ""
 
 # Author settings
 author:
@@ -39,8 +39,9 @@ author:
   twitter   : http://twitter.com/devtogetherchi
   instagram : http://instagram.com/devtogetherchi
   meetup    : http://meetup.com/devtogetherchi
-  eventtime : Tues, Aug 14, 6pm
-  eventlink : https://www.meetup.com/DevTogetherChi/events/251618131/
+  eventtime : Tues, Sept 11, 6pm
+  mentoreventlink : http://bit.ly/devtogetherseptmentor
+  menteeeventlink : http://bit.ly/devtogetherseptmentee
 
 # google_analytics: UA-52446115-1
 repo: http://github.com/mercedesb/dev-together
