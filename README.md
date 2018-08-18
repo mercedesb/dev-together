@@ -1,8 +1,41 @@
 # Dev Together - Mentorship Meetup
 
-I would like to start a once monthly Meetup for mid to senior level developers to mentor and code review recent college and bootcamp grads' personal projects.
+A simple Jekyll site for information about Dev Together
 
-Details [here](./meetup_outline.md)
+## Getting Started
+
+Clone the repo and run 
+```
+bundle install
+```
+
+## Usage
+
+To run the local dev environment, 
+```
+cd docs
+jekyll serve --config _config.yml,_config_dev.yml
+```
+
+To create a production build
+```
+jekyll build
+```
+
+
+## Built With
+
+* Jekyll
+
+## Authors
+
+* **Mercedes Bernard** 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
 
 ## Mission Statement
 

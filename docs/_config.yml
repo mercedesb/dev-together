@@ -9,7 +9,7 @@ source: ""
 destination: _site
 sass:
   sass_dir: _sass
-  style: expanded # compressed # expanded
+  style: compressed # expanded
 
 # permalink and highlighter
 permalink   : /:year/:title/
@@ -40,8 +40,7 @@ author:
   instagram : http://instagram.com/devtogetherchi
   meetup    : http://meetup.com/devtogetherchi
   eventtime : Tues, Sept 11, 6pm
-  mentoreventlink : http://bit.ly/devtogetherseptmentor
-  menteeeventlink : http://bit.ly/devtogetherseptmentee
+  eventlink : http://bit.ly/devtogethersept2018
 
 # google_analytics: UA-52446115-1
 repo: http://github.com/mercedesb/dev-together
