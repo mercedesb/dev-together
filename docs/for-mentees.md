@@ -21,10 +21,5 @@ permalink: /for-mentees/
 
 **Please note, this Meetup is for personal projects and personal development only. Do not submit code from your employer.**
 
-### Event Agenda
-- 6:00pm Announcements
-- 6:15pm Split into pairs
-- 6:20pm-7:25pm Pairing session
-  - (Suggested) 6:20pm Mentors and Mentees review code review feedback
-  - (Suggested) 6:40pm Mentors and Mentees pair program and start working through suggestions from the code review feedback
-- 7:25pm Final announcements
+
+{% include event_agenda.md %}

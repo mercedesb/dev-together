@@ -25,14 +25,7 @@ The Mentee slots are opened on a first-come, first-serve basis and are limited b
 
 This is not a long term mentorship program and there is no standing committment to be a Mentor or a Mentee. Register for an event when you are able to attend in person. Due to the nature of this event, we take no-shows very seriously. Life happens so we understand when things come up after you register, but no one likes to be ghosted so email Mercedes at <devtogetherchi@gmail.com> if you can't attend so every effort can be made to match up your pair with someone else.
 
-
-## Event Agenda
-- 6:00pm Announcements
-- 6:15pm Split into pairs
-- 6:20pm-7:25pm Pairing session
-  - (Suggested) 6:20pm Mentors and Mentees review code review feedback
-  - (Suggested) 6:40pm Mentors and Mentees pair program and start working through suggestions from the code review feedback
-- 7:25pm Final announcements
+{% include event_agenda.md %}
 
 ## Sponsorship
 Interested in sponsoring this Meetup? We're always looking for space to accomodate approximately 10 - 20 pairs (tables that allow for side by side pairing is required but do not all need to be in the same room). Bonus points if you're willing to supply food for the attendees :) Here is a short list of the things we need for our Meetup.
