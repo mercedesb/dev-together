@@ -3,8 +3,7 @@ layout: post
 title:  "Code Review Tips"
 permalink:  "code-review-tips"
 date:   2018-08-21 12:00:00 -0500
-categories: 
---
+---
 
 Code reviews are a valuable form of mentorship at our events. In order to make sure everyone is getting the most out of the code reviews, please find some tips below.
 
