@@ -24,6 +24,28 @@ keywords: "meetup, development, coding, mentorship"
 # Site settings
 url: http://github.com/mercedesb/dev-together
 baseurl: "/"
+headernav:
+  -
+    title: Home
+    url: "/"
+  -
+    title: About
+    url: "/about/"
+  -
+    title: For Mentors
+    url: "/for-mentors/"
+  -
+    title: For Mentees
+    url: "/for-mentees/"
+  -
+    title: Blog
+    url: "/blog/"
+  -
+    title: Start a chapter
+    url: "/start-chapter/"
+  -
+    title: Become a sponsor
+    url: "/sponsorship/"
 
 # Author settings
 author:
