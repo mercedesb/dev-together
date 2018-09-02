@@ -59,7 +59,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-normal;
   line-height: $heading-line-height;
   margin: 0 0 $small-spacing;
 }
@@ -127,4 +127,10 @@ blockquote {
   border-left: 3px solid $primary-color;
   padding-left: $base-spacing;
   font-style: italic;
+}
+
+strong {
+  font-weight: $font-weight-bold;
+  font-size: 1.2rem;
+  color: $brand-color;
 }

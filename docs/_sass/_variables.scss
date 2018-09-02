@@ -13,11 +13,11 @@ $font-weight-bold: 600;
 
 // Font Sizes
 //
-$base-font-size: 1.2rem;
+$base-font-size: 1rem;
 
 // Line height
 //
-$base-line-height: 1.5;
+$base-line-height: 1.4;
 $heading-line-height: 1.2;
 
 // Other Sizes
@@ -37,6 +37,7 @@ $primary-color-dark: darken($primary-color, 6%);
 $white-color: #fff;
 $white: #ffffff;
 $black-color: #252627;
+$black: #252627;
 $blue-color: #477dca;
 $dark-gray-color: lighten($black-color, 25%);
 $medium-gray-color: lighten($dark-gray-color, 20%);
@@ -45,8 +46,8 @@ $lighter-gray-color: lighten($light-gray-color, 20%);
 
 // Font Colors
 //
-$base-font-color: $dark-gray-color;
-$action-color: $primary-color;
+$base-font-color: $black;
+$action-color: $brand-color;
 $link-color: darken($primary-color, 10%);
 
 // Border
