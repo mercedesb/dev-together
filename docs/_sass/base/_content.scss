@@ -68,3 +68,14 @@
   color: $black;
   font-size: 1.2rem;
 }
+
+.Vision {
+  background-color: $brand-color;
+  text-align: center;
+  color: $white;
+  font-size: 1.2rem;
+
+  @include media($min-desktop) {
+    font-size: 1.5rem;
+  }
+}
