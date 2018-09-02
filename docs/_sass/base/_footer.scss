@@ -102,3 +102,25 @@
     font-size: 1.2rem;
   }
 }
+
+.GlobalFooter {
+  background-color: $brand-color;
+  color: $white;
+  display: flex;
+  justify-content: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: $small-spacing 0;
+
+    li {
+      margin: 0 $base-spacing;
+      a {
+        color: $white;
+        font-weight: $font-weight-bold;
+      }
+    }
+  }
+}
