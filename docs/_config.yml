@@ -29,20 +29,11 @@ headernav:
     title: Home
     url: "/"
   -
-    title: About
-    url: "/about/"
-  -
-    title: For Mentors
-    url: "/for-mentors/"
-  -
-    title: For Mentees
-    url: "/for-mentees/"
-  -
     title: Blog
     url: "/blog/"
   -
-    title: Start a chapter
-    url: "/start-chapter/"
+    title: Find a chapter
+    url: "/chapters/"
   -
     title: Become a sponsor
     url: "/sponsorship/"

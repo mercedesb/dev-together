@@ -11,18 +11,14 @@
     <div class="half-block">
       <nav>
         <ul class="primary-nav">
-          <li><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
-          <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
-          <li><a href="{{ '/for-mentors' | prepend: site.baseurl }}">For Mentors</a></li>
-          <li><a href="{{ '/for-mentees' | prepend: site.baseurl }}">For Mentees</a></li>
-          <li><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
-          <!-- <li><a href="{{ '/sponsorship' | prepend: site.baseurl }}">Sponsorship</a></li>
-          <li> -->
-            <a href="{{ site.author.twitter }}" target="_blank" class="icon">
-              <svg>
-                <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-twitter' | prepend: site.baseurl }}"></use>
-              </svg>
-              Twitter
+          {% for node in site.headernav %} 
+              <li><a href="{{ node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
+          {% endfor %}
+          <a href="{{ site.author.twitter }}" target="_blank" class="icon">
+            <svg>
+              <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-twitter' | prepend: site.baseurl }}"></use>
+            </svg>
+            Twitter
           </a>
           </li>
           <li>
