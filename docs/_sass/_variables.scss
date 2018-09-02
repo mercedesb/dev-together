@@ -31,8 +31,11 @@ $base-z-index: 0;
 // Colors
 //
 $primary-color: #4EAA8D;
+$brand-color: #44957C;
+$brand-light: #4EAA8D;
 $primary-color-dark: darken($primary-color, 6%);
 $white-color: #fff;
+$white: #ffffff;
 $black-color: #252627;
 $blue-color: #477dca;
 $dark-gray-color: lighten($black-color, 25%);
