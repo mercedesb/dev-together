@@ -115,6 +115,19 @@
     }
   }
 
+  &-sub {
+    display: none;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: right;
+    position: relative;
+    right: -8rem;
+
+    @include media($min-desktop) {
+      display: block;
+    }
+  }
+
   @include media($min-desktop) {
     flex-direction: row;
   }
