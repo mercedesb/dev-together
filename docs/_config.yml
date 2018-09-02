@@ -16,6 +16,12 @@ permalink   : /:year/:title/
 markdown    : kramdown
 highlighter : rouge
 
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
 # SEO settings
 title: Dev Together
 description: "Connecting people starting their development career with technical mentors through low-commitment, high-value, human interactions"

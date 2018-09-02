@@ -19,9 +19,9 @@ subtitle:
     <article class="post-item container">
       <header>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h1 class="post-title">
+        <h2 class="post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
+        </h2>
       </header>
 
       <p>{{ post.content | strip_html | truncatewords: 56 }} <a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}" class="read-more">Read more</a></p>

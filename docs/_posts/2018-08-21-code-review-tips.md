@@ -2,7 +2,9 @@
 layout: post
 title:  "Code Review Tips"
 description: "Code reviews are a valuable form of mentorship and are a practical way to improve coding skills. We've shared some of our favorite tips for both submitters and reviewers."
-permalink:  "code-review-tips"
+redirect_from: 
+    - /code-review-tips
+permalink:  "blog/code-review-tips"
 date:   2018-08-21 07:00:00 -0500
 categories: event recap
 ---

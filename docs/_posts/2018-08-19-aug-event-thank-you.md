@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "Aug Code Review & Pairing - Thank you Sittercity"
-permalink:  "aug-thank-you-sittercity"
+redirect_from: 
+    - /aug-thank-you-sittercity
+permalink:  "blog/aug-thank-you-sittercity"
 date:   2018-08-19 12:00:00 -0500
 categories: event recap
 ---
