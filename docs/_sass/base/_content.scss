@@ -79,3 +79,29 @@
     font-size: 1.5rem;
   }
 }
+
+.Statistics {
+  display: flex;
+  flex-direction: column;
+
+  &-charts {
+    display: flex;
+    justify-content: center;
+  }
+
+  @include media($min-desktop) {
+    flex-direction: row;
+  }
+}
+
+.Pie {
+  margin: $small-spacing;
+  max-width: 200px;
+  max-height: 200px;
+
+  @include media($min-desktop) {
+    &--small {
+      max-width: 150px;
+    }
+  }
+}
