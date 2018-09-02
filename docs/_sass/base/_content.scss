@@ -46,6 +46,17 @@
     font-weight: $font-weight-normal;
     color: $black;
     font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      display: flex;
+      align-items: center;
+    }
+
+    svg {
+      margin-left: .5rem;
+    }
   }
 }
 

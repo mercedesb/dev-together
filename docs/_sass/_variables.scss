@@ -33,6 +33,7 @@ $base-z-index: 0;
 $primary-color: #4EAA8D;
 $brand-color: #44957C;
 $brand-light: #4EAA8D;
+$brand-dark: #3e8770;
 $primary-color-dark: darken($primary-color, 6%);
 $white-color: #fff;
 $white: #ffffff;
@@ -49,7 +50,7 @@ $lighter-gray-color: lighten($light-gray-color, 20%);
 //
 $base-font-color: $black;
 $action-color: $brand-color;
-$link-color: darken($primary-color, 10%);
+$link-color: $brand-dark;
 
 // Border
 //
