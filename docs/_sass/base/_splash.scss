@@ -28,16 +28,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 90%;
   }
 
   &-title {
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0 0 20px;
     font-weight: $font-weight-normal;
-
-    @include media($min-tablet) {
-      font-size: 3rem;
-    }
 
     @include media($min-tablet-large) {
       font-size: 3.6rem;
@@ -54,6 +51,11 @@
     font-family: $serif-font-family;
     font-weight: $font-weight-normal;
     font-style: italic;
+    display: none;
+
+    @include media($min-tablet) {
+      display: inline-block;
+    }
 
     @include media($min-tablet-large) {
       font-size: 1.5rem;
@@ -61,7 +63,14 @@
   }
 
   &-leadin {
-    margin-bottom: $small-spacing;
+    background-color: $brand-color;
+    width: 100%;
+    text-align: center;
+    padding-top: $small-spacing;
+  }
+
+  &-leadinText {
+    margin-bottom: .5rem;
     font-size: 1.3em;
     font-family: $base-font-family;
     font-weight: $font-weight-normal;
