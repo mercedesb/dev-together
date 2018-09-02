@@ -114,9 +114,16 @@
     display: flex;
     justify-content: space-around;
     margin: $small-spacing 0;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+
+    @include media($min-desktop) {
+      flex-direction: row;
+    }
 
     li {
-      margin: 0 $base-spacing;
+      margin: .5rem $base-spacing;
       a {
         color: $white;
         font-weight: $font-weight-bold;
