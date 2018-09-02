@@ -1,6 +1,10 @@
 .Splash {
   color: $white;
-  background-image: url('../../assets/images/SplashImg.jpg');
+  background-color: $brand-color;
+  
+  @include media($min-tablet) {
+    background-image: url('../../assets/images/SplashImg.jpg');
+  }
 
   /* Full height */
   height: 100vh; 

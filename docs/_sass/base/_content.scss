@@ -39,6 +39,16 @@
   }
 }
 
+.LatestBlog {
+  background-color: $light-gray;
+
+  &-link {
+    font-weight: $font-weight-normal;
+    color: $black;
+    font-size: 1.2rem;
+  }
+}
+
 .BlogPreview {
   display: flex;
   flex-direction: column;
@@ -63,20 +73,16 @@
   }
 }
 
-.Blog-link {
-  font-weight: $font-weight-normal;
-  color: $black;
-  font-size: 1.2rem;
-}
-
 .Vision {
   background-color: $brand-color;
   text-align: center;
   color: $white;
   font-size: 1.2rem;
+  padding: 1rem 0;
 
   @include media($min-desktop) {
     font-size: 1.5rem;
+    padding: 2rem;
   }
 }
 
