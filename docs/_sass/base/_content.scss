@@ -38,3 +38,33 @@
     margin-top: $small-spacing;
   }
 }
+
+.BlogPreview {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $base-spacing;
+
+  @include media($min-desktop) {
+    flex-direction: row;
+  }
+
+  &-title {
+    font-weight: $font-weight-bold;
+    font-size: 1.5rem;
+  }
+
+  &-description {
+    padding: 0 $base-spacing;
+    
+    @include media($min-desktop) {
+      flex: 2;
+    }
+
+  }
+}
+
+.Blog-link {
+  font-weight: $font-weight-normal;
+  color: $black;
+  font-size: 1.2rem;
+}
