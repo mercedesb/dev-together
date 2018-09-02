@@ -79,9 +79,19 @@
       font-size: 1.5rem;
     }
   }
-  
-  circle {
-    /* circle border animation */
-    @include transition(stroke-dashoffset $animation-duration - .3s 0s);
+
+  &-scroll {
+
+    circle {
+      transition: fill .5s;
+    }
+
+    &:hover {
+      cursor: pointer;
+      
+      circle {
+        fill: $brand-dark;
+      }
+    }
   }
 }
