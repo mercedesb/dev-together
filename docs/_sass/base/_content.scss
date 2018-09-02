@@ -1,10 +1,40 @@
-.Content {
+.Section {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+
+  &-content {
+    max-width: $desktop-width;
+    padding: $base-spacing;
+  }
 }
 
-.Section {
-  max-width: $desktop-width;
-  margin: $base-spacing;
+.Welcome {
+  background-color: $light-gray;
+}
+
+.Personas {
+  margin: $base-spacing auto;
+  
+  @include media($min-desktop) {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.Persona {
+  margin: $small-spacing;
+  display: flex;
+  flex-direction: column;
+
+  &-img {
+    align-self: center;
+  }
+
+  &-title {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: $small-spacing;
+  }
 }
