@@ -140,3 +140,37 @@
     }
   }
 }
+
+.GetInvolved {
+  padding: 1rem 0;
+
+}
+
+.Chapters {
+  @include media($min-desktop) {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.Chapter {
+  background-color: $brand-light;
+  display: flex;
+  flex-direction: column;
+  color: $white;
+  padding: $base-spacing;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: $base-spacing;
+
+  &-name {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  &-location {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
