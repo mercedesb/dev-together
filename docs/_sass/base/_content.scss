@@ -155,22 +155,30 @@
 }
 
 .Chapters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   @include media($min-desktop) {
-    display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    align-items: initial;
   }
 }
 
 .Chapter {
-  background-color: $brand-light;
+  background-color: $brand-color;
   display: flex;
   flex-direction: column;
   color: $white;
   padding: $base-spacing;
-  align-items: center;
   justify-content: center;
-  flex: 1;
-  margin: $base-spacing;
+  margin: $base-spacing 0;
+  width: 300px;
+
+  @include media($min-desktop) {
+    margin: $base-spacing;
+  }
 
   &-name {
     font-size: 1.5rem;
