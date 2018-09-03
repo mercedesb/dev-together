@@ -85,6 +85,15 @@
   }
 }
 
+.Connect {
+  display: flex;
+
+  &-item {
+    margin: $small-spacing;
+    width: 50%;
+  }
+}
+
 .SocialLinks {
   // text-align: center;
   margin-bottom: 2rem;
@@ -104,4 +113,8 @@
   a:first-child svg {
     margin: 0;
   }
+}
+
+.CodeReview {
+  margin-bottom: 4rem;
 }

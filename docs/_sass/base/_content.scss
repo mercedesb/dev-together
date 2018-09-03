@@ -76,9 +76,8 @@
   }
 
   &-description {
-    padding: 0 $base-spacing;
-    
     @include media($min-desktop) {
+      padding: 0 $base-spacing;
       flex: 2;
     }
 
