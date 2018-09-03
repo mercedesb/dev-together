@@ -54,7 +54,7 @@ $link-color: $brand-dark;
 
 // Border
 //
-$base-border-color: lighten($lighter-gray-color, 5%);
+$base-border-color: $dark-gray-color;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors

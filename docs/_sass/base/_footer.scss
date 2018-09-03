@@ -28,54 +28,29 @@
 }
 
 .email-signup {
-  padding: 1em 2em;
-  background-color: $primary-color-dark;
-  color: $lighter-gray-color;
-  text-align: left;
 
   .mc-field-group {
-    display: flex;
-    flex-direction: column;
-    margin: $small-spacing $small-spacing 0;
-  }
 
-  .input-group ul {
-    list-style: none;
+    &.input-group {
+      flex-direction: column;
+      align-items: initial;
+      
+      ul {
+        list-style: none;
+      }
+    }
   }
 
   label {
     font-weight: 400;
   }
 
-  .button {
-    margin: $small-spacing $small-spacing 0;
+  ul {
+    padding-left: 0;
   }
 
-  #{$all-text-inputs} {
-    color: $dark-gray-color;
-    width: 250px;
-  }
-
-  .stacked {
-    display: flex;
-    flex-direction: column;
-  }
-
-  @include media($min-phone) {
-    min-width: 100%;
-    input, ul {
-      margin-bottom: 0;
-    }
-  }
-
-  @include media($min-tablet) {
-    input, ul {
-      margin-bottom: 1em;
-    }
-  }
-
-  @include media($min-desktop) {
-    min-width: 50%;
+  input {
+    margin-bottom: 1em;
   }
 }
 
