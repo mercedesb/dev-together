@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "There is no gatekeeping here"
+permalink:  "blog/no-gatekeeping"
+date:   2018-09-03 12:00:00 -0500
+---
+
 With our upcoming
 [Code Review & Pairing event on September 11, 2018](http://bit.ly/devtogethersept2018),
 there have been some questions about how to "get ready" for our code reviews and how to make sure your code is good
