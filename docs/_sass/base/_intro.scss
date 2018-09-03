@@ -1,5 +1,5 @@
 body.home-intro {
-  width: 100%;
+  // width: 100%;
   display: table;
 
   .intro {
@@ -25,7 +25,7 @@ body.home-intro {
   display: inline-block;
   max-width: $desktop-width;
   margin: auto;
-  padding: 4em 2em;
+  padding: 4em 0em;
 
   @include media($min-tablet) {
     padding: 6em 0;

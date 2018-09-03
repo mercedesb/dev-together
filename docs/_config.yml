@@ -16,6 +16,12 @@ permalink   : /:year/:title/
 markdown    : kramdown
 highlighter : rouge
 
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
 # SEO settings
 title: Dev Together
 description: "Connecting people starting their development career with technical mentors through low-commitment, high-value, human interactions"
@@ -24,6 +30,19 @@ keywords: "meetup, development, coding, mentorship"
 # Site settings
 url: http://github.com/mercedesb/dev-together
 baseurl: "/"
+headernav:
+  -
+    title: Home
+    url: "/"
+  -
+    title: Blog
+    url: "/blog/"
+  -
+    title: Find a chapter
+    url: "/chapters/"
+  -
+    title: Become a sponsor
+    url: "/sponsorship/"
 
 # Author settings
 author:

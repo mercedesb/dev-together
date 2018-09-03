@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "How to make a pull request"
-permalink:  "make-a-pull-request"
+redirect_from: 
+    - /make-a-pull-request
+permalink:  "blog/make-a-pull-request"
 date:   2018-06-05 21:13:00 -0500
 categories: git
 ---

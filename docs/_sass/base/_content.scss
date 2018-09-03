@@ -1,0 +1,155 @@
+.Section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  &-content {
+    max-width: $desktop-width;
+    padding: $base-spacing;
+  }
+}
+
+.Welcome {
+  background-color: $light-gray;
+}
+
+.Personas {
+  margin: $base-spacing auto;
+  
+  @include media($min-desktop) {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.Persona {
+  margin: $small-spacing;
+  display: flex;
+  flex-direction: column;
+
+  &-img {
+    align-self: center;
+    border-radius: $base-border-radius;
+  }
+
+  &-title {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: $small-spacing;
+  }
+}
+
+.LatestBlog {
+  background-color: $light-gray;
+
+  &-link {
+    font-weight: $font-weight-normal;
+    color: $black;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      display: flex;
+      align-items: center;
+    }
+
+    svg {
+      margin-left: .5rem;
+    }
+  }
+}
+
+.BlogPreview {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $base-spacing;
+
+  @include media($min-desktop) {
+    flex-direction: row;
+  }
+
+  &-title {
+    font-weight: $font-weight-bold;
+    font-size: 1.5rem;
+  }
+
+  &-description {
+    @include media($min-desktop) {
+      padding: 0 $base-spacing;
+      flex: 2;
+    }
+
+  }
+}
+
+.Vision {
+  background-color: $brand-color;
+  text-align: center;
+  color: $white;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+
+  @include media($min-desktop) {
+    font-size: 1.5rem;
+    padding: 2rem;
+  }
+}
+
+.Statistics {
+  display: flex;
+  flex-direction: column;
+
+  &-text {
+    flex: 2;
+  }
+
+  &-charts {
+    display: none;
+    position: relative;
+    flex: 1;
+
+    @include media($min-desktop) {
+      display: block;
+    }
+  }
+
+  &-sub {
+    display: none;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: right;
+    position: relative;
+    right: -8rem;
+
+    @include media($min-desktop) {
+      display: block;
+    }
+  }
+
+  @include media($min-desktop) {
+    flex-direction: row;
+  }
+}
+
+.Pie {
+  max-width: 200px;
+  max-height: 200px;
+  position: absolute;
+    
+
+  @include media($min-desktop) {
+    &--small {
+      max-width: 150px;
+      max-height: 150px;
+      top: -1rem;
+      left: 0;
+    }
+
+    &--large {
+      bottom: -1rem;
+      right: 0;
+    }
+  }
+}

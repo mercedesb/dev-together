@@ -2,6 +2,8 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
+gem 'jekyll-redirect-from'
+
 group :development do
   gem 'rake', '~> 12.3.1'
   gem 'sass', '~> 3.5.6'

@@ -1,5 +1,5 @@
 .post {
-  margin-bottom: $base-spacing * 2;
+  margin-bottom: $base-spacing;
 }
 .post-header {
   margin-bottom: $base-spacing;
@@ -63,15 +63,4 @@
   &:last-child {
     border: none;
   }
-}
-
-.post-content {
-  h2 {
-    font-size: 2rem;
-  }
-
-  h3 {
-    font-size: 1.5rem;
-  }
-
 }

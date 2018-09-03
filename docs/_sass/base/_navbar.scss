@@ -235,3 +235,62 @@ body.navigation-is-open {
     background-color: $black-color;
   }
 }
+
+.HeaderNav {
+
+  display: flex;
+  color: $white-color;
+  justify-content: center;
+
+  .HeaderNav-list {
+    list-style: none;
+    display: flex;
+    align-items: center
+  }
+
+  .HeaderNav-item { 
+    color: $white-color;
+    padding: 0 $base-spacing;
+    position: relative;
+
+    &:after {
+      content : "";
+      position: absolute;
+      left    : 25%;
+      bottom  : -5px;
+      height  : 1px;
+      width   : 50%;
+    }
+
+    &:hover:after {
+      border-bottom: 1px solid $white-color;
+    }
+
+    &--active:after {
+      border-bottom: 1px solid $white-color;
+    }
+
+    &:last-child {
+      border: 1px solid $white-color;
+      border-radius: 3px;
+      padding: .5em;
+
+      &:hover {
+        background-color: $primary-color;
+        cursor: pointer;
+      }
+
+      &:after {
+        content: none;
+      }
+    }
+
+    a {
+      color: $white-color;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
