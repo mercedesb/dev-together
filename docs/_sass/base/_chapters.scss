@@ -55,6 +55,7 @@
 
 .Event {
   display: flex;
+  flex: 1;
   flex-direction: column;
   padding: $base-spacing;
   justify-content: center;
