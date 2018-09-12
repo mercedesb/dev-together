@@ -15,30 +15,16 @@ permalink: /chapters/
     <p class="Chapter-location">Madison, WI</p>
   </a>
 </div>
+
 <h2 id="upcoming-events">Upcoming events</h2>
+{% assign events = site.data.events | sort: "date" %}
 <div class="Events">
-  <div class="Event">
-    <p class="Event-date">Oct 9, 2018</p>
-    <p class="Event-time">6pm - 7:30pm</p>
-    <p class="Event-name">Lightning Talks - Dev practices: what I wish I was taught</p>
-    <p class="Event-sponsor">UCX Market</p>
-    <p class="Event-location">233 S. Wacker Dr. Ste 9425</p>
-  </div>
-  <div class="Event">
-    <p class="Event-date">TBD</p>
-    <p class="Event-time">6pm - 7:30pm</p>
-    <p class="Event-name">Code Review & Pairing</p>
-    <p class="Event-sponsor">TBD</p>
-    <p class="Event-location">TBD Madison, WI</p>
-  </div>
-  <a class="Event" href="http://bit.ly/devtogethernov2018" target="_blank">
-    <p class="Event-date">Nov 13, 2018</p>
-    <p class="Event-time">6pm - 7:30pm</p>
-    <p class="Event-name">Code Review & Pairing</p>
-    <p class="Event-sponsor">BreakFree Solutions</p>
-    <p class="Event-location">20 N Upper Wacker Dr. Ste 1200</p>
-  </a>
+  {% for i in (0..2) %}
+    {% assign event = events[i] %}
+    {% include event.html event=event %} 
+  {% endfor %}
 </div>
+
 <h2>Start a chapter</h2>
 <p>Are you looking to become more involved with Dev Together and support your local tech community? Chapter leaders are an integral
 part of our community and we are so grateful for their committment to our values.</p>
