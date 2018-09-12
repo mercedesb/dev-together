@@ -1,0 +1,26 @@
+<h2>Connect with us</h2>
+<p>Chapter Leader {{include.chapter.leader}} <strong><a href="mailto:{{include.chapter.email}}">{{include.chapter.email}}</a></strong></p>
+<div class="SocialLinks">
+  {% if include.chapter.twitter %}
+  <a href="https://twitter.com/{{ include.chapter.twitter }}" target="_blank" class="icon">
+    <svg>
+      <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-twitter' | prepend: site.baseurl }}"></use>
+    </svg>
+  </a>
+  {% endif %}
+  {% if include.chapter.instagram %}
+    <a href="https://instagram.com/{{ include.chapter.instagram }}" target="_blank" class="icon">
+      <svg>
+        <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-instagram' | prepend: site.baseurl }}"></use>
+      </svg>
+    </a>
+  {% endif %}
+  {% if include.chapter.meetup %}
+    <a href="https://meetup.com/{{ include.chapter.meetup }}" target="_blank" class="icon">
+      <svg>
+        <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-meetup' | prepend: site.baseurl }}"></use>
+      </svg>
+    </a>
+  {% endif %}
+
+</div>

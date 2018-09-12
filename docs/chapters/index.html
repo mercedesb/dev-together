@@ -6,14 +6,12 @@ permalink: /chapters/
 ---
 <h2>Our chapters</h2>
 <div class="Chapters">
-  <a class="Chapter" href="chicago">
-    <p class="Chapter-name">Chi</p>
-    <p class="Chapter-location">Chicago, IL</p>
-  </a>
-  <a class="Chapter" href="madison">
-    <p class="Chapter-name">Mad</p>
-    <p class="Chapter-location">Madison, WI</p>
-  </a>
+   {% for chapter in site.data.chapters %}
+    <a class="Chapter" href="{{chapter.href}}">
+      <p class="Chapter-name">{{chapter.name}}</p>
+      <p class="Chapter-location">{{chapter.location}}</p>
+    </a>
+   {% endfor %}
 </div>
 
 <h2 id="upcoming-events">Upcoming events</h2>

@@ -3,14 +3,12 @@
     <h2>Get involved</h2>
     <p>Look for chapter events near you. Can’t find a chapter nearby? Learn how to start one.</p>
     <div class="Chapters">
-      <a class="Chapter" href="chapters/chicago">
-        <p class="Chapter-name">Chi</p>
-        <p class="Chapter-location">Chicago, IL</p>
-      </a>
-      <a class="Chapter" href="chapters/madison">
-        <p class="Chapter-name">Mad</p>
-        <p class="Chapter-location">Madison, WI</p>
-      </a>
+      {% for chapter in site.data.chapters %}
+        <a class="Chapter" href="chapters/{{chapter.href}}">
+          <p class="Chapter-name">{{chapter.name}}</p>
+          <p class="Chapter-location">{{chapter.location}}</p>
+        </a>
+      {% endfor %}
       <a class="Chapter" href="chapters">
         <p class="Chapter-name">Start a chapter in your city</p>
       </a>

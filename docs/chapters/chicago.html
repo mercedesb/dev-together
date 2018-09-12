@@ -6,6 +6,8 @@ redirect_from:
     - /for-mentors
     - /for-mentees
 ---
+{% assign chapter = site.data.chapters | where: "name", "Chi" | first %}
+
 <h2>Upcoming events</h2>
 
 {% assign events = site.data.events | where: "chapter", "Chi" | sort: "date" %}
@@ -17,26 +19,9 @@ redirect_from:
 </div>
 
 {% include code_review_and_pairing.html %}
-<h2>Connect with us</h2>
-<p>Chapter Leader Mercedes Bernard <strong><a href="mailto:devtogetherchi@gmail.com">devtogetherchi@gmail.com</a></strong></p>
-<div class="SocialLinks">
-  <a href="{{ site.author.twitter }}" target="_blank" class="icon">
-    <svg>
-      <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-twitter' | prepend: site.baseurl }}"></use>
-    </svg>
-  </a>
-  <a href="{{ site.author.instagram }}" target="_blank" class="icon">
-    <svg>
-      <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-instagram' | prepend: site.baseurl }}"></use>
-    </svg>
-  </a>
-  <a href="{{ site.author.meetup }}" target="_blank" class="icon">
-    <svg>
-      <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-meetup' | prepend: site.baseurl }}"></use>
-    </svg>
-  </a>
-</div>
 
-    {% include contact.html %}
+{% include chapter_contact_info.html chapter=chapter %}
+
+{% include contact.html %}
 
 

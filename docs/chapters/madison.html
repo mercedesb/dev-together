@@ -3,6 +3,8 @@ layout: page
 title: Madison
 permalink: chapters/madison
 ---
+{% assign chapter = site.data.chapters | where: "name", "Mad" | first %}
+
 <h2>Upcoming events</h2>
 {% assign events = site.data.events | where: "chapter", "Mad" | sort: "date" %}
 
@@ -14,14 +16,6 @@ permalink: chapters/madison
 
 {% include code_review_and_pairing.html %}
 
-<h2>Connect with us</h2>
-<p>Chapter Leader Cristina Ruth <strong><a href="mailto:devtogethermad@gmail.com">devtogethermad@gmail.com</a></strong></p>
-<div class="SocialLinks">
-  <a href="https://twitter.com/devtogethermad" target="_blank" class="icon">
-    <svg>
-      <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-twitter' | prepend: site.baseurl }}"></use>
-    </svg>
-  </a>
-</div>
+{% include chapter_contact_info.html chapter=chapter %}
 
 
