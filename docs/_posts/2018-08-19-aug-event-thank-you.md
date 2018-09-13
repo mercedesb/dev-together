@@ -16,4 +16,4 @@ Sittercity was a wonderful host with a great space. We're always grateful to our
 ![Pairing]({{ '/images/events/aug142018/Aug14_pairing2.jpg' }})
 ![Pairing]({{ '/images/events/aug142018/Aug14_pairing3.jpg' }})
 ![Pairing]({{ '/images/events/aug142018/Aug14_pairing4.jpg' }})
-![Pairing]({{ '/images/events/aug142018/Aug14_pairing5.jpg' }})
+![Pairing]({{ '/images/events/Aug14_pairing5.jpg' }})
