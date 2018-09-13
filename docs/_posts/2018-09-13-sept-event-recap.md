@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Sept Code Review & Pairing - Thank you RedShelf"
+description: "This month’s event happened this past Tuesday at RedShelf. It was a beautiful day and they opened their rooftop to us for some ah-mazing sunset, cityscape pairing."
 permalink:  "blog/sept-thank-you-redshelf"
 date:   2018-09-13 12:00:00 -0500
 categories: event recap
