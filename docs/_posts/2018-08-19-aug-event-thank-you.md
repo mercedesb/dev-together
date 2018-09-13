@@ -12,8 +12,8 @@ Our third event took place this past week at Sittercity. It's always so great to
 
 Sittercity was a wonderful host with a great space. We're always grateful to our sponsors for their generosity and for keeping their doors open late for us.
 
-![Pairing](/images/events/aug142018/Aug14_pairing1.jpg)
-![Pairing](/images/events/aug142018/Aug14_pairing2.jpg)
-![Pairing](/images/events/aug142018/Aug14_pairing3.jpg)
-![Pairing](/images/events/aug142018/Aug14_pairing4.jpg)
-![Pairing](/images/Aug14_pairing5.jpg)
+![Pairing](/images/events/aug142018/Aug14_pairing1.JPG)
+![Pairing](/images/events/aug142018/Aug14_pairing2.JPG)
+![Pairing](/images/events/aug142018/Aug14_pairing3.JPG)
+![Pairing](/images/events/aug142018/Aug14_pairing4.JPG)
+![Pairing](/images/Aug14_pairing5.JPG)
