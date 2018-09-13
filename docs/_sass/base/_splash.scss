@@ -3,7 +3,7 @@
   background-color: $brand-color;
   
   @include media($min-tablet) {
-    background-image: url('/images/SplashImg.jpg');
+    background-image: url('../../assets/images/SplashImg.jpg');
   }
 
   /* Full height */

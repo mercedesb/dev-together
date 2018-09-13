@@ -64,19 +64,19 @@ From this point, if we have more code changes to make, we can commit them and us
 Now that we've pushed code to our remote repository, we're ready to make a PR for our Mentor to review and give us feedback on our implementation. In the Github UI, click the 'Compare and pull request' button that's visible after you pushed your feature branch.
 <br/>
 <br/>
-![Compare and pull request]({{ '/images/CompareAndPullRequest.png' | prepend: site.baseurl }})
+![Compare and pull request]({{ '/assets/images/CompareAndPullRequest.png' | prepend: site.baseurl }})
 <br/>
 <br/>
 You'll be taken to the 'Open a pull request screen.' 
 <br/>
 <br/>
-![Open a pull request]({{'/images/OpenPullRequest.png' | prepend: site.baseurl }})
+![Open a pull request]({{'/assets/images/OpenPullRequest.png' | prepend: site.baseurl }})
 <br/>
 <br/>
 On this screen, you can see a side by side comparison of your diff from the master branch.
 <br/>
 <br/>
-![Pull request diff]({{'/images/PullRequestDiff.png' | prepend: site.baseurl }})
+![Pull request diff]({{'/assets/images/PullRequestDiff.png' | prepend: site.baseurl }})
 <br/>
 <br/>
 Be sure to give your PR a descriptive title and use the description to provide context for your Mentor about the feature you are implementing, a summary of the code you wrote, and questions you have. Then click 'Create pull request'.
