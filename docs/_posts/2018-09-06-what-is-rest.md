@@ -32,7 +32,7 @@ Assuming that you, the Reader, are familiar with the Client-Server-Database stru
 <br/>
 <br/>
 
-![REST]({{ '/assets/images/WhatIsRest.jpeg' | prepend: site.baseurl }})
+![REST]({{ '/images/WhatIsRest.jpeg' | prepend: site.baseurl }})
 Image by: [DoodlingDev](http://doodlingdev.com/)
 <br/>
 <br/>
