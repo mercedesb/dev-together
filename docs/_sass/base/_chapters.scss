@@ -17,12 +17,19 @@
   color: $white;
   padding: $base-spacing;
   justify-content: center;
-  margin: $base-spacing 0;
+  margin: $small-spacing 0;
   width: 300px;
   border-radius: $base-border-radius;
 
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+
   @include media($min-desktop) {
-    margin: $base-spacing;
+    margin: $base-spacing $small-spacing;
   }
 
   &-name {
@@ -107,8 +114,6 @@
     height: 40px;
     width: 40px;
     fill: $dark-gray-color;
-
-    
   }
 
   a:first-child svg {

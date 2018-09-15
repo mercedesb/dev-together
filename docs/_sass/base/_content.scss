@@ -2,9 +2,11 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
   &-content {
-    max-width: $desktop-width;
+    max-width: $desktop-text-width;
     padding: $base-spacing;
   }
 }
@@ -17,7 +19,6 @@
   margin: $base-spacing auto;
   
   @include media($min-desktop) {
-    width: 80%;
     display: flex;
     justify-content: space-between;
   }
@@ -73,12 +74,13 @@
   &-title {
     font-weight: $font-weight-bold;
     font-size: 1.5rem;
+    flex: 1 1;
   }
 
   &-description {
     @include media($min-desktop) {
       padding: 0 $base-spacing;
-      flex: 2;
+      flex: 2 1;
     }
 
   }
@@ -90,6 +92,10 @@
   color: $white;
   font-size: 1.2rem;
   padding: 1rem 0;
+  
+  .Section-content {
+    max-width: $desktop-width;
+  }
 
   @include media($min-desktop) {
     font-size: 1.5rem;
@@ -100,6 +106,10 @@
 .Statistics {
   display: flex;
   flex-direction: column;
+
+  &.Section-content {
+    max-width: $desktop-width;
+  }
 
   &-text {
     flex: 2;
