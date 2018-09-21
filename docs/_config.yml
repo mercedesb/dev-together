@@ -47,14 +47,8 @@ headernav:
 # Author settings
 author:
   name      : Mercedes Bernard
-  # job       : Frontend Engineer
-  # bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
   thumb     : /images/author.jpg
   email     : devtogetherchi@gmail.com
-  # url       : http://nandomoreira.me
-  # facebook  : http://facebook.com/fernando.dev
-  # linkedin  : http://linkedin.com/in/nandomoreirame
-  # github    : http://github.com/nandomoreirame
   twitter   : http://twitter.com/devtogetherchi
   instagram : http://instagram.com/devtogetherchi
   meetup    : http://meetup.com/devtogetherchi

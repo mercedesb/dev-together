@@ -1,0 +1,20 @@
+[
+  {
+    "href": "chicago",
+    "name": "Chi",
+    "location": "Chicago, IL",
+    "leader": "Mercedes Bernard",
+    "email": "devtogetherchi@gmail.com",
+    "twitter": "devtogetherchi",
+    "instagram": "devtogetherchi",
+    "meetup": "devtogetherchi"
+  },
+  {
+    "href": "madison",
+    "name": "Mad",
+    "location": "Madison, WI",
+    "leader": "Cristina Ruth",
+    "email": "devtogethermad@gmail.com",
+    "twitter": "devtogethermad"
+  }
+]

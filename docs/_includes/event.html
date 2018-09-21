@@ -1,0 +1,17 @@
+{% if include.event.signupLink %}
+  <a class="Event" href="{{include.event.signupLink}}" target="_blank">
+    <p class="Event-date">{{include.event.displayDate}}</p>
+    <p class="Event-time">{{include.event.time}}</p>
+    <p class="Event-name">{{include.event.name}}</p>
+    <p class="Event-sponsor">{{include.event.sponsor}}</p>
+    <p class="Event-location">{{include.event.location}}</p>
+  </a>
+{% else %}
+  <div class="Event">
+    <p class="Event-date">{{include.event.displayDate}}</p>
+    <p class="Event-time">{{include.event.time}}</p>
+    <p class="Event-name">{{include.event.name}}</p>
+    <p class="Event-sponsor">{{include.event.sponsor}}</p>
+    <p class="Event-location">{{include.event.location}}</p>
+  </div>
+{% endif %}
