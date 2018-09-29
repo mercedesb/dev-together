@@ -30,10 +30,12 @@
   },
   {
     "chapter": "Mad",
-    "name": "TBD",
-    "date": "2018-10-16",
+    "name": "Code Review & Pairing",
+    "displayDate": "Nov 13, 2018",
+    "date": "2018-11-13",
     "time": "6pm - 7:30pm",
-    "sponsor": "TBD",
-    "location": "TBD Madison, WI"
+    "sponsor": "Bendyworks",
+    "location": "106 E Doty St #200, Madison, WI",
+    "signupLink": "http://bit.ly/devtogethermadnov2018"
   }
 ]
