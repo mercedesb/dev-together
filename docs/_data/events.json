@@ -37,5 +37,14 @@
     "sponsor": "Bendyworks",
     "location": "106 E Doty St #200, Madison, WI",
     "signupLink": "http://bit.ly/devtogethermadnov2018"
+  },
+  {
+    "chapter": "Mad",
+    "name": "Code Review & Pairing",
+    "displayDate": "Jan 8, 2019",
+    "date": "2019-01-08",
+    "time": "6pm - 7:30pm",
+    "sponsor": "CUNA Mutual Group",
+    "location": "5810 Mineral Point Rd, Madison, WI"
   }
 ]
