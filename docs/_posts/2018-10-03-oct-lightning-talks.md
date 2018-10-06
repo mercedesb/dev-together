@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  "October Lightning Talks schedule"
-description: ""
+description: "We've finalized the schedule for October 9's lightning talk event."
 permalink:  ""
-date:   2018-09-13 12:00:00 -0500
-categories: event recap
+date:   2018-10-03 12:00:00 -0500
 ---
 
 We are so excited for next week's lightning talk event with the theme of "Dev practices: what I wish I was taught."
