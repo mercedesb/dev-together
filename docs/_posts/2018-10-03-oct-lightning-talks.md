@@ -2,7 +2,7 @@
 layout: post
 title:  "October Lightning Talks schedule"
 description: "We've finalized the schedule for October 9's lightning talk event."
-permalink:  ""
+permalink:  "blog/oct-lightning-talks"
 date:   2018-10-03 12:00:00 -0500
 ---
 
