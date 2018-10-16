@@ -1,16 +1,6 @@
 [
   {
     "chapter": "Chi",
-    "name": "Lightning Talks - Dev practices: what I wish I was taught",
-    "displayDate": "Oct 9, 2018",
-    "date": "2018-10-09",
-    "time": "6pm - 7:30pm",
-    "sponsor": "UCX Market",
-    "location": "233 S. Wacker Dr. Ste 9425",
-    "signupLink": "http://meetu.ps/e/FPXZq/dGKt8/f"
-  },
-  {
-    "chapter": "Chi",
     "name": "Code Review & Pairing",
     "displayDate": "Nov 13, 2018",
     "date": "2018-11-13",
@@ -21,12 +11,21 @@
   },
   {
     "chapter": "Chi",
-    "name": "TBD",
+    "name": "Code Review & Pairing",
     "displayDate": "Dec 10, 2018",
     "date": "2018-12-10",
     "time": "6pm - 7:30pm",
     "sponsor": "Coding Dojo",
     "location": "213 West Institute"
+  },
+  {
+    "chapter": "Chi",
+    "name": "Code Review & Pairing",
+    "displayDate": "Jan 8, 2018",
+    "date": "2019-01-08",
+    "time": "6pm - 7:30pm",
+    "sponsor": "RedShelf",
+    "location": "500 N Dearborn"
   },
   {
     "chapter": "Mad",
