@@ -14,7 +14,7 @@ Our sponsor for the evening was UCX. UCX is a marketplace for cloud services. Th
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NfhpKl82bUo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
 
-After Andy, [Aji Slater](https://twitter.com/DoodlingDev) took the podium to talk to us about commit messages in his talk, "Commit Message to the Resuce." Aji introduced his topic with an entertaining Dr. Seuss themed anecdote and showed some great, real examples of how _not_ to write your commit messages. He also shared some git and Github pro tips to make the development workflow and commit messages effortless.
+After Andy, [Aji Slater](https://twitter.com/DoodlingDev) took the podium to talk to us about commit messages in his talk, "Commit Message to the Rescue." Aji introduced his topic with an entertaining Dr. Seuss themed anecdote and showed some great, real examples of how _not_ to write your commit messages. He also shared some git and Github pro tips to make the development workflow and commit messages effortless.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TBxl0gFCXgM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
 
