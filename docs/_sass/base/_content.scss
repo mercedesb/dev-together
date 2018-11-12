@@ -46,9 +46,6 @@ $section-width: 554px;
   max-width: 1375px;
 }
 
-.Welcome {
-  background-color: $light-gray;
-}
 
 .Personas {
   margin: $base-spacing auto;
@@ -138,63 +135,44 @@ $section-width: 554px;
   }
 }
 
-.Statistics {
+.Statistic {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
 
-  &.Section-content {
-    max-width: $desktop-width;
-  }
+  &-background {
+    background: #FFF7E4;
+    width: 286px;
+    height: 286px;
+    border-radius: 50%;
+    vertical-align: middle;
+    position: absolute;
+    z-index: -1;
 
-  &-text {
-    flex: 2;
-  }
+    &--blue {
+      background: #EBF3FB;
+    }
 
-  &-charts {
-    display: none;
-    position: relative;
-    flex: 1;
-
-    @include media($min-desktop) {
-      display: block;
+    &--red {
+      background: #F7EAEA;
     }
   }
 
-  &-sub {
-    display: none;
-    font-size: 11px;
-    line-height: 12px;
-    text-align: right;
-    position: relative;
-    right: -8rem;
-
-    @include media($min-desktop) {
-      display: block;
-    }
-  }
-
-  @include media($min-desktop) {
-    flex-direction: row;
-  }
-}
-
-.Pie {
-  max-width: 200px;
-  max-height: 200px;
-  position: absolute;
-    
-
-  @include media($min-desktop) {
-    &--small {
-      max-width: 150px;
-      max-height: 150px;
-      top: -1rem;
-      left: 0;
+    &-number {
+      font-size: 135px;
+      color: $green;
     }
 
-    &--large {
-      bottom: -1rem;
-      right: 0;
+    &-container {
+      display: flex;
+      flex-direction: column;
     }
-  }
+
+    &-text {
+      font-family: $sans-serif-font-family;
+      font-weight: $light-font-weight;
+      width: 400px;
+    }
 }
