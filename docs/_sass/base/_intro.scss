@@ -41,7 +41,7 @@ body.home-intro {
   font-size: 2.6rem;
   margin: 0 0 20px;
   color: $white-color;
-  font-weight: $font-weight-light;
+  font-weight: $light-font-weight;
 
   @include media($min-tablet) {
     font-size: 3rem;
@@ -60,7 +60,7 @@ body.home-intro {
   margin-bottom: $small-spacing;
   font-size: 1.2em;
   font-family: $serif-font-family;
-  font-weight: $font-weight-normal;
+  font-weight: $base-font-weight;
   font-style: italic;
 
   @include media($min-tablet-large) {

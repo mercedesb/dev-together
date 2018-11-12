@@ -1,18 +1,20 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather");
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,400i,600');
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1:300,900|Merriweather:400,900|PT+Mono");
 
 // Typography
 //
-$base-font-family: 'Proxima Nova', Arial, sans-serif;
-$serif-font-family: "Georgia", serif;
-$heading-font-family: $base-font-family;
-$fonts-path: '../fonts/';
+
+$serif-font-family: 'Merriweather', serif;
+$sans-serif-font-family: 'Gothic A1', sans-serif;
+$mono-font-family: 'PT Mono', monospace;
+
+$base-font-family: $serif-font-family;
+$heading-font-family: $serif-font-family;
 
 // Font weight
 //
-$font-weight-light: 300;
-$font-weight-normal: 500;
-$font-weight-bold: 600;
+$light-font-weight: 300;
+$base-font-weight: 400;
+$bold-font-weight: 900;
 
 // Font Sizes
 //
@@ -29,9 +31,9 @@ $heading-line-height: 1.2;
 // Other Sizes
 //
 $base-border-radius: 5px;
-$base-spacing: 2em;
-$small-spacing: $base-spacing / 2;
-$mini-spacing: $base-spacing / 4;
+$base-spacing: 60px;
+$small-spacing: 20px;
+$large-spacing: 100px;
 $base-z-index: 0;
 
 // Colors
@@ -112,7 +114,7 @@ $min-tablet-large: $min-feature $tablet-large-width;
 $max-tablet-large: $max-feature ($tablet-large-width + 1);
 // desktop and phone max width
 $desktop-width: 1224px;
-$desktop-text-width: 920px;
+$desktop-text-width: 1200px;
 $desktop-large-width: 1824px;
 $min-desktop: $min-feature $desktop-width;
 $max-desktop: $max-feature ($desktop-width + 1);

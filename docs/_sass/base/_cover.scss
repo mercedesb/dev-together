@@ -1,5 +1,6 @@
 .Cover {
   color: $white;
+  margin-bottom: $large-spacing;
 
   @include media($min-tablet) {
     background-image: url('../../assets/images/Dev_TogetherCoverImage.jpg');
@@ -20,7 +21,7 @@
   align-items: center;
 
   &-text {
-    max-width: 1200px;
+    max-width: $desktop-text-width;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -31,13 +32,16 @@
 
   &-title {
     font-size: $large-font-size;
+    margin-bottom: 15px;
   }
 
   &-subtitle {
     font-size: $med-font-size;
+    font-weight: $light-font-weight;
   }
 
   &-scroll {
+    font-family: $mono-font-family;
     margin-top: 90px;
   }
 }
