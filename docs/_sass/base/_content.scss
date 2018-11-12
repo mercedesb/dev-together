@@ -1,3 +1,5 @@
+$section-width: 554px;
+
 .Section {
   width: 100%;
   display: flex;
@@ -5,14 +7,34 @@
   align-items: center;
   flex-direction: column;
   position: relative;
+  margin: $large-spacing 0;
+
+  &-heading {
+    margin: $large-spacing 0 $base-spacing;
+  }
 
   &-content {
-    max-width: $desktop-text-width;
-    padding: $base-spacing;
+    // max-width: $desktop-text-width;
+    max-width: $section-width;
+    margin: $small-spacing $base-spacing $base-spacing;
+
+    &--split {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &--centered {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: $section-width;
+      // justify-content: center;
+    }
   }
 
   &-half {
     width: 50%;
+    max-width: $section-width;
   }
 
 }
@@ -21,7 +43,6 @@
   z-index: -1;
   position: absolute;
   top: 0;
-  margin-top: $small-spacing;
   max-width: 1375px;
 }
 
