@@ -1,0 +1,19 @@
+<section class="Cover">
+   {% include navbar.html %}
+  <div class="Cover-text">
+    <h1 class="Cover-title">Connecting people starting their development career with technical mentors through low-commitment,
+    high-value, human interactions</h1>
+    <h2 class="Cover-subtitle">Are you trying to land your first tech job? Looking for technical mentorship? Want to grow you technical and non-technical skills?</h2>
+    <button class="Button--light">Find a Chapter</button>
+    <a href="#" class="Cover-scroll Link--light">More About Us</a>
+  </div>
+</section>
+<script>
+  document.querySelector('.Cover-scroll').addEventListener('click', function() {
+    window.scrollTo({
+      top: document.querySelector('.Cover-text').offsetHeight,
+      left: 0,
+      behavior: 'smooth'
+    });
+  })
+</script>

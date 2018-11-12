@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,400i,600');
+
 // Typography
 //
 $base-font-family: 'Proxima Nova', Arial, sans-serif;
@@ -13,30 +16,45 @@ $font-weight-bold: 600;
 
 // Font Sizes
 //
-$base-font-size: 1rem;
+$base-font-size: 18px;
+$giant-font-size: 65px;
+$large-font-size: 45px;
+$med-font-size: 25px;
 
 // Line height
 //
-$base-line-height: 1.4;
+$base-line-height: 1.5;
 $heading-line-height: 1.2;
 
 // Other Sizes
 //
-$base-border-radius: 3px;
+$base-border-radius: 5px;
 $base-spacing: 2em;
 $small-spacing: $base-spacing / 2;
 $mini-spacing: $base-spacing / 4;
 $base-z-index: 0;
 
 // Colors
-//
+
+$dark-green: #0c1915;
+$deep-green: #19372E;
+$green: #44957C;
+$accent-green: #22936f;
+$slight-green: #4ab593;
+$light-green: #A9DFCE;
+$charcoal: #262829;
+$white: #ffffff;
+$light-yellow: #fff1d0;
+$dark-gray: #e5e5e5;
+$gray: #f2f2f2;
+$light-gray: #f7f7f7;
+
 $primary-color: #4EAA8D;
 $brand-color: #44957C;
 $brand-light: #4EAA8D;
 $brand-dark: #3e8770;
 $primary-color-dark: darken($primary-color, 6%);
 $white-color: #fff;
-$white: #ffffff;
 $black-color: #252627;
 $black: #252627;
 $blue-color: #477dca;
@@ -48,9 +66,9 @@ $lighter-gray-color: lighten($light-gray-color, 20%);
 
 // Font Colors
 //
-$base-font-color: $black;
+$base-font-color: $charcoal;
 $action-color: $brand-color;
-$link-color: $brand-dark;
+$link-color: $deep-green;
 
 // Border
 //

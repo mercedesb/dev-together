@@ -47,7 +47,6 @@
 body {
   color: $base-font-color;
   font-family: $base-font-family;
-  font-feature-settings: "kern", "liga", "pnum";
   font-size: $base-font-size;
   line-height: $base-line-height;
   font-weight: $font-weight-normal;
@@ -64,11 +63,23 @@ h6 {
   margin: 0 0 $small-spacing;
 }
 
+h1, .h1 {
+  font-size: $giant-font-size;
+}
+
+h2, .h2 {
+  font-size: $large-font-size;
+}
+
+h3, .h3 {
+  font-size: $med-font-size;
+}
+
 p {
   margin: 0 0 $small-spacing;
 }
 
-a {
+a, .Link {
   color: $link-color;
   text-decoration: none;
   transition: color $base-duration $base-timing;
@@ -77,7 +88,20 @@ a {
   &:focus,
   &:hover {
     text-decoration: underline;
-    color: shade($link-color, 25%);
+    color: $green;
+  }
+}
+
+.Link {
+  &--light {
+    color: $white;
+
+    &:active,
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+      color: $light-yellow;
+    }
   }
 }
 
