@@ -3,6 +3,7 @@ $cover-spacing: 40px;
 .Cover {
   color: $white;
   background-image: url('../../assets/images/Dev_TogetherCoverImage.jpg');
+  margin-bottom: $large-spacing;
 
   /* Full height */
   height: 100vh; 

@@ -3,7 +3,7 @@ layout: post
 title:  "How to make a pull request"
 redirect_from: 
     - /make-a-pull-request
-permalink:  "blog/make-a-pull-request"
+permalink:  "/blog/make-a-pull-request"
 date:   2018-06-05 21:13:00 -0500
 categories: git
 ---
@@ -11,7 +11,7 @@ In our [previous post]({{ '/first-event' | prepend: site.baseurl }}) on the blog
 
 To recap, Github describes a pull request as 
 
-_"Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary."_
+>Pull requests let you tell others about changes you've pushed to a GitHub repository. Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
 
 So how exactly do you make a PR? It all comes down to branches. A branch is a way for you to continue development in a separate stream of work without affecting any of the other branches. Branching strategies are a complex topic that you can explore if you're interested, but for the purposes of this post, we'll be using a basic feature branch strategy (also referred to as a topic branch in some places). 
 

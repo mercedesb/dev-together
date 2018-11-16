@@ -18,7 +18,18 @@ html {
 
 body {
   display: table;
-  background-color: $base-background-color;
+}
+
+body > * {
+  padding: 0 $large-spacing;
+
+  &:first-child {
+    padding-top: $large-spacing;
+  }
+
+  &:last-child {
+    padding-bottom: $large-spacing;
+  }
 }
 
 %clearfix,
@@ -34,9 +45,13 @@ body {
 }
 
 .Page {
-  margin-top: $large-spacing;
-
   .Section-heading + .Grid {
     padding-top: $large-spacing;
   }
+}
+
+.Post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

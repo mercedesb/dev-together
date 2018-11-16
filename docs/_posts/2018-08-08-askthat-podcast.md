@@ -3,7 +3,7 @@ layout: post
 title:  "AskTHAT Podcast Guest Appearance"
 redirect_from: 
     - /askthat-podcast
-permalink:  "blog/askthat-podcast"
+permalink:  "/blog/askthat-podcast"
 date:   2018-08-08 12:00:00 -0500
 categories: 
 ---

@@ -1,12 +1,14 @@
 $row-items: 6;
+$column-gap: 40px;
 
 .Grid {
+  width: 100%;
+  max-width: $desktop-text-width;
+  padding-bottom: $large-spacing;
   display: grid;
   grid-template-columns: repeat($row-items, 1fr);
-  max-width: $desktop-text-width;
-  column-gap: $base-spacing;
+  column-gap: $column-gap;
   row-gap: $small-spacing;
-  padding-bottom: $large-spacing;
 
   & + .Grid {
     border-top: 1px solid $dark-gray;
@@ -36,6 +38,10 @@ $row-items: 6;
   &--third {
     grid-column-end: span $row-items / 3;
   }
+
+  &--twoThirds {
+    grid-column-end: span ($row-items / 3 * 2);
+  }
 }
 
 .Section {
@@ -45,7 +51,7 @@ $row-items: 6;
   align-items: center;
   flex-direction: column;
   position: relative;
-  margin: $base-spacing 0;
+  margin: 0 0 $base-spacing;
 
   &-heading {
     margin: $large-spacing 0 $base-spacing;
@@ -60,10 +66,7 @@ $row-items: 6;
 }
 
 .Persona {
-  background: $dark-green;
-  width: 286px;
-  height: 286px;
-  border-radius: 50%;
+  text-align: center;
 }
 
 .StatisticsContainer {
@@ -106,9 +109,9 @@ $row-items: 6;
   }
 
   &-background {
-    background: #FFF7E4;
-    width: 286px;
-    height: 286px;
+    background: $light-yellow;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     vertical-align: middle;
     position: absolute;
@@ -156,6 +159,35 @@ $row-items: 6;
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M0 99 L99 0 L100 1 L1 100' fill='#e5e5e5' /></svg>");
   }
 }
+
+.PostHeader {
+  .Grid {
+    margin-top: $small-spacing;
+    padding-bottom: 0;
+  }
+
+  .GridItem:first-child {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    position: absolute;
+    left: 5%;
+    z-index: -1;
+    
+    svg {
+      width: 100%;
+    }
+  }
+
+  .GridItem:nth-child(2) {
+    grid-row-start: 1;
+  }
+
+  h1 {
+    margin-bottom: $small-spacing;
+  }
+}
+
+
 
 .BlogDate {
   font-size: $small-font-size;

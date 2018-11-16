@@ -44,7 +44,7 @@ $slight-green: #4ab593;
 $light-green: #A9DFCE;
 $charcoal: #262829;
 $white: #ffffff;
-$light-yellow: #fff1d0;
+$light-yellow: #FFF7E4;
 $dark-gray: #e5e5e5;
 $gray: #f2f2f2;
 $light-gray: #f7f7f7;
@@ -60,11 +60,6 @@ $link-color: $green;
 //
 $base-border-color: $dark-gray;
 $base-border: 1px solid $base-border-color;
-
-// Background Colors
-//
-$base-background-color: $white;
-$secondary-background-color: tint($base-border-color, 75%);
 
 // Forms
 //
@@ -98,7 +93,7 @@ $min-tablet-large: $min-feature $tablet-large-width;
 $max-tablet-large: $max-feature ($tablet-large-width + 1);
 // desktop and phone max width
 $desktop-width: 1224px;
-$desktop-text-width: 1200px;
+$desktop-text-width: 1090px;
 $desktop-large-width: 1824px;
 $min-desktop: $min-feature $desktop-width;
 $max-desktop: $max-feature ($desktop-width + 1);

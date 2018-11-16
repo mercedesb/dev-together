@@ -1,0 +1,32 @@
+.Post {
+  p, blockquote, code, h1, h2, h3, h4, h5, h6, ul, ol, pre, iframe, .highlighter-rouge {
+    grid-column-start: 2;
+    grid-column-end: span 4;
+  }
+
+  h2 {
+    font-size: $med-font-size;
+    margin-bottom: 0;
+  }
+
+  iframe {
+    display: block;
+    margin: auto;
+  }
+
+  .PostImage {
+    grid-column-start: 1;
+    grid-column-end: span 5;
+    margin: $base-spacing 0 $base-spacing / 2;
+    font-size: $small-font-size;
+
+    &:nth-child(odd) {
+      grid-column-start: 2;
+    }
+
+    & + * {
+      margin: $base-spacing / 2 0;
+    }
+  }
+
+}

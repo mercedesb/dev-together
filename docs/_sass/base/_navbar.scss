@@ -3,7 +3,7 @@ $logo-width: 200px;
 .Logo {
   position: absolute;
   width: $logo-width;
-  z-index: 30;
+  z-index: 10;
   top: 20px;
 
   @include media($min-desktop) {

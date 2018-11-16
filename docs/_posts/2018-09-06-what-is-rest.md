@@ -3,7 +3,7 @@ layout: post
 title:  "What is ReST — An Interview Survival Guide"
 author: "Mina Slater | <a href=\"https://twitter.com/Minar528\">@Minar528</a>" 
 description: "I was recently caught off-guard at a job interview by this question: What is Rest?"
-permalink:  "blog/what-is-rest"
+permalink:  "/blog/what-is-rest"
 canonical: https://medium.com/@Minar528/what-is-rest-415a1c32e224
 date:   2018-09-06 12:00:00 -0500
 ---
@@ -32,10 +32,8 @@ Assuming that you, the Reader, are familiar with the Client-Server-Database stru
 <br/>
 <br/>
 
-![REST]({{ '/assets/images/WhatIsRest.jpeg' | prepend: site.baseurl }})
-Image by: [DoodlingDev](http://doodlingdev.com/)
-<br/>
-<br/>
+{% include post_image.html src="../assets/images/WhatIsRest.jpeg" alt="A doodle drawn by DoodlingDev (http://doodlingdev.com/) of a webpage talking to a server and saying 'REST'" %} 
+
 
 A “ReSTful” design is complex; way more complex than an Interviewer is looking for in a short interview answer. Here, we will cover the following:
 
