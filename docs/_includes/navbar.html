@@ -1,4 +1,9 @@
-<a href="/" class="Logo"><img src="../assets/images/Dev_TogetherLogoWhite.svg" alt="Dev Together logo" /></a>
+{% if include.use_white_logo %}
+  <a href="/" class="Logo"><img src="../assets/images/Dev_TogetherLogoWhite.svg" alt="Dev Together logo" /></a>
+{% else %}
+  <a href="/" class="Logo"><img src="../assets/images/Dev_TogetherLogoColor.svg" alt="Dev Together logo" /></a>
+{% endif %}
+
 <a href="#navbar" id="menu-burger" class="menu-burger">Menu
   <span class="nav-icon"></span>
 
