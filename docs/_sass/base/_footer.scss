@@ -1,29 +1,40 @@
+$footer-spacing: 130px;
 
-.site-footer {
-  @extend %clearfix;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: $base-spacing 0 0;
-  border-top: 1px solid $deep-green;
+.GlobalFooter {
+  background-color: $charcoal;
+  color: $white;
+  padding-top: $footer-spacing;
+  text-align: center;
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /*max-width: 50%;*/
-    padding-top: $base-spacing;
-    border-top: $base-border;
-    margin-left: 2em;
-
-    strong {
-      font-size: 3em;
-      font-style: italic;
-    }
+  .BackgroundHeading {
+    z-index: 0;
   }
 
-  p {
-    margin-bottom: 0;
+  .Section-heading {
+    z-index: 1;
+  }
+
+  ul {
+    list-style: none;
+    border-top: 3px solid $dark-gray;
+    display: flex;
+    justify-content: center;
+    margin: $small-spacing;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+
+    @include media($min-desktop) {
+      flex-direction: row;
+    }
+
+    li {
+      margin: $small-spacing $base-spacing;
+      a {
+        color: $white;
+        font-weight: $bold-font-weight;
+      }
+    }
   }
 }
 
@@ -55,6 +66,13 @@
   }
 }
 
+.Copyright {
+  font-weight: $light-font-weight;
+  font-family: $sans-serif-font-family;
+  padding: $small-spacing;
+  font-size: 16px;
+}
+
 .social {
   padding-left: 0;
   li {
@@ -76,34 +94,5 @@
 
   .icon {
     font-size: 1.2rem;
-  }
-}
-
-.GlobalFooter {
-  background-color: $green;
-  color: $white;
-  display: flex;
-  justify-content: center;
-
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    margin: $small-spacing 0;
-    flex-direction: column;
-    text-align: center;
-    padding: 0;
-
-    @include media($min-desktop) {
-      flex-direction: row;
-    }
-
-    li {
-      margin: .5rem $base-spacing;
-      a {
-        color: $white;
-        font-weight: $bold-font-weight;
-      }
-    }
   }
 }

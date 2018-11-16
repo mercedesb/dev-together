@@ -1,8 +1,24 @@
 <footer class="GlobalFooter">
+  <section class="Section">
+    <img class="BackgroundHeading" src="../assets/images/GetInvolved.svg" alt="Get Involved text" />
+    <h2 class="h1 Section-heading">Join Us!</h2>
+    <div class="Grid Grid--noBorder">
+      <div class="GridItem GridItem--full">
+        <p class="Subtitle">
+        Become a part of a growing community and continue to develop your technical and non-technical skills.
+        </p>
+        <div>
+          <a class="Button Button--light" href="/chapters">Find a Chapter</a>
+        </div>
+      </div>
+    </div>
+  </section>
   <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/code-of-conduct">Code of conduct</a></li>
-    <li><a href="/blog">Blog</a></li>
-    <li><a href="/chapters/#upcoming-events">Upcoming events</a></li>
+    {% for node in site.headernav %}
+      <li><a href="{{ node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
+    {% endfor %}
   </ul>
+  <div class="Copyright">
+    &copy; 2018 Dev Together
+  </div>
 </footer>
