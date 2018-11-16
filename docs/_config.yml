@@ -32,17 +32,20 @@ url: http://github.com/mercedesb/dev-together
 baseurl: "/"
 headernav:
   -
-    title: Home
-    url: "/"
+    title: Our Approach
+    url: "/approach/"
+  -
+    title: Chapters
+    url: "/chapters/"
+  -
+    title: Sponsorship
+    url: "/sponsorship/"
   -
     title: Blog
     url: "/blog/"
   -
-    title: Find a chapter
-    url: "/chapters/"
-  -
-    title: Become a sponsor
-    url: "/sponsorship/"
+    title: Code of Conduct
+    url: "/code-of-conduct/"
 
 # Author settings
 author:

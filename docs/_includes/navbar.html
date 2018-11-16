@@ -3,32 +3,25 @@
   <span class="nav-icon"></span>
 
   <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
-    <circle fill="transparent" stroke="#000000" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+    <circle fill="transparent" stroke="#19372E" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
   </svg>
 </a>
 
 <div id="navbar" class="navbar">
+  <a href="/" class="Logo"><img src="../assets/images/Dev_TogetherLogoWhite.svg" alt="Dev Together logo" /></a>
+
   <div class="navigation-wrapper">
     <div class="half-block">
       <nav>
         <ul class="primary-nav">
           {% for node in site.headernav %} 
-              <li><a href="{{ node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
+            <li><a href="{{ node.url | prepend: site.baseurl }}">{{node.title}}</a></li>
           {% endfor %}
           <li>
             <a href="{{ site.author.twitter }}" target="_blank" class="icon">
-              <svg>
+              <svg title="Twitter">
                 <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-twitter' | prepend: site.baseurl }}"></use>
               </svg>
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank" class="icon">
-              <svg>
-                <use xlink:href="{{ '/assets/fonts/symbol-defs.svg#icon-rss' | prepend: site.baseurl }}"></use>
-              </svg>
-              RSS
             </a>
           </li>
         </ul>

@@ -129,7 +129,7 @@ $logo-width: 200px;
   width: 100%;
   text-align: center;
   visibility: hidden;
-  background-color: tint($charcoal, 5%);
+  background-color: $charcoal;
   @include transition(visibility 0s $animation-duration);
 
   .navigation-wrapper {
@@ -158,39 +158,19 @@ $logo-width: 200px;
     }
   }
 
-  h2 {
-    position: relative;
-    margin-bottom: 1.7em;
-    font-size: 1.3rem;
-    font-weight: 800;
-    color: darken($green, 5%);
-    text-transform: uppercase;
-
-    &::after {
-      content: '';
-      position: absolute;
-      left: 50%;
-      margin-left: -30px;
-      bottom: -20px;
-      height: 1px;
-      width: 60px;
-      background-color: currentColor;
-    }
-  }
-
   .primary-nav {
-    margin-top: 60px;
+    margin-top: $base-spacing;
     list-style: none;
 
     li {
-      margin: 1.6em 0;
+      margin: $small-spacing 0;
     }
 
     a {
-      font-size: 1.4rem;
-      text-decoration: none;
-      color: rgba($white, .5);
-      font-weight: $light-font-weight;
+      color: $white;
+      font-weight: $bold-font-weight;
+      font-size: $large-font-size;
+      font-family: $serif-font-family;
       display: inline-block;
 
       &.selected {
@@ -207,25 +187,6 @@ $logo-width: 200px;
     .navigation-wrapper {
       padding: 62px 20%;
       @include clearfix;
-    }
-
-    .primary-nav {
-      margin-top: 0;
-    }
-
-    h2 {
-      font-size: 1.6rem;
-      margin-bottom: 5.6em;
-    }
-
-    .primary-nav {
-      li {
-        margin: 2em 0;
-      }
-
-      a {
-        font-size: 2rem;
-      }
     }
   }
 
@@ -245,64 +206,5 @@ body:not(.navigation-is-open) {
 body.navigation-is-open {
   .menu-burger {
     background-color: $charcoal;
-  }
-}
-
-.HeaderNav {
-
-  display: flex;
-  color: $white;
-  justify-content: center;
-
-  .HeaderNav-list {
-    list-style: none;
-    display: flex;
-    align-items: center
-  }
-
-  .HeaderNav-item { 
-    color: $white;
-    padding: 0 $base-spacing;
-    position: relative;
-
-    &:after {
-      content : "";
-      position: absolute;
-      left    : 25%;
-      bottom  : -5px;
-      height  : 1px;
-      width   : 50%;
-    }
-
-    &:hover:after {
-      border-bottom: 1px solid $white;
-    }
-
-    &--active:after {
-      border-bottom: 1px solid $white;
-    }
-
-    &:last-child {
-      border: 1px solid $white;
-      border-radius: 3px;
-      padding: .5em;
-
-      &:hover {
-        background-color: $green;
-        cursor: pointer;
-      }
-
-      &:after {
-        content: none;
-      }
-    }
-
-    a {
-      color: $white;
-
-      &:hover {
-        text-decoration: none;
-      }
-    }
   }
 }
