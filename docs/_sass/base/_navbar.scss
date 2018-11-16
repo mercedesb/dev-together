@@ -1,4 +1,16 @@
+$logo-width: 200px;
 
+.Logo {
+  position: absolute;
+  width: $logo-width;
+  z-index: 30;
+  top: 20px;
+
+  @include media($min-desktop) {
+    top: $base-spacing;
+    left: $large-spacing;
+  }
+}
 .menu-burger {
   position: fixed;
   z-index: 30;
