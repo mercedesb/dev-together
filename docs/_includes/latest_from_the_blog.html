@@ -1,13 +1,16 @@
 <section class="Section">
   <img class="BackgroundHeading" src="../assets/images/TheLatest.svg" alt="The Latest text" />
   <h2 class="h1 Section-heading">Recent Blog Posts</h2>
-  <div class="Section-content">
-    <div class="BlogPreview">
-      {% assign post = site.posts.first %} 
-      {% assign content = post.content %} 
-      <h3 class="BlogPreview-title"><a href="{{post.permalink}}">{{post.title}}</a></h3>
-      <p class="BlogPreview-description">{{post.description}}<br/><a href="{{post.permalink}}">Read more</a></p>
+  {% for post in site.posts | sort:"date" | reverse | limit: 3 %}
+    <div class="Grid BlogPreview">
+      <div class="GridItem GridItem--half">
+        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+        <h3><a href="{{post.permalink}}">{{post.title}}</a></h3>
+      </div>
+      <div class="GridItem GridItem--half">
+        {{post.description}}
+      </div>
     </div>
+  {% endfor %}
     <a href="blog" class="Button">Read more</a>
-  </div>
 </section>

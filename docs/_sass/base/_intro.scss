@@ -13,8 +13,8 @@ body.home-intro {
   position: relative;
   padding: 0 $base-spacing;
   text-align: center;
-  color: $lighter-gray-color;
-  background: $primary-color-dark;
+  color: $light-gray;
+  background: $deep-green;
   overflow: hidden;
 }
 
@@ -40,7 +40,7 @@ body.home-intro {
 .post-header .post-title {
   font-size: 2.6rem;
   margin: 0 0 20px;
-  color: $white-color;
+  color: $white;
   font-weight: $light-font-weight;
 
   @include media($min-tablet) {

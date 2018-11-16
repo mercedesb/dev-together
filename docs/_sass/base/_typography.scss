@@ -92,7 +92,7 @@ code {
   font-size: 0.9em;
   margin: 0;
   padding: 0 5px;
-  background-color: lighten($lighter-gray-color, 6%);
+  background-color: lighten($light-gray, 6%);
 }
 
 pre {
@@ -107,7 +107,7 @@ pre {
 }
 
 blockquote {
-  border-left: 3px solid $primary-color;
+  border-left: 3px solid $green;
   padding-left: $base-spacing;
   font-style: italic;
 }
@@ -115,7 +115,7 @@ blockquote {
 strong {
   font-weight: $bold-font-weight;
   font-size: 1.2rem;
-  color: $brand-color;
+  color: $green;
 }
 
 .Subtitle {

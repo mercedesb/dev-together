@@ -22,7 +22,7 @@
     @include center; // mixin inside partials > _mixins.scss
     width: 22px;
     height: 2px;
-    background-color: $white-color;
+    background-color: $white;
 
     &::before, &:after {
       /* upper and lower lines of the menu icon */
@@ -117,7 +117,7 @@
   width: 100%;
   text-align: center;
   visibility: hidden;
-  background-color: tint($black-color, 5%);
+  background-color: tint($charcoal, 5%);
   @include transition(visibility 0s $animation-duration);
 
   .navigation-wrapper {
@@ -151,7 +151,7 @@
     margin-bottom: 1.7em;
     font-size: 1.3rem;
     font-weight: 800;
-    color: darken($primary-color, 5%);
+    color: darken($green, 5%);
     text-transform: uppercase;
 
     &::after {
@@ -177,16 +177,16 @@
     a {
       font-size: 1.4rem;
       text-decoration: none;
-      color: rgba($white-color, .5);
+      color: rgba($white, .5);
       font-weight: $light-font-weight;
       display: inline-block;
 
       &.selected {
-        color: $white-color;
+        color: $white;
       }
 
       .no-touch &:hover {
-        color: $white-color;
+        color: $white;
       }
     }
   }
@@ -218,7 +218,7 @@
   }
 
   .icon svg {
-    fill: rgba($white-color, .5);
+    fill: rgba($white, .5);
   }
 }
 
@@ -232,14 +232,14 @@ body:not(.navigation-is-open) {
 
 body.navigation-is-open {
   .menu-burger {
-    background-color: $black-color;
+    background-color: $charcoal;
   }
 }
 
 .HeaderNav {
 
   display: flex;
-  color: $white-color;
+  color: $white;
   justify-content: center;
 
   .HeaderNav-list {
@@ -249,7 +249,7 @@ body.navigation-is-open {
   }
 
   .HeaderNav-item { 
-    color: $white-color;
+    color: $white;
     padding: 0 $base-spacing;
     position: relative;
 
@@ -263,20 +263,20 @@ body.navigation-is-open {
     }
 
     &:hover:after {
-      border-bottom: 1px solid $white-color;
+      border-bottom: 1px solid $white;
     }
 
     &--active:after {
-      border-bottom: 1px solid $white-color;
+      border-bottom: 1px solid $white;
     }
 
     &:last-child {
-      border: 1px solid $white-color;
+      border: 1px solid $white;
       border-radius: 3px;
       padding: .5em;
 
       &:hover {
-        background-color: $primary-color;
+        background-color: $green;
         cursor: pointer;
       }
 
@@ -286,7 +286,7 @@ body.navigation-is-open {
     }
 
     a {
-      color: $white-color;
+      color: $white;
 
       &:hover {
         text-decoration: none;

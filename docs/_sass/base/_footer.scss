@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: $base-spacing 0 0;
-  border-top: 1px solid $primary-color-dark;
+  border-top: 1px solid $deep-green;
 
   .container {
     display: flex;
@@ -80,7 +80,7 @@
 }
 
 .GlobalFooter {
-  background-color: $brand-color;
+  background-color: $green;
   color: $white;
   display: flex;
   justify-content: center;

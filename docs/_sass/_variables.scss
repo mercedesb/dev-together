@@ -51,35 +51,21 @@ $dark-gray: #e5e5e5;
 $gray: #f2f2f2;
 $light-gray: #f7f7f7;
 
-$primary-color: #4EAA8D;
-$brand-color: #44957C;
-$brand-light: #4EAA8D;
-$brand-dark: #3e8770;
-$primary-color-dark: darken($primary-color, 6%);
-$white-color: #fff;
-$black-color: #252627;
-$black: #252627;
-$blue-color: #477dca;
-$dark-gray-color: #989898;
-$medium-gray-color: lighten($dark-gray-color, 20%);
-$light-gray-color: #D8D8D8;
-$light-gray: #D8D8D8;
-$lighter-gray-color: lighten($light-gray-color, 20%);
 
 // Font Colors
 //
 $base-font-color: $charcoal;
-$action-color: $brand-color;
+$action-color: $slight-green;
 $link-color: $deep-green;
 
 // Border
 //
-$base-border-color: $dark-gray-color;
+$base-border-color: $dark-gray;
 $base-border: 1px solid $base-border-color;
 
 // Background Colors
 //
-$base-background-color: $white-color;
+$base-background-color: $white;
 $secondary-background-color: tint($base-border-color, 75%);
 
 // Forms

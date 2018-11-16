@@ -1,0 +1,52 @@
+.Row {
+  display: flex;
+}
+
+.Background {
+  padding: $base-spacing;
+
+  &--dark-green {
+    background-color: $dark-green;
+  }
+
+  &--deep-green {
+    background-color: $deep-green;
+  }
+
+  &--green {
+    background-color: $green;
+  }
+
+  &--accent-green {
+    background-color: $accent-green;
+  }
+  
+  &--slight-green {
+    background-color: $slight-green;
+  }
+
+  &--light-green {
+    background-color: $light-green;
+  }
+
+  &--charcoal {
+    background-color: $charcoal;
+  }
+
+  &--light-yellow {
+    background-color: $light-yellow;
+  }
+
+  &--dark-gray {
+    background-color: $dark-gray;
+  }
+
+  &--gray {
+    background-color: $gray;
+  }
+
+  &--light-gray {
+    background-color: $light-gray;
+  }
+
+}
