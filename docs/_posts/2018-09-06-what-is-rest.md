@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is ReST — An Interview Survival Guide"
-author: "Mina Slater | <a href=\"https://twitter.com/Minar528\">@Minar528</a>" 
+author: "<a href=\"https://twitter.com/Minar528\">Mina Slater</a>" 
 description: "I was recently caught off-guard at a job interview by this question: What is Rest?"
 permalink:  "/blog/what-is-rest"
 canonical: https://medium.com/@Minar528/what-is-rest-415a1c32e224
