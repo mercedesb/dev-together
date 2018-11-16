@@ -4,7 +4,11 @@ $footer-spacing: 130px;
   background-color: $charcoal;
   color: $white;
   padding-top: $footer-spacing;
+  width: 100%;
   text-align: center;
+  position: fixed;
+	bottom: 0;
+	z-index: -1;
 
   .BackgroundHeading {
     z-index: 0;

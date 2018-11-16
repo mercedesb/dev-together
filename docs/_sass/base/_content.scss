@@ -55,11 +55,11 @@ $column-gap: 40px;
 
   &-heading {
     margin: $large-spacing 0 $base-spacing;
+    z-index: 1;
   }
 }
 
 .BackgroundHeading {
-  z-index: -1;
   position: absolute;
   top: 0;
   max-width: 1375px;
@@ -115,7 +115,6 @@ $column-gap: 40px;
     border-radius: 50%;
     vertical-align: middle;
     position: absolute;
-    z-index: -1;
 
     &--blue {
       background: #EBF3FB;
@@ -129,6 +128,7 @@ $column-gap: 40px;
   &-number {
     font-size: 135px;
     color: $green;
+    z-index: 1;
   }
 
   &-container {
@@ -140,6 +140,7 @@ $column-gap: 40px;
     font-family: $sans-serif-font-family;
     font-weight: $light-font-weight;
     width: 400px;
+    z-index: 1;
   }
 }
 
@@ -159,35 +160,6 @@ $column-gap: 40px;
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M0 99 L99 0 L100 1 L1 100' fill='#e5e5e5' /></svg>");
   }
 }
-
-.PostHeader {
-  .Grid {
-    margin-top: $small-spacing;
-    padding-bottom: 0;
-  }
-
-  .GridItem:first-child {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    position: absolute;
-    left: 5%;
-    z-index: -1;
-    
-    svg {
-      width: 100%;
-    }
-  }
-
-  .GridItem:nth-child(2) {
-    grid-row-start: 1;
-  }
-
-  h1 {
-    margin-bottom: $small-spacing;
-  }
-}
-
-
 
 .BlogDate {
   font-size: $small-font-size;

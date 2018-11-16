@@ -32,5 +32,31 @@
       margin: $base-spacing / 2 0;
     }
   }
+}
 
+.PostHeader {
+  .Grid {
+    margin-top: $small-spacing;
+    padding-bottom: 0;
+  }
+
+  .GridItem:first-child {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    position: absolute;
+    left: 5%;
+    
+    svg {
+      width: 100%;
+    }
+  }
+
+  .GridItem:nth-child(2) {
+    grid-row-start: 1;
+    z-index: 1;
+  }
+
+  h1 {
+    margin-bottom: $small-spacing;
+  }
 }
