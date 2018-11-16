@@ -14,6 +14,10 @@
     margin: auto;
   }
 
+  blockquote {
+    padding: $small-spacing 35px 0;
+  }
+
   .PostImage {
     grid-column-start: 1;
     grid-column-end: span 5;
