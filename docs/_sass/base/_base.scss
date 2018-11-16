@@ -12,7 +12,6 @@
 @import "globals";
 @import "intro";
 @import "navbar";
-@import "post";
 @import "syntax-highlighting";
 @import "footer";
 
@@ -21,5 +20,7 @@
 @import "chapters";
 @import "styleguide";
 
-
+.Page {
+  margin-top: $large-spacing;
+}
 
