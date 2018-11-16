@@ -17,19 +17,8 @@ html {
 }
 
 body {
+  display: table;
   background-color: $base-background-color;
-}
-
-.container {
-  max-width: $desktop-text-width;
-  padding: {
-    left: $small-spacing;
-    right: $small-spacing;
-  };
-  margin: {
-    left: auto;
-    right: auto;
-  };
 }
 
 %clearfix,
@@ -37,15 +26,17 @@ body {
   @include clearfix;
 }
 
-.inline {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
 .icon {
   svg {
     width: 20px;
     height: 20px;
+  }
+}
+
+.Page {
+  margin-top: $large-spacing;
+
+  .Section-heading + .Grid {
+    padding-top: $large-spacing;
   }
 }
