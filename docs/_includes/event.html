@@ -1,17 +1,25 @@
 {% if include.event.signupLink %}
-  <a class="Event" href="{{include.event.signupLink}}" target="_blank">
-    <p class="Event-date">{{include.event.displayDate}}</p>
-    <p class="Event-time">{{include.event.time}}</p>
-    <p class="Event-name">{{include.event.name}}</p>
-    <p class="Event-sponsor">{{include.event.sponsor}}</p>
-    <p class="Event-location">{{include.event.location}}</p>
+  <a class="GridItem GridItem--third Event" href="{{include.event.signupLink}}" target="_blank">
+    <p>
+      <span class="Event-date">{{include.event.displayDate}}</span><br/>
+      <span class="Event-time">{{include.event.time}}</span>
+    </p>
+    <h2 class="Event-name">{{include.event.name}}</h2>
+    <p class="Event-sponsor">
+      <span>{{include.event.sponsor}}</span><br />
+      <span class="Event-location">{{include.event.location}}</span>
+    </p>
   </a>
 {% else %}
-  <div class="Event">
-    <p class="Event-date">{{include.event.displayDate}}</p>
-    <p class="Event-time">{{include.event.time}}</p>
-    <p class="Event-name">{{include.event.name}}</p>
-    <p class="Event-sponsor">{{include.event.sponsor}}</p>
-    <p class="Event-location">{{include.event.location}}</p>
+  <div class="GridItem GridItem--third Event">
+    <p>
+      <span class="Event-date">{{include.event.displayDate}}</span><br />
+      <span class="Event-time">{{include.event.time}}</span>
+    </p>
+    <h2 class="Event-name">{{include.event.name}}</h2>
+    <p class="Event-sponsor">
+      <span>{{include.event.sponsor}}</span><br />
+      <span class="Event-location">{{include.event.location}}</span>
+    </p>
   </div>
 {% endif %}

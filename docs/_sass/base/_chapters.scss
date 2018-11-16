@@ -5,3 +5,66 @@ a.Chapter {
     color: $charcoal;
   }
 }
+
+.Event {
+  background-color: $deep-green;
+  width: 100%;
+  color: $white !important;
+  padding: $small-spacing;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &-date, &-time {
+    font-size: $small-font-size;
+  }
+
+  &-name {
+    font-size: 30px;
+    margin: 40px 0;
+  }
+
+  &-sponsor {
+    margin-bottom: 0;
+
+    span {
+      font-family: $serif-font-family;
+    }
+  }
+
+  &-location {
+    font-size: $small-font-size;
+  }
+}
+
+.ChapterContact {
+  .GridItem--full {
+    text-align: center;
+  }
+}
+
+.email-signup {
+  .mc-field-group {
+
+    &.input-group {
+      flex-direction: column;
+      align-items: initial;
+      
+      ul {
+        list-style: none;
+      }
+    }
+  }
+
+  label {
+    font-weight: 400;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  input {
+    margin-bottom: 1em;
+  }
+}

@@ -42,34 +42,6 @@ $footer-spacing: 130px;
   }
 }
 
-.email-signup {
-  margin-top: $base-spacing;
-
-  .mc-field-group {
-
-    &.input-group {
-      flex-direction: column;
-      align-items: initial;
-      
-      ul {
-        list-style: none;
-      }
-    }
-  }
-
-  label {
-    font-weight: 400;
-  }
-
-  ul {
-    padding-left: 0;
-  }
-
-  input {
-    margin-bottom: 1em;
-  }
-}
-
 .Copyright {
   font-weight: $light-font-weight;
   font-family: $sans-serif-font-family;

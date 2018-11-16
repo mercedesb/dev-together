@@ -8,18 +8,5 @@ redirect_from:
 ---
 {% assign chapter = site.data.chapters | where: "name", "Chi" | first %}
 
-<h2>Upcoming events</h2>
-
-{% assign events = site.data.events | where: "chapter", "Chi" | sort: "date" %}
-
-<div class="Events">
-  {% for event in events %}
-     {% include event.html event=event %}
-  {% endfor %}
-</div>
-
-{% include chapter_contact_info.html chapter=chapter %}
-
-{% include contact.html %}
-
+{% include chapter.html chapter=chapter %}
 
