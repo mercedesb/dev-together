@@ -5,6 +5,7 @@ $row-items: 6;
   grid-template-columns: repeat($row-items, 1fr);
   max-width: $desktop-text-width;
   column-gap: $base-spacing;
+  row-gap: $small-spacing;
 
   & + .Grid {
     margin-top: $base-spacing;
@@ -56,44 +57,6 @@ $row-items: 6;
   width: 286px;
   height: 286px;
   border-radius: 50%;
-}
-
-.LatestBlog {
-  background-color: $light-gray;
-
-  &-link {
-    font-weight: $base-font-weight;
-    color: $charcoal;
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: flex-end;
-
-    a {
-      display: flex;
-      align-items: center;
-    }
-
-    svg {
-      margin-left: .5rem;
-    }
-  }
-}
-
-.Vision {
-  background-color: $green;
-  text-align: center;
-  color: $white;
-  font-size: 1.2rem;
-  padding: 1rem 0;
-  
-  .Section-content {
-    max-width: $desktop-width;
-  }
-
-  @include media($min-desktop) {
-    font-size: 1.5rem;
-    padding: 2rem;
-  }
 }
 
 .StatisticsContainer {
@@ -185,6 +148,4 @@ $row-items: 6;
   &--up {
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M0 99 L99 0 L100 1 L1 100' fill='#e5e5e5' /></svg>");
   }
-
-  
 }
