@@ -8,8 +8,8 @@ layout: compress
 
   <body{% if page.body_class %} class="{{ page.body_class }}{% endif %}">
 
-    <main class="wrapper">
-      {% include header.html %}
+    {% include header.html %}
+    <main class="Page">
       {{ content }}
     </main>
     {% include global_footer.html %}
