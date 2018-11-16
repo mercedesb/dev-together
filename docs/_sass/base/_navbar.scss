@@ -30,48 +30,10 @@ $logo-width: 200px;
 
   .nav-icon {
     /* icon created in CSS */
+    z-index: 1;
     position: absolute;
     @include center; // mixin inside partials > _mixins.scss
-    width: 22px;
-    height: 2px;
-    background-color: $white;
 
-    &::before, &:after {
-      /* upper and lower lines of the menu icon */
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 100%;
-      height: 100%;
-      background-color: inherit;
-
-      /* Force Hardware Acceleration in WebKit */
-      @include transform(translateZ(0));
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-
-      @include transition(transform $animation-duration - .2s, width $animation-duration - .2s, top .3s);
-    }
-
-    &::before {
-      @include transform-origin(right top);
-      @include transform(translateY(-6px));
-    }
-
-    &::after {
-      @include transform-origin(right bottom);
-      @include transform(translateY(6px));
-    }
-
-  }
-
-  .no-touch &:hover .nav-icon::after {
-    top: 2px;
-  }
-
-  .no-touch &:hover .nav-icon::before {
-    top: -2px;
   }
 
   svg {
@@ -89,26 +51,6 @@ $logo-width: 200px;
     /* rotate trigger when navigation becomes visible */
     @include transform(rotate(180deg));
 
-    .nav-icon::after,
-    .nav-icon::before {
-      /* animate arrow --> from hamburger to arrow */
-      width: 50%;
-      @include transition(transform $animation-duration - .2s, width $animation-duration - .2s);
-    }
-
-    .nav-icon::before {
-      @include transform(rotate(45deg));
-    }
-
-    .nav-icon::after {
-      @include transform(rotate(-45deg));
-    }
-
-    .no-touch &:hover .nav-icon::after,
-    .no-touch &:hover .nav-icon::before {
-      top: 0;
-    }
-
     circle {
       stroke-dashoffset: 0;
       @include transition(stroke-dashoffset $animation-duration - .3s .3s);
@@ -117,6 +59,18 @@ $logo-width: 200px;
 
   @include media($min-desktop) {
     top: 40px;
+  }
+}
+
+button.nav-icon {
+  background-color: $deep-green;
+
+  :hover {
+    background-color: $deep-green;
+
+    .hamburger-inner {
+      background-color: $white;
+    }
   }
 }
 

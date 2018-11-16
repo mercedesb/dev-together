@@ -4,8 +4,14 @@
   <a href="/" class="Logo"><img src="../assets/images/Dev_TogetherLogoColor.svg" alt="Dev Together logo" /></a>
 {% endif %}
 
+
 <a href="#navbar" id="menu-burger" class="menu-burger">Menu
-  <span class="nav-icon"></span>
+  
+  <button class="nav-icon hamburger hamburger--spin" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
 
   <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
     <circle fill="#19372E" stroke="#19372E" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
@@ -34,3 +40,9 @@
     </div>
   </div>
 </div>
+<script>
+  var hamburger = document.querySelector(".hamburger");
+  hamburger.addEventListener("click", function () {
+    hamburger.classList.toggle("is-active");
+  });
+</script>
