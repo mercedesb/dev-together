@@ -18,8 +18,8 @@ $row-items: 6;
     padding-top: 0;
   }
 
-  &--narrow {
-    max-width: $tablet-width;
+  &--topSpacing {
+    padding-top: $base-spacing;
   }
 }
 
@@ -155,4 +155,8 @@ $row-items: 6;
   &--up {
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M0 99 L99 0 L100 1 L1 100' fill='#e5e5e5' /></svg>");
   }
+}
+
+.BlogDate {
+  font-size: $small-font-size;
 }

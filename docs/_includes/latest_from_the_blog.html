@@ -2,9 +2,9 @@
   <img class="BackgroundHeading" src="../assets/images/TheLatest.svg" alt="The Latest text" />
   <h2 class="h1 Section-heading">Recent Blog Posts</h2>
   {% for post in site.posts | sort:"date" | reverse | limit: 3 %}
-    <div class="Grid BlogPreview">
+    <div class="Grid Grid--topSpacing">
       <div class="GridItem GridItem--half">
-        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p class="BlogDate"><span>{{ post.date | date: "%b %-d, %Y" }}</span></p>
         <h3><a href="{{post.permalink}}">{{post.title}}</a></h3>
       </div>
       <div class="GridItem GridItem--half">
