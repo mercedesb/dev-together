@@ -38,35 +38,3 @@ body.home-intro {
     padding: 9em 0;
   }
 }
-
-.intro-title,
-.post-header .post-title {
-  font-size: 2.6rem;
-  margin: 0 0 20px;
-  color: $white;
-  font-weight: $light-font-weight;
-
-  @include media($min-tablet) {
-    font-size: 3rem;
-  }
-
-  @include media($min-tablet-large) {
-    font-size: 3.6rem;
-  }
-
-  @include media($min-desktop-large) {
-    font-size: 4rem;
-  }
-}
-
-.intro-subtitle {
-  margin-bottom: $small-spacing;
-  font-size: 1.2em;
-  font-family: $serif-font-family;
-  font-weight: $base-font-weight;
-  font-style: italic;
-
-  @include media($min-tablet-large) {
-    font-size: 1.6rem;
-  }
-}
