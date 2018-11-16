@@ -1,10 +1,8 @@
+$cover-spacing: 40px;
+
 .Cover {
   color: $white;
-  margin-bottom: $large-spacing;
-
-  @include media($min-tablet) {
-    background-image: url('../../assets/images/Dev_TogetherCoverImage.jpg');
-  }
+  background-image: url('../../assets/images/Dev_TogetherCoverImage.jpg');
 
   /* Full height */
   height: 100vh; 
@@ -16,32 +14,28 @@
   background-size: cover;
 
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 
   &-text {
     max-width: $desktop-text-width;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     text-align: center;
-    align-items: center;
-    // margin-top: 90px;
+    margin-top: 15%;
   }
 
   &-title {
     font-size: $large-font-size;
-    margin-bottom: 15px;
+    margin-bottom: $cover-spacing;
   }
 
   &-subtitle {
     font-size: $med-font-size;
     font-weight: $light-font-weight;
+    margin-bottom: $cover-spacing;
   }
 
   &-scroll {
     font-family: $mono-font-family;
-    margin-top: 90px;
+    margin-top: $cover-spacing * 2;
   }
 }

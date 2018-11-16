@@ -6,9 +6,16 @@ $row-items: 6;
   max-width: $desktop-text-width;
   column-gap: $base-spacing;
   row-gap: $small-spacing;
+  padding-bottom: $large-spacing;
 
   & + .Grid {
-    margin-top: $base-spacing;
+    border-top: 1px solid $dark-gray;
+    padding-top: $large-spacing;
+  }
+
+  & + .Grid--noBorder {
+    border-top: none;
+    padding-top: 0;
   }
 
   &--narrow {
@@ -38,7 +45,7 @@ $row-items: 6;
   align-items: center;
   flex-direction: column;
   position: relative;
-  margin: $large-spacing 0;
+  margin: $base-spacing 0;
 
   &-heading {
     margin: $large-spacing 0 $base-spacing;

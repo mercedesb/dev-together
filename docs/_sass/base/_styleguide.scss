@@ -3,22 +3,30 @@
 }
 
 .Background {
-  padding: $base-spacing;
+  padding: $base-spacing $small-spacing;
+  text-align: center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
 
   &--dark-green {
     background-color: $dark-green;
+  color: $white;
   }
 
   &--deep-green {
     background-color: $deep-green;
+  color: $white;
   }
 
   &--green {
     background-color: $green;
+  color: $white;
   }
 
   &--accent-green {
     background-color: $accent-green;
+    color: $white;
   }
   
   &--slight-green {
@@ -31,6 +39,7 @@
 
   &--charcoal {
     background-color: $charcoal;
+    color: $white;
   }
 
   &--light-yellow {

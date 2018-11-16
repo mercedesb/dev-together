@@ -4,14 +4,18 @@
     <h1 class="Cover-title">Connecting people starting their development career with technical mentors through low-commitment,
     high-value, human interactions</h1>
     <h2 class="Cover-subtitle">Are you trying to land your first tech job? Looking for technical mentorship? Want to grow you technical and non-technical skills?</h2>
-    <a class="Button Button--light" href="/chapters">Find a Chapter</a>
-    <a href="#" class="Cover-scroll Link--light">More About Us</a>
+    <div>
+      <a class="Button Button--light" href="/chapters">Find a Chapter</a>
+    </div>
+    <div class="Cover-scroll">
+      <a href="#" class="Link--light">More About Us</a>
+    </div>
   </div>
 </section>
 <script>
   document.querySelector('.Cover-scroll').addEventListener('click', function() {
     window.scrollTo({
-      top: document.querySelector('.Cover-text').offsetHeight,
+      top: document.querySelector('.Cover').offsetHeight,
       left: 0,
       behavior: 'smooth'
     });
