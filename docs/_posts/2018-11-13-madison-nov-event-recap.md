@@ -15,7 +15,7 @@ We started our event by going over the driver/navigator pairing pattern we use a
 
 At the end of the event, everybody gave an enthusiastic "thumbs up" when asked how the event experience was. 😄
 
-Our next event is on Tuesday, December 11 for another Code Review and Pairing session. [Hardin Design and Development](http://www.hardindd.com/) will be hosting us at 50 E Gilman St, Ste B-2200 here in Madison and will be providing food. We hope you can join us there!
+Our next event is on Tuesday, December 11 for another Code Review and Pairing session. [Hardin Design and Development](http://www.hardindd.com/) will be hosting us at 150 E Gilman St, Ste B-2200 here in Madison and will be providing food. We hope you can join us there!
 
 ![Pairing]({{ '/assets/images/events/nov132018/mad/Nov13_Pairing1.jpg' | prepend: site.baseurl }})
 ![Pairing]({{ '/assets/images/events/nov132018/mad/Nov13_Pairing2.jpg' | prepend: site.baseurl }})
