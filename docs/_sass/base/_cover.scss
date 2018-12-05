@@ -21,7 +21,7 @@ $cover-spacing: 40px;
   &-text {
     max-width: $desktop-text-width;
     text-align: center;
-    margin-top: 15%;
+    margin-top: $base-spacing;
   }
 
   &-title {

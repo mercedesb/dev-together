@@ -19,14 +19,14 @@
   }
 
   .PostImage {
-    grid-column-start: 1;
-    grid-column-end: span 5;
+    // grid-column-start: 1;
+    grid-column-end: span 6;
     margin: $base-spacing 0 $base-spacing / 2;
     font-size: $small-font-size;
 
-    &:nth-child(odd) {
-      grid-column-start: 2;
-    }
+    // &:nth-child(odd) {
+    //   grid-column-start: 2;
+    // }
 
     & + * {
       margin: $base-spacing / 2 0;
@@ -48,6 +48,7 @@
     
     svg {
       width: 100%;
+      opacity: .8;
     }
   }
 

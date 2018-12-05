@@ -37,6 +37,7 @@ $column-gap: 40px;
 
   &--half {
     grid-column-end: span $row-items / 2;
+    z-index: 1;
   }
 
   &--third {
