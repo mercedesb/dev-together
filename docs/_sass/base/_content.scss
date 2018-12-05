@@ -62,6 +62,10 @@ $column-gap: 40px;
     margin: $large-spacing 0 $base-spacing;
     z-index: 1;
   }
+
+  &-image {
+    margin-top: $large-spacing;
+  }
 }
 
 .BackgroundHeading {
