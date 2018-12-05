@@ -52,9 +52,13 @@
   }
 
   &-number {
-    font-size: 135px;
+    font-size: 100px;
     color: $green;
     z-index: 1;
+
+    @include media($min-desktop) {
+      font-size: 135px;
+    }
   }
 
   &-container {
@@ -65,8 +69,11 @@
   &-text {
     font-family: $sans-serif-font-family;
     font-weight: $light-font-weight;
-    width: 400px;
     z-index: 1;
+    
+    @include media($min-desktop) {
+      width: 400px;
+    }
   }
 }
 
