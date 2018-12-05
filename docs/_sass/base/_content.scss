@@ -1,14 +1,21 @@
-$row-items: 6;
+$mobile-row-items: 1;
+$desktop-row-items: 6;
 $column-gap: 40px;
 
 .Grid {
   width: 100%;
-  max-width: $desktop-text-width;
   padding-bottom: $large-spacing;
   display: grid;
-  grid-template-columns: repeat($row-items, 1fr);
+  grid-template-columns: repeat($mobile-row-items, 1fr);
   column-gap: $column-gap;
   row-gap: $small-spacing;
+  padding: 0 $small-spacing;
+  
+  @include media($min-desktop) {
+    grid-template-columns: repeat($desktop-row-items, 1fr);
+    max-width: $desktop-text-width;
+    padding: 0;
+  }
 
   & + .Grid {
     border-top: 1px solid $dark-gray;
@@ -31,21 +38,29 @@ $column-gap: 40px;
 
 .GridItem {
   &--full {
-    grid-column-start: 2;
-    grid-column-end: span 4;
+    @include media($min-desktop) {
+      grid-column-start: 2;
+      grid-column-end: span 4;
+    }
   }
 
   &--half {
-    grid-column-end: span $row-items / 2;
     z-index: 1;
+    @include media($min-desktop) {
+      grid-column-end: span $desktop-row-items / 2;
+    }
   }
 
   &--third {
-    grid-column-end: span $row-items / 3;
+    @include media($min-desktop) {
+      grid-column-end: span $desktop-row-items / 3;
+    }
   }
 
   &--twoThirds {
-    grid-column-end: span ($row-items / 3 * 2);
+    @include media($min-desktop) {
+      grid-column-end: span ($desktop-row-items / 3 * 2);
+    }
   }
 }
 
@@ -71,5 +86,9 @@ $column-gap: 40px;
 .BackgroundHeading {
   position: absolute;
   top: 0;
-  max-width: 1375px;
+  max-width: 125%;
+  
+  @include media($min-desktop) {
+    max-width: 1375px;
+  }
 }

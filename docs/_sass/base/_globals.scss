@@ -22,11 +22,19 @@ html {
 
 body {
   display: table;
-  margin-bottom: 872px;
+  margin-bottom: 1263px; 
+  
+  @include media($min-desktop) {
+    margin-bottom: 872px;
+  }
 }
 
 body > * {
-  padding: 0 $large-spacing;
+  padding: 0 $small-spacing;
+
+  @include media($min-desktop) {
+    padding: 0 $large-spacing;
+  }
 
   &:first-child {
     padding-top: $large-spacing;

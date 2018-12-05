@@ -19,9 +19,12 @@ $cover-spacing: 40px;
   align-items: center;
 
   &-text {
-    max-width: $desktop-text-width;
     text-align: center;
     margin-top: $base-spacing;
+
+    @include media($min-desktop) {
+      max-width: $desktop-text-width;
+    }
   }
 
   &-title {
