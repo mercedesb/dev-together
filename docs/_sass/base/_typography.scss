@@ -20,11 +20,16 @@ h6 {
 }
 
 h1, .h1 {
-  font-size: $giant-font-size;
+  
   margin: $base-spacing 0;
   font-family: $serif-font-family;
   font-weight: $bold-font-weight;
   line-height: 1.4;
+  font-size: $med-font-size;
+
+  @include media($min-desktop) {
+    font-size: $giant-font-size;
+  }
 }
 
 h2, .h2 {
@@ -121,5 +126,9 @@ span {
 .Subtitle {
   font-family: $sans-serif-font-family;
   font-weight: $light-font-weight;
-  font-size: $med-font-size;
+  font-size: $base-font-size;
+
+  @include media($min-desktop) {
+    font-size: $med-font-size;
+  }
 }

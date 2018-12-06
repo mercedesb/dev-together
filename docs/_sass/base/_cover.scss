@@ -2,21 +2,22 @@ $cover-spacing: 40px;
 
 .Cover {
   color: $white;
-  background-image: url('../../assets/images/Dev_TogetherCoverImage.jpg');
+  background-image: url('../../assets/images/Dev_TogetherCoverImageMobile.jpg');
   margin-bottom: $large-spacing;
-
-  /* Full height */
-  height: 100vh; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @include media($min-desktop) {
+    background-image: url('../../assets/images/Dev_TogetherCoverImage.jpg');
+    /* Full height */
+    height: 100vh; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
   &-text {
     text-align: center;
@@ -28,18 +29,42 @@ $cover-spacing: 40px;
   }
 
   &-title {
-    font-size: $large-font-size;
+    font-size: $base-font-size;
+
+    @include media($min-desktop) {
+      font-size: $large-font-size;
+    }
     margin-bottom: $cover-spacing;
   }
 
   &-subtitle {
+    display: none;
+    
+    @include media($min-desktop) {
+      display: inline-block;
+    }
+
     font-size: $med-font-size;
     font-weight: $light-font-weight;
     margin-bottom: $cover-spacing;
   }
 
   &-scroll {
+    display: none;
+    
+    @include media($min-desktop) {
+      display: inline-block;
+    }
+
     font-family: $mono-font-family;
     margin-top: $cover-spacing * 2;
+  }
+
+  .Button {
+    margin-bottom: $base-spacing - $small-spacing;
+
+    @include media($min-desktop) {
+      margin-bottom: $small-spacing;
+    }
   }
 }

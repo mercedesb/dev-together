@@ -74,12 +74,20 @@ $column-gap: 40px;
   margin: 0 0 $base-spacing;
 
   &-heading {
-    margin: $large-spacing 0 $base-spacing;
     z-index: 1;
+    margin: $small-spacing 0 $base-spacing;
+    
+    @include media($min-desktop) {
+      margin: $large-spacing 0 $base-spacing;
+    }
   }
 
   &-image {
-    margin-top: $large-spacing;
+    margin-top: $base-spacing;
+
+    @include media($min-desktop) {
+      margin-top: $large-spacing;
+    }
   }
 }
 
@@ -87,7 +95,7 @@ $column-gap: 40px;
   position: absolute;
   top: 0;
   max-width: 125%;
-  
+
   @include media($min-desktop) {
     max-width: 1375px;
   }
