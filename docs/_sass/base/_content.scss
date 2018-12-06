@@ -19,7 +19,10 @@ $column-gap: 40px;
 
   & + .Grid {
     border-top: 1px solid $dark-gray;
-    padding-top: $large-spacing;
+
+    @include media($min-desktop) {
+      padding-top: $large-spacing;
+    }
   }
 
   & + .Grid--noBorder {
@@ -33,6 +36,11 @@ $column-gap: 40px;
 
   &--topSpacing {
     padding-top: $base-spacing;
+    padding-bottom: $base-spacing;
+
+    @include media($min-desktop) {
+      padding-bottom: 0;
+    }
   }
 
   &--scrollOnMobile {

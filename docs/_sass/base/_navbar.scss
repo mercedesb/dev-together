@@ -88,6 +88,14 @@ button.nav-icon {
   @include transition(visibility 0s $animation-duration);
 
   .navigation-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include media($min-desktop) {
+      display: block
+    }
+
     height: 100%;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
@@ -124,9 +132,13 @@ button.nav-icon {
     a {
       color: $white;
       font-weight: $bold-font-weight;
-      font-size: $large-font-size;
       font-family: $serif-font-family;
       display: inline-block;
+      font-size: $med-font-size;
+
+      @include media($min-desktop) {
+        font-size: $large-font-size;
+      }
 
       &.selected {
         color: $white;

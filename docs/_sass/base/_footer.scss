@@ -33,7 +33,11 @@ $footer-spacing: 130px;
     }
 
     li {
-      margin: $small-spacing $base-spacing;
+      margin: $small-spacing / 2 $base-spacing;
+      @include media($min-desktop) {
+        margin: $small-spacing $base-spacing;
+      }
+
       a {
         color: $white;
         font-weight: $bold-font-weight;
@@ -45,8 +49,12 @@ $footer-spacing: 130px;
 .Copyright {
   font-weight: $light-font-weight;
   font-family: $sans-serif-font-family;
-  padding: $small-spacing;
   font-size: 16px;
+  padding: 0 $small-spacing $small-spacing;
+
+  @include media($min-desktop) {
+    padding-top: $small-spacing;
+  }
 }
 
 .social {
