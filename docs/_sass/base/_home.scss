@@ -1,5 +1,18 @@
+.PersonasContainer {
+  @include media($min-desktop) {
+    margin-top: $large-spacing;
+  }
+}
+
 .Persona {
   text-align: center;
+  max-width: 75%;
+  margin: 0 $small-spacing 0 0;
+
+  @include media($min-desktop) {
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 .StatisticsContainer {

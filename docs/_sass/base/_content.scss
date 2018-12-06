@@ -34,6 +34,26 @@ $column-gap: 40px;
   &--topSpacing {
     padding-top: $base-spacing;
   }
+
+  &--scrollOnMobile {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    .GridItem {
+      flex: 0 0 auto;
+    }
+
+    @include media($min-desktop) {
+      display: grid;
+    }
+  }
+
 }
 
 .GridItem {
@@ -72,6 +92,10 @@ $column-gap: 40px;
   flex-direction: column;
   position: relative;
   margin: 0 0 $base-spacing;
+
+  @include media($min-desktop) {
+    margin: 0 0 $large-spacing;
+  }
 
   &-heading {
     z-index: 1;
