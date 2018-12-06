@@ -9,7 +9,8 @@
     "instagram": "devtogetherchi",
     "meetup": "devtogetherchi",
     "hasEmailSignup": true,
-    "image": "../assets/images/jonathan-j-castellon-984797-unsplash.jpg"
+    "bannerImage": "../assets/images/jonathan-j-castellon-984797-unsplash-banner.jpg",
+    "thumbImage": "../assets/images/jonathan-j-castellon-984797-unsplash-thumb.jpg"
   },
   {
     "href": "madison",
@@ -19,6 +20,7 @@
     "email": "devtogethermad@gmail.com",
     "twitter": "devtogethermad",
     "hasEmailSignup": false,
-    "image": "../assets/images/jabiz-raisdana-flickr.jpg"
+    "bannerImage": "../assets/images/jabiz-raisdana-flickr-banner.jpg",
+    "thumbImage": "../assets/images/jabiz-raisdana-flickr-thumb.jpg"
   }
 ]

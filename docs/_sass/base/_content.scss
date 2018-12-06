@@ -19,6 +19,7 @@ $column-gap: 40px;
 
   & + .Grid {
     border-top: 1px solid $dark-gray;
+    padding-top: $base-spacing;
 
     @include media($min-desktop) {
       padding-top: $large-spacing;
