@@ -76,9 +76,11 @@ $column-gap: 40px;
   &-heading {
     z-index: 1;
     margin: $small-spacing 0 $base-spacing;
+    text-align: center;
     
     @include media($min-desktop) {
       margin: $large-spacing 0 $base-spacing;
+      text-align: left; 
     }
   }
 
@@ -89,12 +91,16 @@ $column-gap: 40px;
       margin-top: $large-spacing;
     }
   }
+
+  .Button {
+    margin-top: $base-spacing;
+  }
 }
 
 .BackgroundHeading {
   position: absolute;
   top: 0;
-  max-width: 125%;
+  max-width: 135%;
 
   @include media($min-desktop) {
     max-width: 1375px;
