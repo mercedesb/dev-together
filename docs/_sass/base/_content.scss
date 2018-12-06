@@ -63,6 +63,10 @@ $column-gap: 40px;
     }
   }
 
+  &--overlap {
+    margin-top: -$base-spacing;
+  }
+
 }
 
 .GridItem {

@@ -2,7 +2,7 @@
   <img class="BackgroundHeading" src="../assets/images/Community.svg" alt="Community text" />
   <h1 class="Section-heading">{{include.chapter.location}}</h1>
   <img src="{{include.chapter.bannerImage}}" alt="People walking around the city" />
-  <div class="Grid">
+  <div class="Grid Grid--overlap Grid--scrollOnMobile">
     {% assign events = site.data.events | where: "chapter", include.chapter.name | sort: "date" | limit: 3 %}
     {% for event in events %}
     {% include event.html event=event %}
