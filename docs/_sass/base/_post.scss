@@ -15,7 +15,7 @@
   }
 
   blockquote {
-    padding: $small-spacing 35px 0;
+    padding: $small-spacing 35px;
   }
 
   .PostImage {
@@ -48,7 +48,7 @@
     
     svg {
       display: none;
-      
+
       @include media($min-desktop) {
         display: block;
         width: 100%;

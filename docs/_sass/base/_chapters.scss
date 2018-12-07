@@ -7,6 +7,14 @@
       padding-top: $large-spacing;
     }
   }
+
+  .GridItem {
+    margin-bottom: $base-mobile-spacing;
+
+    @include media($min-desktop) {
+      margin-bottom: 0;
+    }
+  }
 }
 
 a.Chapter {
@@ -14,6 +22,14 @@ a.Chapter {
   &:hover {
     text-decoration: none;
     color: $charcoal;
+  }
+
+  h2 {
+    margin: $small-spacing 0 0;
+    
+    @include media($min-desktop) {
+      margin: 0 0 $small-spacing;
+    }
   }
 }
 

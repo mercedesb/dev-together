@@ -69,6 +69,14 @@ $column-gap: 40px;
 }
 
 .GridItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include media($min-desktop) {
+    display: block;
+  }
+
   &--full {
     @include media($min-desktop) {
       grid-column-start: 2;
@@ -138,7 +146,8 @@ $column-gap: 40px;
   top: 0;
   max-width: 135%;
 
-  @include media($min-desktop) {
+  @include media($min-tablet) {
+    width: 100%;
     max-width: 1375px;
   }
 }
