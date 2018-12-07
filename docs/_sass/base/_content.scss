@@ -4,12 +4,11 @@ $column-gap: 40px;
 
 .Grid {
   width: 100%;
-  padding-bottom: $large-spacing;
   display: grid;
   grid-template-columns: repeat($mobile-row-items, 1fr);
   column-gap: $column-gap;
   row-gap: $small-spacing;
-  padding: 0 $small-spacing;
+  padding: 0 $small-spacing $base-spacing 0;
   
   @include media($min-desktop) {
     grid-template-columns: repeat($desktop-row-items, 1fr);

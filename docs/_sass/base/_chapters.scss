@@ -1,3 +1,14 @@
+.ChapterHeader {
+  & + .Grid {
+    border-top: 1px solid $dark-gray;
+    padding-top: $base-spacing;
+
+    @include media($min-desktop) {
+      padding-top: $large-spacing;
+    }
+  }
+}
+
 a.Chapter {
   color: $charcoal;
   &:hover {
@@ -14,6 +25,11 @@ a.Chapter {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0 $small-spacing;
+
+  @include media($min-desktop) {
+    margin: 0;
+  }
 
   &-date, &-time {
     font-size: $small-font-size;
