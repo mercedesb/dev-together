@@ -71,7 +71,9 @@ body > * {
 
 .Page {
   .Section-heading + .Grid {
-    padding-top: $large-spacing;
+    @include media($min-desktop) {
+      padding-top: $large-spacing;
+    }
   }
 }
 
