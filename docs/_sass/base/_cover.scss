@@ -9,7 +9,7 @@ $cover-spacing: 40px;
   align-items: center;
   background-repeat: no-repeat;
   background-position: center;
-
+  
   @include media($min-desktop) {
     background-image: url('../../assets/images/Dev_TogetherCoverImage.jpg');
     /* Full height */

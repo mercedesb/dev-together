@@ -22,10 +22,21 @@ html {
 
 body {
   display: table;
-  margin-bottom: 1263px; 
   
   @include media($min-desktop) {
     margin-bottom: 872px;
+  }
+
+  > main {
+    @include media($min-desktop) {
+      padding-bottom: $large-spacing;
+    }
+  }
+
+  > article {
+    @include media($min-desktop) {
+      padding-bottom: $large-spacing * 2;
+    }
   }
 }
 

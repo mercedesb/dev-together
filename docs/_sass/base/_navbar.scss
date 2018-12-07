@@ -145,7 +145,8 @@ button.nav-icon {
       }
 
       .no-touch &:hover {
-        color: $white;
+        color: $slight-green;
+        text-decoration: none;
       }
     }
   }

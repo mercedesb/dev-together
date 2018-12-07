@@ -6,9 +6,17 @@ $footer-spacing: 130px;
   padding-top: $footer-spacing;
   width: 100%;
   text-align: center;
-  position: fixed;
-	bottom: 0;
-	z-index: -1;
+  position: relative;
+  
+  @include media($min-desktop) {
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .Grid {
+    padding-bottom: 0;
+  }
 
   .BackgroundHeading {
     z-index: 0;
@@ -26,7 +34,7 @@ $footer-spacing: 130px;
     margin: $small-spacing;
     flex-direction: column;
     text-align: center;
-    padding: 0;
+    padding: $small-spacing 0 0;
 
     @include media($min-desktop) {
       flex-direction: row;
@@ -41,6 +49,10 @@ $footer-spacing: 130px;
       a {
         color: $white;
         font-weight: $bold-font-weight;
+
+        &:hover {
+          text-decoration: none;
+        }
       }
     }
   }

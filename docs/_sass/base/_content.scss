@@ -13,7 +13,7 @@ $column-gap: 40px;
   @include media($min-desktop) {
     grid-template-columns: repeat($desktop-row-items, 1fr);
     max-width: $desktop-text-width;
-    padding: 0;
+    padding: 0 0 $large-spacing;
   }
 
   & + .Grid {

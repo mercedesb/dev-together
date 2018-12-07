@@ -47,8 +47,13 @@
     left: 5%;
     
     svg {
-      width: 100%;
-      opacity: .8;
+      display: none;
+      
+      @include media($min-desktop) {
+        display: block;
+        width: 100%;
+        opacity: .8;
+      }
     }
   }
 
