@@ -7,7 +7,10 @@
     "email": "devtogetherchi@gmail.com",
     "twitter": "devtogetherchi",
     "instagram": "devtogetherchi",
-    "meetup": "devtogetherchi"
+    "meetup": "devtogetherchi",
+    "hasEmailSignup": true,
+    "bannerImage": "../assets/images/jonathan-j-castellon-984797-unsplash-banner.jpg",
+    "thumbImage": "../assets/images/jonathan-j-castellon-984797-unsplash-thumb.jpg"
   },
   {
     "href": "madison",
@@ -15,7 +18,10 @@
     "location": "Madison, WI",
     "leader": "Cristina Ruth",
     "email": "devtogethermad@gmail.com",
-    "twitter": "DevTogetherMad",
-    "meetup": "DevTogetherMad"
+    "twitter": "devtogethermad",
+    "meetup": "DevTogetherMad",
+    "hasEmailSignup": false,
+    "bannerImage": "../assets/images/jabiz-raisdana-flickr-banner.jpg",
+    "thumbImage": "../assets/images/jabiz-raisdana-flickr-thumb.jpg"
   }
 ]

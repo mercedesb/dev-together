@@ -2,7 +2,7 @@
 layout: post
 title:  "There is no gatekeeping here"
 description: "With our upcoming <a href=\"http://bit.ly/devtogethersept2018\">Code Review & Pairing event on September 11, 2018</a>, there have been some questions about how to 'get ready' for our code reviews and how to make sure your code is good enough."
-permalink:  "blog/no-gatekeeping"
+permalink:  "/blog/no-gatekeeping"
 date:   2018-09-03 12:00:00 -0500
 ---
 

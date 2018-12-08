@@ -1,5 +1,4 @@
 fieldset {
-  background-color: $secondary-background-color;
   border: $base-border;
   margin: 0 0 $small-spacing;
   padding: $base-spacing;
@@ -9,7 +8,7 @@ input,
 label,
 select {
   display: block;
-  font-family: $base-font-family;
+  font-family: $sans-serif-font-family;
   font-size: $base-font-size;
 }
 
@@ -28,12 +27,11 @@ label {
 
 #{$all-text-inputs},
 select[multiple=multiple] {
-  background-color: $base-background-color;
   border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
-  font-family: $base-font-family;
+  font-family: $sans-serif-font-family;
   font-size: $base-font-size;
   margin-bottom: $small-spacing;
   padding: $base-spacing / 3;
@@ -51,7 +49,7 @@ select[multiple=multiple] {
   }
 
   &:disabled {
-    background-color: shade($base-background-color, 5%);
+    background-color: $dark-gray;
     cursor: not-allowed;
 
     &:hover {

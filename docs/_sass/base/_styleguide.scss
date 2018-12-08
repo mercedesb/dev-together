@@ -1,0 +1,61 @@
+.Row {
+  display: flex;
+}
+
+.Background {
+  padding: $base-spacing $small-spacing;
+  text-align: center;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+
+  &--dark-green {
+    background-color: $dark-green;
+  color: $white;
+  }
+
+  &--deep-green {
+    background-color: $deep-green;
+  color: $white;
+  }
+
+  &--green {
+    background-color: $green;
+  color: $white;
+  }
+
+  &--accent-green {
+    background-color: $accent-green;
+    color: $white;
+  }
+  
+  &--slight-green {
+    background-color: $slight-green;
+  }
+
+  &--light-green {
+    background-color: $light-green;
+  }
+
+  &--charcoal {
+    background-color: $charcoal;
+    color: $white;
+  }
+
+  &--light-yellow {
+    background-color: $light-yellow;
+  }
+
+  &--dark-gray {
+    background-color: $dark-gray;
+  }
+
+  &--gray {
+    background-color: $gray;
+  }
+
+  &--light-gray {
+    background-color: $light-gray;
+  }
+
+}

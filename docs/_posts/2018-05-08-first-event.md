@@ -3,7 +3,7 @@ layout: post
 title:  "Announcing our first Meetup!"
 redirect_from: 
     - /first-event
-permalink:  "blog/first-event"
+permalink:  "/blog/first-event"
 date:   2018-05-08 07:13:00 -0500
 categories: event announcement
 ---

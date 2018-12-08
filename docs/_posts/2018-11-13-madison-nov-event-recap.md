@@ -2,7 +2,7 @@
 layout: post
 title:  "Madison Nov Code Review & Pairing - Thank you Bendyworks"
 description: "This month’s event happened this past Tuesday at Bendyworks. The capitol looked awesome at night and Bendyworks' office space was awesome with its leather couches, wood floors and mini-kitchen."
-permalink:  "blog/nov-thank-you-bendyworks"
+permalink:  "/blog/nov-thank-you-bendyworks"
 date:   2018-11-13 12:00:00 -0500
 categories: event recap
 ---

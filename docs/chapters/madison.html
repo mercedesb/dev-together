@@ -1,21 +1,11 @@
 ---
-layout: page
+layout: default
 title: Madison
 permalink: chapters/madison
 ---
 {% assign chapter = site.data.chapters | where: "name", "Mad" | first %}
 
-<h2>Upcoming events</h2>
-{% assign events = site.data.events | where: "chapter", "Mad" | sort: "date" %}
+{% include chapter.html chapter=chapter %}
 
-<div class="Events">
-  {% for event in events %} 
-    {% include event.html event=event %} 
-  {% endfor %}
-</div>
-
-{% include code_review_and_pairing.html %}
-
-{% include chapter_contact_info.html chapter=chapter %}
 
 

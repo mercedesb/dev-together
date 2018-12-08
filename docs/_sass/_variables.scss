@@ -1,66 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1:300,900|Merriweather:400,900|PT+Mono");
+
 // Typography
 //
-$base-font-family: 'Proxima Nova', Arial, sans-serif;
-$serif-font-family: "Georgia", serif;
-$heading-font-family: $base-font-family;
-$fonts-path: '../fonts/';
+
+$serif-font-family: 'Merriweather', serif;
+$sans-serif-font-family: 'Gothic A1', sans-serif;
+$mono-font-family: 'PT Mono', monospace;
 
 // Font weight
 //
-$font-weight-light: 300;
-$font-weight-normal: 500;
-$font-weight-bold: 600;
+$light-font-weight: 300;
+$base-font-weight: 400;
+$bold-font-weight: 900;
 
 // Font Sizes
 //
-$base-font-size: 1rem;
+$small-font-size: 14px;
+$base-font-size: 18px;
+$giant-font-size: 65px;
+$large-font-size: 45px;
+$med-font-size: 30px;
 
 // Line height
 //
-$base-line-height: 1.4;
+$base-line-height: 1.5;
 $heading-line-height: 1.2;
 
 // Other Sizes
 //
-$base-border-radius: 3px;
-$base-spacing: 2em;
-$small-spacing: $base-spacing / 2;
-$mini-spacing: $base-spacing / 4;
+$base-border-radius: 5px;
+$base-spacing: 60px;
+$base-mobile-spacing: 40px;
+$small-spacing: 20px;
+$large-spacing: 100px;
 $base-z-index: 0;
 
 // Colors
-//
-$primary-color: #4EAA8D;
-$brand-color: #44957C;
-$brand-light: #4EAA8D;
-$brand-dark: #3e8770;
-$primary-color-dark: darken($primary-color, 6%);
-$white-color: #fff;
+
+$dark-green: #0c1915;
+$deep-green: #19372E;
+$green: #44957C;
+$accent-green: #22936f;
+$slight-green: #4ab593;
+$light-green: #A9DFCE;
+$charcoal: #262829;
 $white: #ffffff;
-$black-color: #252627;
-$black: #252627;
-$blue-color: #477dca;
-$dark-gray-color: #989898;
-$medium-gray-color: lighten($dark-gray-color, 20%);
-$light-gray-color: #D8D8D8;
-$light-gray: #D8D8D8;
-$lighter-gray-color: lighten($light-gray-color, 20%);
+$light-yellow: #FFFBF3;
+$dark-gray: #e5e5e5;
+$gray: #f2f2f2;
+$light-gray: #f7f7f7;
+
 
 // Font Colors
 //
-$base-font-color: $black;
-$action-color: $brand-color;
-$link-color: $brand-dark;
+$base-font-color: $charcoal;
+$action-color: $slight-green;
+$link-color: $green;
 
 // Border
 //
-$base-border-color: $dark-gray-color;
+$base-border-color: $dark-gray;
 $base-border: 1px solid $base-border-color;
-
-// Background Colors
-//
-$base-background-color: $white-color;
-$secondary-background-color: tint($base-border-color, 75%);
 
 // Forms
 //
@@ -94,7 +94,7 @@ $min-tablet-large: $min-feature $tablet-large-width;
 $max-tablet-large: $max-feature ($tablet-large-width + 1);
 // desktop and phone max width
 $desktop-width: 1224px;
-$desktop-text-width: 920px;
+$desktop-text-width: 1090px;
 $desktop-large-width: 1824px;
 $min-desktop: $min-feature $desktop-width;
 $max-desktop: $max-feature ($desktop-width + 1);

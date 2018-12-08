@@ -1,0 +1,13 @@
+<section class="Section">
+  <img class="BackgroundHeading" src="../assets/images/Community.svg" alt="Community text" />
+  <h1 class="Section-heading">{{include.chapter.location}}</h1>
+  <img class="ChapterImage" src="{{include.chapter.bannerImage}}"alt="People walking around the city" />
+  <img class="ChapterImage ChapterImage--mobile" src="{{include.chapter.thumbImage}}" alt="People walking around the city" />
+  <div class="Grid Grid--overlap">
+    {% assign events = site.data.events | where: "chapter", include.chapter.name | sort: "date" | limit: 3 %}
+    {% for event in events %}
+    {% include event.html event=event %}
+    {% endfor %}
+  </div>
+  {% include chapter_contact_info.html chapter=include.chapter include_email_signup=chapter.hasEmailSignup %}
+</section>

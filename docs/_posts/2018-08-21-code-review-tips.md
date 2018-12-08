@@ -4,7 +4,7 @@ title:  "Code Review Tips"
 description: "Code reviews are a valuable form of mentorship and are a practical way to improve coding skills. We've shared some of our favorite tips for both submitters and reviewers."
 redirect_from: 
     - /code-review-tips
-permalink:  "blog/code-review-tips"
+permalink:  "/blog/code-review-tips"
 date:   2018-08-21 07:00:00 -0500
 categories: event recap
 ---
@@ -15,7 +15,7 @@ Have tips that you don't see here? Tweet us @devtogetherchi with your suggestion
 
 
 ## For the Submitter
-- Guiding principles before submitting code for review
+Guiding principles before submitting code for review
   - Build
     - Does the code build?
     - Use a linter so the Reviewer isn't looking for whitespace and other style issues
@@ -25,7 +25,7 @@ Have tips that you don't see here? Tweet us @devtogetherchi with your suggestion
     - Make sure to have available documentation for the project background and how to set it up
 
 ## For the Reviewer
-- Guiding principles when doing a code review
+Guiding principles when doing a code review
   - Readability
     - Is the naming expressive enough (methods and variables)?
     - Function and class length

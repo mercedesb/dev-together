@@ -1,31 +1,23 @@
 ---
 layout: default
 title: Blog
-subtitle:
+permalink: /blog/
 ---
 
-<section class="post-list">
-
-  <header class="post-header intro">
-    <div class="intro-in">
-      <h1 class="post-title">{{ page.title }}</h1>
-      {% if page.subtitle %}
-        <h2 class="intro-subtitle">{{ page.subtitle }}</h2>
-      {% endif %}
+<section class="Section">
+  <img class="BackgroundHeading" src="../assets/images/TheLatest.svg" alt="The Latest text" />
+  <h1 class="Section-heading">Blog</h1>
+  {% assign posts = site.posts | sort:"date" | reverse %}
+  {% for post in posts %}
+    <div class="Grid">
+      <div class="GridItem GridItem--half">
+        <p class="BlogDate"><span>{{ post.date | date: "%b %-d, %Y" }}</span></p>
+        <h3><a href="{{post.permalink}}">{{post.title}}</a></h3>
+      </div>
+      <div class="GridItem GridItem--half">
+        <p>{{post.description}}</p>
+      </div>
     </div>
-  </header>
-
-  {% for post in site.posts %}
-    <article class="post-item container">
-      <header>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2 class="post-title">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </header>
-
-      <p>{{ post.content | strip_html | truncatewords: 56 }} <a href="{{ post.url | prepend: site.baseurl }}" title="Permalink to: {{ post.title }}" class="read-more">Read more</a></p>
-    </article>
   {% endfor %}
 
 </section>
