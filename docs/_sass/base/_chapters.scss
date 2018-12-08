@@ -17,6 +17,23 @@
   }
 }
 
+.ChapterImage {
+  display: none;
+  
+  @include media($min-tablet) {
+    display: block;
+  }
+
+  &--mobile {
+    display: block;
+
+    @include media($min-tablet) {
+      display: none;
+    }
+  }
+
+}
+
 a.Chapter {
   color: $charcoal;
   &:hover {
