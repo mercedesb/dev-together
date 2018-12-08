@@ -10,7 +10,7 @@ $cover-spacing: 40px;
   background-repeat: no-repeat;
   background-position: center;
   
-  @include media($min-desktop) {
+  @include media($min-tablet) {
     background-image: url('../../assets/images/Dev_TogetherCoverImage.jpg');
     /* Full height */
     height: 100vh; 
@@ -31,7 +31,7 @@ $cover-spacing: 40px;
   &-title {
     font-size: $base-font-size;
 
-    @include media($min-desktop) {
+    @include media($min-tablet) {
       font-size: $large-font-size;
     }
     margin-bottom: $cover-spacing;
@@ -40,7 +40,7 @@ $cover-spacing: 40px;
   &-subtitle {
     display: none;
     
-    @include media($min-desktop) {
+    @include media($min-tablet) {
       display: inline-block;
     }
 
