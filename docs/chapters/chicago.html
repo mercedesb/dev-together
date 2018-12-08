@@ -2,10 +2,15 @@
 layout: default
 title: Chicago
 permalink: chapters/chicago
+meta_title: "Chicago Chapter | Dev Together"
+meta_description: "See our upcoming events and get in contact with our local Chicago chapter."
+open_graph_img: /assets/images/jonathan-j-castellon-984797-unsplash-thumb.jpg
+twitter_img: /assets/images/jonathan-j-castellon-984797-unsplash-thumb.jpg
 redirect_from: 
     - /for-mentors
     - /for-mentees
 ---
+
 {% assign chapter = site.data.chapters | where: "name", "Chi" | first %}
 
 {% include chapter.html chapter=chapter %}
