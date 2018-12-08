@@ -58,6 +58,7 @@ a.Chapter {
   flex-direction: column;
   justify-content: space-between;
   margin: 0 $small-spacing;
+  margin-bottom: $small-spacing;
 
   @include media($min-desktop) {
     margin: 0;
