@@ -30,12 +30,12 @@
   {
     "chapter": "Mad",
     "name": "Code Review & Pairing",
-    "displayDate": "Nov 13, 2018",
-    "date": "2018-11-13",
+    "displayDate": "Dec 11, 2018",
+    "date": "2018-12-11",
     "time": "6pm - 7:30pm",
-    "sponsor": "Bendyworks",
-    "location": "106 E Doty St #200, Madison, WI",
-    "signupLink": "http://bit.ly/devtogethermadnov2018"
+    "sponsor": "Hardin Design & Development",
+    "location": "150 E Gilman St Ste B-2200, Madison, WI",
+    "signupLink": "http://bit.ly/DevTogetherMadDec2018"
   },
   {
     "chapter": "Mad",
@@ -45,5 +45,14 @@
     "time": "6pm - 7:30pm",
     "sponsor": "CUNA Mutual Group",
     "location": "5810 Mineral Point Rd, Madison, WI"
+  },
+  {
+    "chapter": "Mad",
+    "name": "TBD",
+    "displayDate": "Feb 12, 2019",
+    "date": "2019-02-12",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Sponsor Slot Open",
+    "location": "TBD, Madison, WI"
   }
 ]
