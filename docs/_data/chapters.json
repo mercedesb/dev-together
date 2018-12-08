@@ -10,7 +10,8 @@
     "meetup": "devtogetherchi",
     "hasEmailSignup": true,
     "bannerImage": "../assets/images/jonathan-j-castellon-984797-unsplash-banner.jpg",
-    "thumbImage": "../assets/images/jonathan-j-castellon-984797-unsplash-thumb.jpg"
+    "thumbImage": "../assets/images/jonathan-j-castellon-984797-unsplash-thumb.jpg",
+    "imgAlt": "People walking on State Street in Chicago. Photo by Jonathan J. Castellon on Unsplash."
   },
   {
     "href": "madison",
@@ -22,6 +23,7 @@
     "meetup": "DevTogetherMad",
     "hasEmailSignup": false,
     "bannerImage": "../assets/images/jabiz-raisdana-flickr-banner.jpg",
-    "thumbImage": "../assets/images/jabiz-raisdana-flickr-thumb.jpg"
+    "thumbImage": "../assets/images/jabiz-raisdana-flickr-thumb.jpg",
+    "imgAlt": "Art on the square in Madison, Wisconsin. Photo by Jabiz Raisdana on Flickr."
   }
 ]
