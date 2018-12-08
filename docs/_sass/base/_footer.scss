@@ -31,10 +31,11 @@ $footer-spacing: 130px;
     border-top: 3px solid $dark-gray;
     display: flex;
     justify-content: center;
-    margin: $small-spacing;
+    margin: $small-spacing 0;
     flex-direction: column;
     text-align: center;
     padding: $small-spacing 0 0;
+    width: initial;
 
     @include media($min-desktop) {
       flex-direction: row;

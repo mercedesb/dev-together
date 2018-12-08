@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1148px" height="248px" viewBox="0 0 1148 248" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
     <title>Group 20</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -8,9 +8,9 @@
         <polygon id="path-3" points="0.335952842 0.192782474 136.112729 0.192782474 136.112729 195.092784 0.335952842 195.092784"></polygon>
         <polygon id="path-5" points="0.0731540951 0.724634793 134.048471 0.724634793 134.048471 199.731596 0.0731540951 199.731596"></polygon>
     </defs>
-    <g id="Approach" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Sponsorship" transform="translate(-383.000000, -100.000000)">
-            <g id="Group-20" transform="translate(383.000000, 100.000000)">
+    <g id="Approach" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Artboard">
+            <g id="Group-20">
                 <path d="M127.047986,9 L55.9545902,9 L54.0046029,9 L53.4739591,10.8641509 L0.924762816,195.742857 L0,199 L3.40281805,199 L58.5279553,199 L60.6093156,199 L61.0472256,196.977089 L68.5921568,162.126685 L112.859703,162.126685 L120.40721,196.977089 L120.84512,199 L122.929056,199 L179.597182,199 L183,199 L182.075237,195.742857 L129.526041,10.8641509 L128.997973,9 L127.047986,9 Z M55.9545902,11.5606469 L127.047986,11.5606469 L179.597182,196.439353 L122.929056,196.439353 L114.941063,159.566038 L66.5133724,159.566038 L58.5279553,196.439353 L3.40281805,196.439353 L55.9545902,11.5606469 Z M90.2120295,51.2506739 L74.2411953,124.997305 L107.21324,124.997305 L91.2424059,51.2506739 L90.2120295,51.2506739 Z M90.7297936,61.0349057 L104.021649,122.436658 L77.4302103,122.436658 L90.7297936,61.0349057 Z" id="Fill-1" fill="#A9DFCE"></path>
                 <g id="Group-19" transform="translate(189.000000, 0.000000)">
                     <g id="Group-4" transform="translate(0.000000, 52.899119)">

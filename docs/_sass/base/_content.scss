@@ -8,7 +8,7 @@ $column-gap: 40px;
   grid-template-columns: repeat($mobile-row-items, 1fr);
   column-gap: $column-gap;
   row-gap: $small-spacing;
-  padding: 0 $small-spacing $base-spacing 0;
+  padding: 0 0 $base-spacing 0;
   
   @include media($min-desktop) {
     grid-template-columns: repeat($desktop-row-items, 1fr);
@@ -37,10 +37,6 @@ $column-gap: 40px;
   &--topSpacing {
     padding-top: $base-spacing;
     padding-bottom: $base-spacing;
-
-    @include media($min-desktop) {
-      padding-bottom: 0;
-    }
   }
 
   &--scrollOnMobile {
@@ -64,6 +60,10 @@ $column-gap: 40px;
 
   &--overlap {
     margin-top: -$base-spacing;
+  }
+
+  &--noGap {
+    column-gap: 0;
   }
 
 }
@@ -111,20 +111,19 @@ $column-gap: 40px;
   align-items: center;
   flex-direction: column;
   position: relative;
-  margin: 0 0 $base-spacing;
-
+  margin: 0 0 $base-mobile-spacing;
+  
   @include media($min-desktop) {
     margin: 0 0 $large-spacing;
   }
-
+  
   &-heading {
     z-index: 1;
-    margin: $small-spacing 0 $base-spacing;
+    margin: $base-spacing / 2 0 $base-spacing;
     text-align: center;
     
-    @include media($min-desktop) {
+    @include media($min-tablet) {
       margin: $large-spacing 0 $base-spacing;
-      text-align: left; 
     }
   }
 
@@ -137,7 +136,11 @@ $column-gap: 40px;
   }
 
   .Button {
-    margin-top: $base-spacing;
+    margin-top: $base-mobile-spacing;
+
+    @include media($min-desktop) {
+      margin-top: $base-spacing;
+    }
   }
 }
 
@@ -145,9 +148,11 @@ $column-gap: 40px;
   position: absolute;
   top: 0;
   max-width: 135%;
-
+  max-height: 95px;
+  
   @include media($min-tablet) {
     width: 100%;
     max-width: 1375px;
+    max-height: 300px;
   }
 }

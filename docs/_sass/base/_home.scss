@@ -31,6 +31,11 @@
     margin-bottom: $base-spacing;
   }
 
+  &:nth-child(2), &:nth-child(4) {
+    margin-top: $base-mobile-spacing;
+  }
+
+
   @include media($min-desktop) {
     margin-top: 0;
 
@@ -47,6 +52,7 @@
     &:nth-child(2) {
       grid-row-start: 2;
       grid-column-start: 3;
+      margin-top: $base-spacing;
     }
 
     &:nth-child(3) {
@@ -58,6 +64,7 @@
     &:nth-child(4) {
       grid-row-start: 4;
       grid-column-start: 3;
+      margin-top: $base-spacing;
     }
 
     &:nth-child(5) {
@@ -126,7 +133,6 @@
 
 .BlogDate {
   font-size: $small-font-size;
-  margin-bottom: $small-spacing;
 }
 
 body.home-intro {
