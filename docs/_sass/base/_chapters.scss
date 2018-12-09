@@ -90,6 +90,16 @@ a.Chapter {
   }
 }
 
+a.Event {
+  &:hover {
+    text-decoration: none;
+
+    .Event-name {
+      color: $slight-green;
+    }
+  }
+}
+
 .ChapterContact {
   .GridItem--full {
     text-align: center;
