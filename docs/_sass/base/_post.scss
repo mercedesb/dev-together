@@ -21,7 +21,7 @@
   .PostImage {
     // grid-column-start: 1;
     grid-column-end: span 6;
-    margin: $base-spacing 0 $base-spacing / 2;
+    margin: $base-mobile-spacing 0 $base-spacing / 2;
     font-size: $small-font-size;
 
     // &:nth-child(odd) {
@@ -30,6 +30,11 @@
 
     & + * {
       margin: $base-spacing / 2 0;
+    }
+
+    &-caption {
+      font-family: $mono-font-family;
+      margin-top: $small-spacing / 2;
     }
   }
 }

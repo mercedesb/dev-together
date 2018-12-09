@@ -8,7 +8,7 @@ $column-gap: 40px;
   grid-template-columns: repeat($mobile-row-items, 1fr);
   column-gap: $column-gap;
   row-gap: $small-spacing;
-  padding: 0 0 $base-spacing 0;
+  padding: 0 0 $base-mobile-spacing 0;
   
   @include media($min-desktop) {
     grid-template-columns: repeat($desktop-row-items, 1fr);
@@ -89,6 +89,14 @@ $column-gap: 40px;
     @include media($min-desktop) {
       grid-column-end: span $desktop-row-items / 2;
     }
+
+    > img {
+      margin-bottom: $base-mobile-spacing;
+
+      @include media($min-desktop) {
+        margin-bottom: 0;
+      }
+    }
   }
 
   &--third {
@@ -119,7 +127,7 @@ $column-gap: 40px;
   
   &-heading {
     z-index: 1;
-    margin: $base-spacing / 2 0 $base-spacing;
+    margin: $base-spacing / 2 0 $base-mobile-spacing;
     text-align: center;
     
     @include media($min-tablet) {
@@ -128,7 +136,7 @@ $column-gap: 40px;
   }
 
   &-image {
-    margin-top: $base-spacing;
+    margin-top: $base-mobile-spacing;
 
     @include media($min-desktop) {
       margin-top: $large-spacing;

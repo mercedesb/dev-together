@@ -1,13 +1,15 @@
+$mobile-logo-width: 170px;
 $logo-width: 200px;
 
 .Logo {
   position: absolute;
-  width: $logo-width;
+  width: $mobile-logo-width;
   z-index: 10;
-  top: 40px;
+  top: 35px;
   left: 20px;
 
   @include media($min-desktop) {
+    width: $logo-width;
     top: $base-spacing;
     left: $large-spacing;
   }

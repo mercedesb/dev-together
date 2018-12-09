@@ -6,7 +6,7 @@
 
 .Persona {
   text-align: center;
-  max-width: 75%;
+  max-width: 60%;
   margin: 0 $small-spacing 0 0;
 
   @include media($min-desktop) {
@@ -133,6 +133,8 @@
 
 .BlogDate {
   font-size: $small-font-size;
+  
+  margin-bottom: 0;
 }
 
 body.home-intro {
