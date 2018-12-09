@@ -156,6 +156,7 @@ $column-gap: 40px;
   position: absolute;
   top: 0;
   max-width: 135%;
+  max-height: 95px;
   
   @include media($min-tablet) {
     width: 100%;
@@ -164,7 +165,14 @@ $column-gap: 40px;
   }
 
   &--limitHeight {
-  max-height: 80px;
-
+    max-height: 80px;
+   
+    @include media($min-tablet) {
+      max-height: 250px;
+      
+      & + .Section-heading {
+        margin-top: 145px;
+      }
+    }
   }
 }
