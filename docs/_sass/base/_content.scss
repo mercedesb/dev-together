@@ -97,6 +97,12 @@ $column-gap: 40px;
         margin-bottom: 0;
       }
     }
+
+    .Section-heading {
+      @include media($min-desktop) {
+        text-align: left;
+      }
+    }
   }
 
   &--third {
@@ -131,6 +137,10 @@ $column-gap: 40px;
     text-align: center;
     
     @include media($min-tablet) {
+      margin: $base-mobile-spacing 0 $base-spacing;
+    }
+
+    @include media($min-desktop) {
       margin: $large-spacing 0 $base-spacing;
     }
   }
@@ -156,23 +166,18 @@ $column-gap: 40px;
   position: absolute;
   top: 0;
   max-width: 135%;
-  max-height: 95px;
   
   @include media($min-tablet) {
     width: 100%;
-    max-width: 1375px;
-    max-height: 300px;
   }
 
-  &--limitHeight {
-    max-height: 80px;
-   
+  &--extraSpacing + .Section-heading {
     @include media($min-tablet) {
-      max-height: 250px;
-      
-      & + .Section-heading {
-        margin-top: 145px;
-      }
+      margin: $base-mobile-spacing 0 $base-spacing;
+    }
+
+    @include media($min-desktop) {
+      margin: $large-spacing 0;
     }
   }
 }
