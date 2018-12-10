@@ -118,6 +118,10 @@ blockquote {
   margin: 0 0 $small-spacing;
   padding: $small-spacing 35px;
   font-family: $mono-font-family;
+
+  p {
+    margin: 0;
+  }
 }
 
 strong {
