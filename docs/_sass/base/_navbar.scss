@@ -170,6 +170,10 @@ button.nav-icon {
         color: $slight-green;
         text-decoration: none;
       }
+
+      &:hover svg {
+        fill: $slight-green;
+      }
     }
   }
 
@@ -181,7 +185,7 @@ button.nav-icon {
   }
 
   .icon svg {
-    fill: rgba($white, .5);
+    fill: $white;
   }
 }
 
