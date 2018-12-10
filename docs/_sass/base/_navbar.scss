@@ -115,10 +115,6 @@ button.nav-icon {
     flex-direction: column;
     justify-content: center;
 
-    @include media($min-desktop) {
-      display: block
-    }
-
     height: 100%;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
@@ -162,7 +158,7 @@ button.nav-icon {
       display: inline-block;
       font-size: $med-font-size;
 
-      @include media($min-desktop) {
+      @include media($min-tablet) {
         font-size: $large-font-size;
       }
 
