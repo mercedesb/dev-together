@@ -43,10 +43,6 @@ a.Chapter {
 
   h2 {
     margin: $small-spacing / 2 0 0;
-    
-    @include media($min-desktop) {
-      margin: 0 0 $small-spacing;
-    }
   }
 }
 
