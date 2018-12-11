@@ -33,8 +33,13 @@ $cover-spacing: 40px;
     line-height: 1.5;
 
     @include media($min-tablet) {
+      font-size: $med-lg-font-size;
+    }
+
+    @include media($min-desktop) {
       font-size: $large-font-size;
     }
+
     margin-bottom: $cover-spacing;
   }
 

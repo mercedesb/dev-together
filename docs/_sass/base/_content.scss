@@ -119,15 +119,21 @@ $column-gap: 40px;
 }
 
 .Section {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
+  width: 100%;
   margin: 0 0 $base-mobile-spacing;
   
   @include media($min-desktop) {
+    width: 80%;
+    margin: 0 auto $base-mobile-spacing;
+  }
+  
+  @include media($min-desktop) {
+    width: 100%;
     margin: 0 0 $large-spacing;
   }
   

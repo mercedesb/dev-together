@@ -8,8 +8,11 @@ $logo-width: 200px;
   top: 35px;
   left: 20px;
 
-  @include media($min-desktop) {
+  @include media($min-tablet) {
     width: $logo-width;
+  }
+
+  @include media($min-desktop) {
     top: $base-spacing;
     left: $large-spacing;
   }

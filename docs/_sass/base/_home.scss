@@ -103,6 +103,10 @@
     font-weight: $light-font-weight;
     z-index: 1;
 
+    @include media($min-tablet) {
+      width: 50%;
+    }
+
     @include media($min-desktop) {
       width: 400px;
     }
