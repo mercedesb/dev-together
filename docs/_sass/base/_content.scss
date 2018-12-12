@@ -171,7 +171,8 @@ $column-gap: 40px;
 .BackgroundHeading {
   position: absolute;
   top: 0;
-  max-width: 135%;
+  width: 135%;
+  max-width: 1250px;
   
   @include media($min-tablet) {
     width: 100%;
