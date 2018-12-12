@@ -1,17 +1,7 @@
 [
   {
     "chapter": "Chi",
-    "name": "Code Review & Pairing",
-    "displayDate": "Dec 11, 2018",
-    "date": "2018-12-11",
-    "time": "6pm - 7:30pm",
-    "sponsor": "Coding Dojo",
-    "location": "213 West Institute",
-    "signupLink": "http://bit.ly/devtogetherdec2018"
-  },
-  {
-    "chapter": "Chi",
-    "name": "Lightning Talks (Theme TBD)",
+    "name": "Lightning Talks: Your 1st Dev Job",
     "displayDate": "Jan 8, 2018",
     "date": "2019-01-08",
     "time": "6pm - 7:30pm",
@@ -23,11 +13,20 @@
     "chapter": "Chi",
     "name": "Code Review & Pairing",
     "displayDate": "Feb 12, 2018",
-    "date": "2019-01-08",
+    "date": "2019-02-12",
     "time": "6pm - 7:30pm",
     "sponsor": "Kenna Security",
     "location": "800 W Washington Blvd",
     "signupLink": "http://bit.ly/devtogetherfeb2019"
+  },
+  {
+    "chapter": "Chi",
+    "name": "TBD",
+    "displayDate": "Mar 12, 2018",
+    "date": "2019-03-12",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Sponsor Needed",
+    "location": "TBD"
   },
   {
     "chapter": "Mad",
