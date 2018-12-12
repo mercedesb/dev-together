@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "First Event Recap - Code Review & Pairing"
+description: "We had our first Code Review & Pairing event this past Tuesday, June 12, and it was a great success! We had 34 people join us at DevMynd to discuss code review feedback and have a short pairing session."
 redirect_from: 
     - /first-event-recap
 permalink:  "/blog/first-event-recap"

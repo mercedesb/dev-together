@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Announcing our first Meetup!"
+description: "We're excited to announce our first Meetup will be on Tuesday, June 12 6:00pm at the DevMynd office (2035 W. Wabansia Ave)."
 redirect_from: 
     - /first-event
 permalink:  "/blog/first-event"

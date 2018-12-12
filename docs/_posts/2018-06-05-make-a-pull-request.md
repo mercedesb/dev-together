@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "How to make a pull request"
+description: "In this post, we'll dive into the specifics of how to create a PR. "
 redirect_from: 
     - /make-a-pull-request
 permalink:  "/blog/make-a-pull-request"

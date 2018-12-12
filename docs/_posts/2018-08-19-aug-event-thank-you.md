@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Aug Code Review & Pairing - Thank you Sittercity"
+description: "Our third event took place this past week at Sittercity. It's always so great to see so many new faces and to connect with our friends who join us again."
 redirect_from: 
     - /aug-thank-you-sittercity
 permalink:  "/blog/aug-thank-you-sittercity"
