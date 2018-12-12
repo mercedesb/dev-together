@@ -1,5 +1,5 @@
 .Post {
-  p, blockquote, code, h1, h2, h3, h4, h5, h6, ul, ol, pre, iframe, .highlighter-rouge {
+  p, blockquote, code, h1, h2, h3, h4, h5, h6, ul, ol, pre, .iframe-container, iframe, .highlighter-rouge {
     grid-column-start: 2;
     grid-column-end: span 4;
   }
@@ -9,9 +9,21 @@
     margin-bottom: 0;
   }
 
+  .iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+
   iframe {
-    display: block;
-    margin: auto;
+    // display: block;
+    // margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
   }
 
   blockquote {
@@ -45,25 +57,7 @@
     padding-bottom: 0;
   }
 
-  .GridItem:first-child {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    position: absolute;
-    left: 5%;
-    
-    svg {
-      display: none;
-
-      @include media($min-desktop) {
-        display: block;
-        width: 100%;
-        opacity: .8;
-      }
-    }
-  }
-
-  .GridItem:nth-child(2) {
-    grid-row-start: 1;
+  .GridItem {
     z-index: 1;
   }
 
