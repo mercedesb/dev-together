@@ -1,3 +1,13 @@
+.Styleguide {
+  .Section {
+    margin-bottom: 20px;
+  }
+
+  h1, .h1 {
+    margin: 20px 0;
+  }
+}
+
 .Row {
   display: flex;
 }
@@ -57,5 +67,4 @@
   &--light-gray {
     background-color: $light-gray;
   }
-
 }
