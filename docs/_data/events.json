@@ -31,29 +31,30 @@
   {
     "chapter": "Mad",
     "name": "Code Review & Pairing",
-    "displayDate": "Dec 11, 2018",
-    "date": "2018-12-11",
-    "time": "6pm - 7:30pm",
-    "sponsor": "Hardin Design & Development",
-    "location": "150 E Gilman St Ste B-2200, Madison, WI",
-    "signupLink": "http://bit.ly/DevTogetherMadDec2018"
-  },
-  {
-    "chapter": "Mad",
-    "name": "Code Review & Pairing",
     "displayDate": "Jan 8, 2019",
     "date": "2019-01-08",
     "time": "6pm - 7:30pm",
     "sponsor": "CUNA Mutual Group",
-    "location": "5810 Mineral Point Rd, Madison, WI"
+    "location": "5810 Mineral Point Rd, Madison, WI",
+    "signupLink": "http://bit.ly/DevTogetherMadJan2019Info"
   },
   {
     "chapter": "Mad",
-    "name": "TBD",
+    "name": "Github and Source Control Basics",
     "displayDate": "Feb 12, 2019",
     "date": "2019-02-12",
     "time": "6pm - 7:30pm",
-    "sponsor": "Sponsor Slot Open",
+    "sponsor": "Sponsor Needed",
+    "location": "TBD, Madison, WI",
+    "signupLink": "http://bit.ly/DevTogetherMadFeb2019Info"
+  },
+  {
+    "chapter": "Mad",
+    "name": "Code Review and Pairing",
+    "displayDate": "Mar 12, 2019",
+    "date": "2019-03-12",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Sponsor Needed",
     "location": "TBD, Madison, WI"
   }
 ]
