@@ -1,70 +1,72 @@
-.post {
-  margin-bottom: $base-spacing;
-}
-.post-header {
-  margin-bottom: $base-spacing;
-  /*padding: 5em 2em;*/
-  & .intro-in {
-    @include media($min-tablet-large) {
-    padding: 6em 0;
-  }
+.Post {
+  p, blockquote, code, h1, h2, h3, h4, h5, h6, ul, ol, pre, .iframe-container, iframe, .highlighter-rouge {
+    grid-column-start: 2;
+    grid-column-end: span 4;
   }
 
-  a {
-    color: $white;
+  h2 {
+    font-size: $med-font-size;
+    margin-bottom: 0;
   }
-}
 
-.post-title,
-.post-meta {
-  font-weight: $font-weight-light;
+  .iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
 
-  a {
-    text-decoration: none;
-    color: $base-font-color;
+  iframe {
+    // display: block;
+    // margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
 
-    &:after {
-      content: '➝';
-      display: inline-block;
-      left: -5px;
-      opacity: 0;
-      position: relative;
-      @include transition(left .15s ease-in-out, opacity .15s ease-in-out);
-      top: 0;
+  blockquote {
+    padding: $small-spacing 35px;
+  }
+
+  .PostImage {
+    // grid-column-start: 1;
+    grid-column-end: span 6;
+    margin: $base-mobile-spacing 0 $base-spacing / 2;
+    font-size: $small-font-size;
+
+    // &:nth-child(odd) {
+    //   grid-column-start: 2;
+    // }
+
+    & + * {
+      margin: $base-spacing / 2 0;
     }
 
-    &:hover,
-    &:focus,
-    &:active {
-      color: $primary-color;
-
-      &:after {
-        opacity: 1;
-        left: 10px;
-      }
+    &-caption {
+      font-family: $mono-font-family;
+      margin-top: $small-spacing / 2;
     }
   }
 }
 
-.post-meta {
-  font-style: italic;
-}
-
-.post-item {
-  padding-bottom: $base-spacing;
-  margin-bottom: $base-spacing;
-  border-bottom: 1px solid lighten($base-border-color, 5%);
-
-  .post-title {
-    margin-bottom: 10px;
+.PostHeader {
+  .Grid {
+    margin-top: $small-spacing;
+    padding-bottom: 0;
   }
 
-  .post-meta {
-    opacity: .7;
-    font-size: .8rem;
+  .GridItem {
+    z-index: 1;
   }
 
-  &:last-child {
-    border: none;
+  h1 {
+    margin-top: 0;
+    margin-bottom: $small-spacing;
+    
+    @include media($min-desktop) {
+      margin-top: $base-spacing;
+    }
   }
 }

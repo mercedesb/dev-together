@@ -1,57 +1,72 @@
+$footer-spacing: 130px;
 
-.site-footer {
-  @extend %clearfix;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: $base-spacing 0 0;
-  border-top: 1px solid $primary-color-dark;
-
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /*max-width: 50%;*/
-    padding-top: $base-spacing;
-    border-top: $base-border;
-    margin-left: 2em;
-
-    strong {
-      font-size: 3em;
-      font-style: italic;
-    }
+.GlobalFooter {
+  background-color: $charcoal;
+  color: $white;
+  padding-top: $footer-spacing;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  
+  @include media($min-desktop) {
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
   }
 
-  p {
-    margin-bottom: 0;
-  }
-}
-
-.email-signup {
-  margin-top: $base-spacing;
-
-  .mc-field-group {
-
-    &.input-group {
-      flex-direction: column;
-      align-items: initial;
-      
-      ul {
-        list-style: none;
-      }
-    }
+  .Grid {
+    padding-bottom: 0;
   }
 
-  label {
-    font-weight: 400;
+  .BackgroundHeading {
+    z-index: 0;
+  }
+
+  .Section-heading {
+    z-index: 1;
   }
 
   ul {
-    padding-left: 0;
-  }
+    list-style: none;
+    border-top: 3px solid $dark-gray;
+    display: flex;
+    justify-content: center;
+    margin: $small-spacing 0;
+    flex-direction: column;
+    text-align: center;
+    padding: $small-spacing 0 0;
+    width: initial;
 
-  input {
-    margin-bottom: 1em;
+    @include media($min-desktop) {
+      flex-direction: row;
+    }
+
+    li {
+      margin: $small-spacing / 2 $base-spacing;
+      @include media($min-desktop) {
+        margin: $small-spacing $base-spacing;
+      }
+
+      a {
+        color: $white;
+        font-weight: $bold-font-weight;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.Copyright {
+  font-weight: $light-font-weight;
+  font-family: $sans-serif-font-family;
+  font-size: 16px;
+  padding: 0 $small-spacing $small-spacing;
+
+  @include media($min-desktop) {
+    padding-top: $small-spacing;
   }
 }
 
@@ -76,34 +91,5 @@
 
   .icon {
     font-size: 1.2rem;
-  }
-}
-
-.GlobalFooter {
-  background-color: $brand-color;
-  color: $white;
-  display: flex;
-  justify-content: center;
-
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    margin: $small-spacing 0;
-    flex-direction: column;
-    text-align: center;
-    padding: 0;
-
-    @include media($min-desktop) {
-      flex-direction: row;
-    }
-
-    li {
-      margin: .5rem $base-spacing;
-      a {
-        color: $white;
-        font-weight: $font-weight-bold;
-      }
-    }
   }
 }

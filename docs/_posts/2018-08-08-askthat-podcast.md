@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "AskTHAT Podcast Guest Appearance"
+description: "We are always so excited to talk about the community we are building. Check out our founder, Mercedes Bernard, chatting with Clark Sell, founder of THAT conference, about Dev Together and what we do."
 redirect_from: 
     - /askthat-podcast
-permalink:  "blog/askthat-podcast"
+permalink:  "/blog/askthat-podcast"
 date:   2018-08-08 12:00:00 -0500
 categories: 
 ---

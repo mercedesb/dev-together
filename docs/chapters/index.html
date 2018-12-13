@@ -1,33 +1,40 @@
 ---
-layout: page
+layout: default
 title: Chapters
 subtitle: Find a chapter near you or learn how to start one in your city.
 permalink: /chapters/
+meta_title: "Chapters | Dev Together"
+meta_description: "Find a Dev Together chapter near you or learn how to start one in your city."
+open_graph_img: /assets/images/jonathan-j-castellon-984797-unsplash-thumb.jpg
+twitter_img: /assets/images/jonathan-j-castellon-984797-unsplash-thumb.jpg
 ---
-<h2>Our chapters</h2>
-<div class="Chapters">
-   {% for chapter in site.data.chapters %}
-    <a class="Chapter" href="{{chapter.href}}">
-      <p class="Chapter-name">{{chapter.name}}</p>
-      <p class="Chapter-location">{{chapter.location}}</p>
-    </a>
-   {% endfor %}
-</div>
 
-<h2 id="upcoming-events">Upcoming events</h2>
-{% assign events = site.data.events | sort: "date" %}
-<div class="Events">
-  {% for i in (0..2) %}
-    {% assign event = events[i] %}
-    {% include event.html event=event %} 
-  {% endfor %}
-</div>
-
-<h2>Start a chapter</h2>
-<p>Are you looking to become more involved with Dev Together and support your local tech community? Chapter leaders are an integral
-part of our community and we are so grateful for their committment to our values.</p>
-<h3>Chapter Leader roles & responsibilities</h3>
-<p>
+<section class="Section">
+  <img class="BackgroundHeading" src="../assets/images/Community.svg" alt="Community text" />
+  <h1 class="Section-heading">Chapters</h1>
+  <div class="ChapterHeader">
+    <div class="Grid">
+      {% for chapter in site.data.chapters %}
+      <div class="GridItem GridItem--half">
+        <a class="Chapter" href="{{chapter.href}}">
+          <img src="{{chapter.thumbImage}}" alt="{{chapter.imgAlt}}" />
+          <h2>{{chapter.location}}</h2>
+        </a>
+        <p>
+          <span>Organized by <a href="mailto:{{chapter.email}}">{{chapter.leader}}</a></span>
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+<div class="Grid">
+  <div class="GridItem GridItem--half">
+    <h2>Start a chapter</h2>
+    <p class="Subtitle">Are you looking to become more involved with Dev Together and support your local tech community? Chapter leaders are an integral
+    part of our community and we are so grateful for their committment to our values.</p>
+  </div>
+  <div class="GridItem GridItem--half">
+    <h3>Chapter Leader Roles & Responsibilities</h3>
   <ul>
      <li>Commitment to Dev Together’s mission and vision</li>
      <li>Commitment to upholding and enforcing our code of conduct</li>
@@ -37,11 +44,12 @@ part of our community and we are so grateful for their committment to our values
      <li>Communicate regularly with Dev Together founder and Chapter Leaders</li>
      <li>Build local partnerships on behalf of Dev Together</li>
   </ul>
-</p>
 <p>We expect our Chapter Leaders to be inclusive, welcoming people with strong verbal and written communication skills. Chapter
 Leaders should be technical, and be able to effectively manage tasks and time. This role is flexible, but does require a commitment
 of 10-20 hours per month.
 </p>
 <p>All Chapter Leaders will join a group of equally passionate individuals and will receive the support of the full Dev Together
 organization.</p>
-<p>Email Mercedes Bernard at <strong><a href="mailto:devtogetherhq@gmail.com">devtogetherhq@gmail.com</a></strong> if interested</p>
+<p>Email <a href="mailto:devtogetherhq@gmail.com">Mercedes Bernard</a> if interested</p>
+</div>
+</section>

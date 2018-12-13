@@ -2,7 +2,7 @@
 layout: post
 title:  "Pairing Roles - Driver & Navigator"
 description: "During our Code Review & Pairing events, we find the Driver/Navigator pairing strategy really valuable as a mentorship and learning tool."
-permalink:  "blog/pairing-driver-navigator"
+permalink:  "/blog/pairing-driver-navigator"
 date:   2018-09-12 12:00:00 -0500
 ---
 

@@ -1,41 +1,42 @@
 [
   {
     "chapter": "Chi",
-    "name": "Code Review & Pairing",
-    "displayDate": "Nov 13, 2018",
-    "date": "2018-11-13",
-    "time": "6pm - 7:30pm",
-    "sponsor": "BreakFree Solutions",
-    "location": "20 N Upper Wacker Dr. Ste 1200",
-    "signupLink": "http://bit.ly/devtogethernov2018"
-  },
-  {
-    "chapter": "Chi",
-    "name": "Code Review & Pairing",
-    "displayDate": "Dec 10, 2018",
-    "date": "2018-12-10",
-    "time": "6pm - 7:30pm",
-    "sponsor": "Coding Dojo",
-    "location": "213 West Institute"
-  },
-  {
-    "chapter": "Chi",
-    "name": "TBD",
+    "name": "Lightning Talks: Your 1st Dev Job",
     "displayDate": "Jan 8, 2018",
     "date": "2019-01-08",
     "time": "6pm - 7:30pm",
     "sponsor": "RedShelf",
-    "location": "500 N Dearborn"
+    "location": "500 N Dearborn",
+    "signupLink": "http://bit.ly/devtogetherjan2019"
+  },
+  {
+    "chapter": "Chi",
+    "name": "Code Review & Pairing",
+    "displayDate": "Feb 12, 2018",
+    "date": "2019-02-12",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Kenna Security",
+    "location": "800 W Washington Blvd",
+    "signupLink": "http://bit.ly/devtogetherfeb2019"
+  },
+  {
+    "chapter": "Chi",
+    "name": "TBD",
+    "displayDate": "Mar 12, 2018",
+    "date": "2019-03-12",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Sponsor Needed",
+    "location": "TBD"
   },
   {
     "chapter": "Mad",
     "name": "Code Review & Pairing",
-    "displayDate": "Nov 13, 2018",
-    "date": "2018-11-13",
+    "displayDate": "Dec 11, 2018",
+    "date": "2018-12-11",
     "time": "6pm - 7:30pm",
-    "sponsor": "Bendyworks",
-    "location": "106 E Doty St #200, Madison, WI",
-    "signupLink": "http://bit.ly/devtogethermadnov2018"
+    "sponsor": "Hardin Design & Development",
+    "location": "150 E Gilman St Ste B-2200, Madison, WI",
+    "signupLink": "http://bit.ly/DevTogetherMadDec2018"
   },
   {
     "chapter": "Mad",
@@ -45,5 +46,14 @@
     "time": "6pm - 7:30pm",
     "sponsor": "CUNA Mutual Group",
     "location": "5810 Mineral Point Rd, Madison, WI"
+  },
+  {
+    "chapter": "Mad",
+    "name": "TBD",
+    "displayDate": "Feb 12, 2019",
+    "date": "2019-02-12",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Sponsor Slot Open",
+    "location": "TBD, Madison, WI"
   }
 ]

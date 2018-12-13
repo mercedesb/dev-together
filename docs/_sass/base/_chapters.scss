@@ -1,126 +1,129 @@
-.Chapters {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.ChapterHeader {
+  & + .Grid {
+    border-top: 1px solid $dark-gray;
+    padding-top: $base-spacing;
 
-  @include media($min-desktop) {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: initial;
+    @include media($min-desktop) {
+      padding-top: $large-spacing;
+    }
+  }
+
+  .GridItem {
+    margin-bottom: $base-mobile-spacing;
+
+    @include media($min-desktop) {
+      margin-bottom: 0;
+    }
   }
 }
 
-.Chapter {
-  background-color: $brand-color;
-  display: flex;
-  flex-direction: column;
-  color: $white;
-  padding: $base-spacing;
-  justify-content: center;
-  margin: $small-spacing 0;
-  width: 300px;
-  border-radius: $base-border-radius;
-
-  &:first-child {
-    margin-left: 0;
-  }
-  &:last-child {
-    margin-right: 0;
+.ChapterImage {
+  display: none;
+  
+  @include media($min-tablet) {
+    display: block;
   }
 
-  @include media($min-desktop) {
-    margin: $base-spacing $small-spacing;
+  &--mobile {
+    display: block;
+
+    @include media($min-tablet) {
+      display: none;
+    }
   }
 
-  &-name {
-    font-size: 1.5rem;
-    text-align: center;
-  }
+}
 
-  &-location {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-
+a.Chapter {
+  color: $charcoal;
   &:hover {
-    color: $white;
+    text-decoration: none;
+    color: $charcoal;
   }
-}
 
-.Events {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2rem;
-
-  @include media($min-desktop) {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: initial;
+  h2 {
+    margin: $small-spacing / 2 0 0;
   }
 }
 
 .Event {
+  background-color: $deep-green;
+  color: $white !important;
+  padding: $small-spacing;
   display: flex;
-  flex: 1;
   flex-direction: column;
-  padding: $base-spacing;
-  justify-content: center;
-  margin: $small-spacing 0;
-  border: 3px solid $brand-color;
-  border-radius: $base-border-radius;
+  justify-content: space-between;
+  margin: 0 $small-spacing;
+  margin-bottom: $small-spacing;
 
   @include media($min-desktop) {
-    margin: $small-spacing;
+    margin: 0;
   }
 
-  &-date, &-time, &-sponsor, &-location {
-    text-align: center;
-    margin-bottom: 5px;
-    color: $black;
+  > * {
+    margin: 0 $small-spacing /2 ;
   }
 
-  &-time, &-location {
-    font-size: .8rem;
+  &-date, &-time {
+    font-size: $small-font-size;
   }
 
   &-name {
-    font-size: 1.2rem;
-    text-align: center;
-    margin: $small-spacing 0;
-    color: $black;
-    font-weight: $font-weight-bold;
+    font-size: 30px;
+    margin: 40px 0;
+  }
+
+  &-sponsor {
+    margin-bottom: 0;
+
+    span {
+      font-family: $serif-font-family;
+    }
+  }
+
+  &-location {
+    font-size: $small-font-size;
   }
 }
 
-.Connect {
-  display: flex;
-
-  &-item {
-    margin: $small-spacing;
-    width: 50%;
-  }
-}
-
-.SocialLinks {
-  // text-align: center;
-  margin-bottom: 2rem;
-
-  a:hover {
+a.Event {
+  &:hover {
     text-decoration: none;
-  }
-  svg {
-    margin: 0 $small-spacing;
-    height: 40px;
-    width: 40px;
-    fill: $dark-gray-color;
-  }
 
-  a:first-child svg {
-    margin: 0;
+    .Event-name {
+      color: $slight-green;
+    }
   }
 }
 
-.CodeReview {
-  margin-bottom: 4rem;
+.ChapterContact {
+  .GridItem--full {
+    text-align: center;
+  }
+}
+
+.email-signup {
+  .mc-field-group {
+
+    &.input-group {
+      flex-direction: column;
+      align-items: initial;
+      
+      ul {
+        list-style: none;
+      }
+    }
+  }
+
+  label {
+    font-weight: 400;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  input {
+    margin-bottom: 1em;
+  }
 }

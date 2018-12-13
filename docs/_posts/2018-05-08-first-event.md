@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Announcing our first Meetup!"
+description: "We're excited to announce our first Meetup will be on Tuesday, June 12 6:00pm at the DevMynd office (2035 W. Wabansia Ave)."
 redirect_from: 
     - /first-event
-permalink:  "blog/first-event"
+permalink:  "/blog/first-event"
 date:   2018-05-08 07:13:00 -0500
 categories: event announcement
 ---
