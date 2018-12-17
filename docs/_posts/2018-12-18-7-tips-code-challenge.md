@@ -3,7 +3,7 @@ layout: post
 title:  "7 tips to make your code challenge stand out"
 description: "We’re here to offer some tips on how to be successful this upcoming hiring season, starting with tips on how to make your code challenge stand out and get you seen."
 permalink:  "/blog/7-tips-code-challenge"
-date:   2018-12-15 12:00:00 -0500
+date:   2018-12-17 12:00:00 -0500
 ---
 
 The New Year is about to start and you know what that means, hiring season will be in full swing! The start of the new year marks the start of new hiring budgets for many companies. We’re here to offer some tips on how to be successful this upcoming hiring season, starting with tips on how to make your code challenge stand out and get you seen.
