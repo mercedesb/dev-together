@@ -95,3 +95,5 @@ Make sure that you can explain in plain language what each function does. And ma
 Writing simple, readable code makes this part easier on you. Often this step in the interview process can come a week or two after you wrote the code when it's no longer fresh. When writing your code, don’t be tempted to write clever code. Any code that technically works but could be written more simply should be written more simply. Write the code that does the job, and write it like a story so your code tells you what it does when you’re reviewing it for this step of the interview process.
 
 If you're ever looking for feedback on code challenge submissions, bring them to one of our Code Review & Pairing events. Our Mentors are happy to give you feedback and help you improve for your next one!
+
+Special thank you to [Mina Slater](https://twitter.com/minar528) and [Keanan Koppenhaver](https://twitter.com/KKoppenhaver) for sharing thoughts for this blog post.
