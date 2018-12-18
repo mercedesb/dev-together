@@ -6,7 +6,7 @@ permalink:  "/blog/7-tips-code-challenge"
 date:   2018-12-17 12:00:00 -0500
 ---
 
-The New Year is about to start and you know what that means, hiring season will be in full swing! The start of the new year marks the start of new hiring budgets for many companies. We’re here to offer some tips on how to be successful this upcoming hiring season, starting with tips on how to make your code challenge stand out and get you seen.
+The New Year is about to start and you know what that means, hiring season will be in full swing! The start of the new year marks the start of new hiring budgets for many companies. We’re here to offer some tips on how to be successful this upcoming hiring season, starting with tips on how to make your code challenge stand out and get you seen. Code challenges, whether take home or in person, are a common part of the hiring process for developers.
 
 ## 1. Nail the logistic details
 It may seem trivial but the logistics of a code challenge are very important. Read through the challenge and note any deadlines, submission format requirements, communication preferences, and other logistic details. Ask questions right away if any of these are unclear.
