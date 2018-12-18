@@ -3,8 +3,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.meta_title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
+  <title>{% if page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | strip_html | strip_newlines }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
    {% if page.canonical %}
