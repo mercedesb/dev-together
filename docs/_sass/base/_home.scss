@@ -153,3 +153,11 @@ body.home-intro {
     }
   }
 }
+
+.ImageContainer {
+  margin-bottom: $base-mobile-spacing;
+  
+  @include media($min-desktop) {
+    margin-bottom: $base-spacing;
+  }
+}
