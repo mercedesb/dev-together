@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | strip_html | strip_newlines }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.meta_description %}{{ page.meta_description | strip_html | xml_escape | strip_newlines }}{% elsif page.description %}{{ page.description | strip_html | xml_escape | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
    {% if page.canonical %}
@@ -38,12 +38,12 @@
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
   
-  <meta property="og:title" content="{% if page.meta_title %}{{ page.meta_title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:description" content="{{ page.social_description }}{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:title" content="{% if page.social_title %}{{ page.social_title }}{% elsif page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:description" content="{% if page.social_description %}{{ page.social_description | strip_html | xml_escape | strip_newlines }}{% elsif page.meta_description %}{{ page.meta_description | strip_html | xml_escape | strip_newlines }}{% elsif page.description %}{{ page.description | strip_html | xml_escape | strip_newlines }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:url" content="{{ page.url }}" />
   <meta property="og:image" content="{{ page.open_graph_img }}" />
-  <meta property="twitter:title" content="{% if page.meta_title %}{{ page.meta_title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="”twitter:description" content="{{ page.social_description }}{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="twitter:title" content="{% if page.social_title %}{{ page.social_title }}{% elsif page.meta_title %}{{ page.meta_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="”twitter:description" content="{% if page.social_description %}{{ page.social_description | strip_html | xml_escape | strip_newlines }}{% elsif page.meta_description %}{{ page.meta_description | strip_html | xml_escape | strip_newlines }}{% elsif page.description %}{{ page.description | strip_html | xml_escape | strip_newlines }}{% else %}{{ site.description }}{% endif %}" />
   <meta name=”twitter:url” content="{{ page.url }}" />
   <meta name=”twitter:image” content="{{ page.twitter_img }}" />
 
