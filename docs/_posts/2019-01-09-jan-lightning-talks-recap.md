@@ -15,6 +15,8 @@ We have to give an extra special thank you to RedShelf who helped make this even
 ## Pamela Bergson
 [Pamela Bergson](https://twitter.com/pamela_bergson) introduced the night with her lightning talk, "I Only Cried in the Bathroom." She shared how she transitioned from a neurobiolgist into mobile development, and now she is a Mobile Engineering Manager at Sittercity (shoutout to previous sponsors!). Her advice for how to prepare for an interview included listening to podcasts, reading blog posts, and watching videos so you can demonstrate up-to-date knowledge of current tech. Her advice for preparing for your first day at a new job included getting a notebook so you can write everything down, learn and know Git, and get a password manager.
 
+To follow along with her slides, they can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vRJYxx-v9RG_Gd-PWKA5IDtVEzNgjKovP9eQqdweM8BZ9ew1E1tZAYb3aNAubltuOIGPYPKNDcEsY_c/pub?start=false&loop=false&delayms=3000).
+
 <div class="iframe-container">
  <iframe src="https://www.youtube.com/embed/Lm8GAyDdE2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
