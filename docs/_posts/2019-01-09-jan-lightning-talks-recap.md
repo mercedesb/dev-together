@@ -55,6 +55,8 @@ To follow along with her slides, they can be found [here](https://speakerdeck.co
 ## Shamyle Ghazali
 After 'Tine, [Shamyle Ghazali](https://twitter.com/ShamyleG) shared his entertaining talk "To Foo or Tofu - How possessing the mindset of bean curd can put you on the path to programming excellence." He coined the term "tofu developers." As an entry level developer, be versatile like tofu: keep an open mind; try to learn from everyone around you; look for patterns in the codebase; absorb the vocabulary of the domain you're working in; and seek out feedback from your coworkers. You should look to hire tofu developers! They bring nutrition to your team and enhance its flavor!
 
+To follow along with his slides, they can be found [here](https://docs.google.com/presentation/d/1QWsHEdvoknCS5d8k88XHgAiqZGemqkY3LyAy2SFW-z0/edit?usp=sharing).
+
 <div class="iframe-container">
   <iframe src="https://www.youtube.com/embed/n1Bs3cKp7B8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
