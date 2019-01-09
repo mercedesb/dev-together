@@ -66,6 +66,8 @@ To follow along with his slides, they can be found [here](https://docs.google.co
 ## Jess Unrein
 [Jess Unrein](https://twitter.com/thejessleigh) gave us a "Three Things to Learn the Hard Way" and reminded us to focus on the fundamentals. Don't get bogged down in existing tools, make your life a little harder now so it's easier later. Ver 3 main takeaways were to use command line Git, try to solve problems with raw SQL (instead of relying too heavily on an ORM), and run your code early and often. We also loved the other nuggets of wisdom sprinkled throughout the talk, like not using "wizard" and "automagically" because code isn't magic. It's tech, and you can learn it and master it.
 
+To follow along with ver slides, they can be found [here](https://github.com/thejessleigh/talks/blob/master/professional_development/three_things_to_learn_the_hard_way/hard_way_presenter_notes.pdf).
+
 <div class="iframe-container">
   <iframe src="https://www.youtube.com/embed/UizFZHz0gqk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
