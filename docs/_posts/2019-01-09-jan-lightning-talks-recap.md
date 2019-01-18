@@ -75,6 +75,8 @@ To follow along with ver slides, they can be found [here](https://github.com/the
 ## Brittney Braxton
 "Journaling as a Dev" by [Brittney Braxton](https://twitter.com/mintiiB) was next, and she walked us through how she uses journaling in her career. Can we honestly say our jobs are clearly defined? Evenly distributed? And provides promotable opportunities? Probably not... We can use journaling to keep track of team retros, setting goals, and performance reviews to help with that. Brittney gave us some really great tips for documenting these things and showed us examples of what it could look like in your journal.
 
+To follow along with her slides, they can be found [here](https://docs.google.com/presentation/d/1WQhNy5Y5kSC77RH-9why1QiGemzUgDdQGOL3fYdv4cM/edit?usp=sharing).
+
 <div class="iframe-container">
   <iframe src="https://www.youtube.com/embed/Fumxr_F8DwU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
