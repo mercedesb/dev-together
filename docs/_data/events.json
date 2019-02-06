@@ -29,29 +29,29 @@
   },
   {
     "chapter": "Mad",
-    "name": "Code Review & Pairing",
-    "displayDate": "Jan 8, 2019",
-    "date": "2019-01-08",
-    "time": "6pm - 7:30pm",
-    "sponsor": "CUNA Mutual Group",
-    "location": "5810 Mineral Point Rd, Madison, WI",
-    "signupLink": "http://bit.ly/DevTogetherMadJan2019Info"
-  },
-  {
-    "chapter": "Mad",
-    "name": "Github and Source Control Basics",
+    "name": "Workshop: Github and Source Control Basics",
     "displayDate": "Feb 12, 2019",
     "date": "2019-02-12",
     "time": "6pm - 7:30pm",
-    "sponsor": "Sequoya Branch - Madison Public Library",
+    "sponsor": "Madison Public Library - Sequoya",
     "location": "4340 Tokay Blvd, Madison, WI 53711",
     "signupLink": "http://bit.ly/DevTogetherMadFeb2019Info"
   },
   {
     "chapter": "Mad",
-    "name": "Code Review & Pairing",
+    "name": "Code/Non-Code Mentoring: Review & Pairing",
     "displayDate": "Mar 12, 2019",
     "date": "2019-03-12",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Madison Public Library - Alicia Ashman",
+    "location": "733 N High Point Rd, Madison, WI",
+    "signupLink": "http://bit.ly/DevTogetherMadMar2019Info"
+  },
+  {
+    "chapter": "Mad",
+    "name": "Code/Non-Code Mentoring: Review & Pairing",
+    "displayDate": "Apr 9, 2019",
+    "date": "2019-04-09",
     "time": "6pm - 7:30pm",
     "sponsor": "Sponsor Needed",
     "location": "TBD, Madison, WI"
