@@ -1,16 +1,6 @@
 [
   {
     "chapter": "Chi",
-    "name": "Code Review & Pairing",
-    "displayDate": "Mar 12, 2019",
-    "date": "2019-03-12",
-    "time": "6pm - 7:30pm",
-    "sponsor": "ActiveCampaign",
-    "location": "1 N Dearborn St.",
-    "signupLink": "http://bit.ly/devtogethermar2019"
-  },
-  {
-    "chapter": "Chi",
     "name": "React workshop: Beyond the tutorials",
     "displayDate": "April 9, 2019",
     "date": "2019-04-09",
@@ -23,6 +13,15 @@
     "name": "Code Review & Pairing",
     "displayDate": "May 14, 2019",
     "date": "2019-05-14",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Sponsor Needed",
+    "location": "TBD"
+  },
+  {
+    "chapter": "Chi",
+    "name": "Event TBD",
+    "displayDate": "June 11, 2019",
+    "date": "2019-06-11",
     "time": "6pm - 7:30pm",
     "sponsor": "Sponsor Needed",
     "location": "TBD"
