@@ -2,21 +2,12 @@
   {
     "chapter": "Chi",
     "name": "Code Review & Pairing",
-    "displayDate": "Feb 12, 2019",
-    "date": "2019-02-12",
-    "time": "6pm - 7:30pm",
-    "sponsor": "Kenna Security",
-    "location": "800 W Washington Blvd",
-    "signupLink": "http://bit.ly/devtogetherfeb2019"
-  },
-  {
-    "chapter": "Chi",
-    "name": "TBD",
     "displayDate": "Mar 12, 2019",
     "date": "2019-03-12",
     "time": "6pm - 7:30pm",
-    "sponsor": "Home Chef",
-    "location": "410 N Michigan Ave."
+    "sponsor": "ActiveCampaign",
+    "location": "1 N Dearborn St.",
+    "signupLink": "http://bit.ly/devtogethermar2019"
   },
   {
     "chapter": "Chi",
@@ -24,8 +15,17 @@
     "displayDate": "April 9, 2019",
     "date": "2019-04-09",
     "time": "6pm - 7:30pm",
-    "sponsor": "ActiveCampaign",
-    "location": "1 N Dearborn St."
+    "sponsor": "Home Chef",
+    "location": "410 N Michigan Ave."
+  },
+  {
+    "chapter": "Chi",
+    "name": "Code Review & Pairing",
+    "displayDate": "May 14, 2019",
+    "date": "2019-05-14",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Sponsor Needed",
+    "location": "TBD"
   },
   {
     "chapter": "Mad",
