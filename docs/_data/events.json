@@ -29,28 +29,27 @@
   {
     "chapter": "Mad",
     "name": "Workshop: Github and Source Control Basics",
-    "displayDate": "Feb 12, 2019",
-    "date": "2019-02-12",
-    "time": "6pm - 7:30pm",
-    "sponsor": "Madison Public Library - Sequoya",
-    "location": "4340 Tokay Blvd, Madison, WI 53711",
-    "signupLink": "http://bit.ly/DevTogetherMadFeb2019Info"
-  },
-  {
-    "chapter": "Mad",
-    "name": "Code/Non-Code Mentoring: Review & Pairing",
-    "displayDate": "Mar 12, 2019",
-    "date": "2019-03-12",
-    "time": "6pm - 7:30pm",
-    "sponsor": "Madison Public Library - Alicia Ashman",
-    "location": "733 N High Point Rd, Madison, WI",
-    "signupLink": "http://bit.ly/DevTogetherMadMar2019Info"
-  },
-  {
-    "chapter": "Mad",
-    "name": "TBD",
     "displayDate": "Apr 9, 2019",
     "date": "2019-04-09",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Threshold - Sponsored by Microsoft TEALS",
+    "location": "2717 Atwood Ave, Madison, WI 53704",
+    "signupLink": "https://bit.ly/DevTogetherMadApr2019Info"
+  },
+  {
+    "chapter": "Mad",
+    "name": "Lightning Talks",
+    "displayDate": "May 14, 2019",
+    "date": "2019-05-14",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Sponsor Needed",
+    "location": "TBD, Madison, WI"
+  },
+  {
+    "chapter": "Mad",
+    "name": "Code and Non-Code Review and Pairing",
+    "displayDate": "Jun 11, 2019",
+    "date": "2019-06-11",
     "time": "6pm - 7:30pm",
     "sponsor": "Sponsor Needed",
     "location": "TBD, Madison, WI"
