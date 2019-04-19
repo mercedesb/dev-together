@@ -1,27 +1,27 @@
 [
   {
     "chapter": "Chi",
-    "name": "React workshop: Beyond the basics",
-    "displayDate": "April 9, 2019",
-    "date": "2019-04-09",
-    "time": "6pm - 7:30pm",
-    "sponsor": "Home Chef",
-    "location": "410 N Michigan Ave."
-  },
-  {
-    "chapter": "Chi",
     "name": "Code Review & Pairing",
     "displayDate": "May 14, 2019",
     "date": "2019-05-14",
+    "time": "6pm - 7:30pm",
+    "sponsor": "Cameo",
+    "location": "406 N. Aberdeen St. Chicago, IL"
+  },
+  {
+    "chapter": "Chi",
+    "name": "1 year anniversary celebration",
+    "displayDate": "June 11, 2019",
+    "date": "2019-06-11",
     "time": "6pm - 7:30pm",
     "sponsor": "Sponsor Needed",
     "location": "TBD"
   },
   {
     "chapter": "Chi",
-    "name": "Event TBD",
-    "displayDate": "June 11, 2019",
-    "date": "2019-06-11",
+    "name": "Code Review & Pairing",
+    "displayDate": "July 9, 2019",
+    "date": "2019-07-09",
     "time": "6pm - 7:30pm",
     "sponsor": "Sponsor Needed",
     "location": "TBD"
