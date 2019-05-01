@@ -31,47 +31,8 @@
     margin-bottom: $base-spacing;
   }
 
-  &:nth-child(2), &:nth-child(4) {
-    margin-top: $base-mobile-spacing;
-  }
-
-
   @include media($min-desktop) {
     margin-top: 0;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    &:first-child {
-      grid-row-start: 1;
-      grid-row-end: span 2;
-      grid-column-start: 1;
-    }
-
-    &:nth-child(2) {
-      grid-row-start: 2;
-      grid-column-start: 3;
-      margin-top: $base-spacing;
-    }
-
-    &:nth-child(3) {
-      grid-row-start: 2;
-      grid-row-end: span 2;
-      grid-column-start: 5;
-    }
-
-    &:nth-child(4) {
-      grid-row-start: 4;
-      grid-column-start: 3;
-      margin-top: $base-spacing;
-    }
-
-    &:nth-child(5) {
-      grid-row-start: 4;
-      grid-row-end: span 2;
-      grid-column-start: 1;
-    }
   }
 
   &-background {
@@ -89,7 +50,8 @@
     z-index: 1;
 
     @include media($min-desktop) {
-      font-size: 135px;
+      font-size: 90px;
+      margin-top: 20px;
     }
   }
 
@@ -108,7 +70,7 @@
     }
 
     @include media($min-desktop) {
-      width: 400px;
+      width: 320px;
     }
   }
 }
@@ -118,13 +80,13 @@
 
   @include media($min-desktop) {
     display: block;
-    width: 300px; 
+    width: 300px;
     height: 100px;
-    background-repeat:no-repeat;
-    background-position:center center;
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: 100% 100%, auto;
     position: absolute;
-    
+
     &--down {
       background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M1 0 L0 1 L99 100 L100 99' fill='#e5e5e5' /></svg>");
     }
@@ -137,7 +99,7 @@
 
 .BlogDate {
   font-size: $small-font-size;
-  
+
   margin-bottom: 0;
 }
 
@@ -149,14 +111,14 @@ body.home-intro {
 
   .menu-burger {
     svg {
-      filter: drop-shadow( 0px 5px 10px $charcoal);
+      filter: drop-shadow(0px 5px 10px $charcoal);
     }
   }
 }
 
 .ImageContainer {
   margin-bottom: $base-mobile-spacing;
-  
+
   @include media($min-desktop) {
     margin-bottom: $base-spacing;
   }

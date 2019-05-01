@@ -9,7 +9,7 @@ $column-gap: 40px;
   column-gap: $column-gap;
   row-gap: $small-spacing;
   padding: 0 0 $base-mobile-spacing 0;
-  
+
   @include media($min-desktop) {
     grid-template-columns: repeat($desktop-row-items, 1fr);
     max-width: $desktop-text-width;
@@ -65,7 +65,6 @@ $column-gap: 40px;
   &--noGap {
     column-gap: 0;
   }
-
 }
 
 .GridItem {
@@ -126,22 +125,22 @@ $column-gap: 40px;
   position: relative;
   width: 100%;
   margin: 0 0 $base-mobile-spacing;
-  
+
   @include media($min-desktop) {
     width: 80%;
     margin: 0 auto $base-mobile-spacing;
   }
-  
+
   @include media($min-desktop) {
     width: 100%;
-    margin: 0 0 $large-spacing;
+    margin: 0 0 $base-spacing;
   }
-  
+
   &-heading {
     z-index: 1;
     margin: $base-spacing / 2 0 $base-mobile-spacing;
     text-align: center;
-    
+
     @include media($min-tablet) {
       margin: $base-mobile-spacing 0 $base-spacing;
     }
@@ -173,7 +172,7 @@ $column-gap: 40px;
   top: 0;
   width: 135%;
   max-width: 1250px;
-  
+
   @include media($min-tablet) {
     width: 100%;
   }
