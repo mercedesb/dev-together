@@ -2,21 +2,21 @@ $cover-spacing: 40px;
 
 .Cover {
   color: $white;
-  background-image: url('../../assets/images/Dev_TogetherCoverImageMobile.jpg');
+  background-image: url("../../assets/images/Dev_TogetherCoverImageMobile.jpg");
   margin-bottom: $large-spacing;
   display: flex;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
   background-position: center;
-  
+  background-size: cover;
+
   @include media($min-tablet) {
-    background-image: url('../../assets/images/Dev_TogetherCoverImage.jpg');
+    background-image: url("../../assets/images/Dev_TogetherCoverImage.jpg");
     /* Full height */
-    height: 100vh; 
+    height: 100vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-size: cover;
   }
 
   &-text {
@@ -45,7 +45,7 @@ $cover-spacing: 40px;
 
   &-subtitle {
     display: none;
-    
+
     @include media($min-tablet) {
       display: inline-block;
     }
@@ -57,7 +57,7 @@ $cover-spacing: 40px;
 
   &-scroll {
     display: none;
-    
+
     @include media($min-desktop) {
       display: inline-block;
     }
