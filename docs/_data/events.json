@@ -2,17 +2,18 @@
   {
     "chapter": "Chi",
     "name": "Code Review & Pairing",
-    "displayDate": "September 10, 2019",
-    "date": "2019-09-10",
+    "displayDate": "October 8, 2019",
+    "date": "2019-10-08",
     "time": "6pm - 7:30pm",
-    "sponsor": "Nerdery",
-    "location": "1033 W Van Buren St #700"
+    "sponsor": "Kenna Security",
+    "location": "800 W. Washington Blvd.",
+    "signupLink": "https://bit.ly/devtogetheroct2019"
   },
   {
     "chapter": "Chi",
-    "name": "TBD",
-    "displayDate": "October 8, 2019",
-    "date": "2019-10-08",
+    "name": "Lightning Talks - Non-code stuffs",
+    "displayDate": "November 12, 2019",
+    "date": "2019-11-12",
     "time": "6pm - 7:30pm",
     "sponsor": "Sponsor Needed",
     "location": "TBD"
@@ -20,8 +21,8 @@
   {
     "chapter": "Chi",
     "name": "Code Review & Pairing",
-    "displayDate": "November 12, 2019",
-    "date": "2019-11-12",
+    "displayDate": "December 10, 2019",
+    "date": "2019-12-10",
     "time": "6pm - 7:30pm",
     "sponsor": "Sponsor Needed",
     "location": "TBD"
