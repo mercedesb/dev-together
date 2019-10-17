@@ -1,17 +1,7 @@
 [
   {
     "chapter": "Chi",
-    "name": "Code Review & Pairing",
-    "displayDate": "October 8, 2019",
-    "date": "2019-10-08",
-    "time": "6pm - 7:30pm",
-    "sponsor": "Kenna Security",
-    "location": "800 W. Washington Blvd.",
-    "signupLink": "https://bit.ly/devtogetheroct2019"
-  },
-  {
-    "chapter": "Chi",
-    "name": "Lightning Talks - Non-code stuffs",
+    "name": "Panel discussion about interviewing with hiring managers",
     "displayDate": "November 12, 2019",
     "date": "2019-11-12",
     "time": "6pm - 7:30pm",
@@ -28,31 +18,12 @@
     "location": "TBD"
   },
   {
-    "chapter": "Mad",
-    "name": "Workshop: Github and Source Control Basics",
-    "displayDate": "Apr 9, 2019",
-    "date": "2019-04-09",
-    "time": "6pm - 7:30pm",
-    "sponsor": "Threshold - Sponsored by Microsoft TEALS",
-    "location": "2717 Atwood Ave, Madison, WI 53704",
-    "signupLink": "https://bit.ly/DevTogetherMadApr2019Info"
-  },
-  {
-    "chapter": "Mad",
-    "name": "Lightning Talks",
-    "displayDate": "May 14, 2019",
-    "date": "2019-05-14",
+    "chapter": "Chi",
+    "name": "Mentoring for mentors",
+    "displayDate": "January 14, 2020",
+    "date": "2020-01-14",
     "time": "6pm - 7:30pm",
     "sponsor": "Sponsor Needed",
-    "location": "TBD, Madison, WI"
-  },
-  {
-    "chapter": "Mad",
-    "name": "Code and Non-Code Review and Pairing",
-    "displayDate": "Jun 11, 2019",
-    "date": "2019-06-11",
-    "time": "6pm - 7:30pm",
-    "sponsor": "Sponsor Needed",
-    "location": "TBD, Madison, WI"
+    "location": "TBD"
   }
 ]
